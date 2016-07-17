@@ -56,6 +56,20 @@ module Jekyll
 end
 {% endhighlight %}
 
+### PHP
+{% highlight php %}
+{% raw %}
+// the service name is what you've determined this particular application
+// should be called on dashboards and the like.
+$serviceName = 'life360/platform';
+
+// you'll get this once you set up with LightStep
+$accessToken = 'totes-secret-yo!';
+
+LightStep::initGlobalTracer($serviceName, $accessToken);
+{% endraw %}
+{% endhighlight %}
+
 ### Standard Code Block
 
     {% raw %}
