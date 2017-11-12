@@ -1,0 +1,54 @@
+<!-- src: panorama.html -->
+<!doctype html>
+<html lang="en-US">
+    <head prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# article: http://ogp.me/ns/article#">
+        {% include meta.html %}
+
+        {% include stylesheets.html %}
+        {% include pano_stylesheets.html %}
+
+        {% include javascripts.html %}
+        {% include pano_javascripts.html %}
+    </head>
+
+    <body>
+        {% include nav.html %}
+
+        {% capture article_body %}
+            {% include article_header.html title=page.title date=page.date %}
+
+            <!-- PANNNNOOOOOOOO! -->
+            <div id="panoOverlay">
+                <div id="panoWrapper" style="width: 100%; padding: 20px; opacity: 1;">
+                    <div id="panoContainer" style="width: 100%; position: absolute; top: 0; left: 0;"></div>
+                    <div id="panoHeader"></div>
+                </div>
+            </div>
+
+            <!-- ARTICLE -->
+            <article class="content">
+                {{ page.content }}
+            </article>
+            <div class="divider"><!-- lines divider --></div>
+
+            {% assign pano_data = site.data.panorama[page.panogroup] %}
+        <p>
+            {{ page.panogroup }}
+        </p>
+            {% for pano in pano_data %}
+            <p>
+                <img class="pano_thumb"
+                     {% if pano.initialZoom %}
+                     data-pano-info='{"title":"{{ pano.title }}","id":"{{ pano.id }}","width":{{ pano.width }},"height":{{ pano.height }},"panoGroup":"{{ page.panogroup }}","initialZoom":{{ pano.initialZoom }}}'
+                     {% else %}
+                     data-pano-info='{"title":"{{ pano.title }}","id":"{{ pano.id }}","width":{{ pano.width }},"height":{{ pano.height }},"panoGroup":"{{ page.panogroup }}"}'
+                     {% endif %}
+                     alt="{{ pano.title }}" src="{{ site.baseurl }}/images/panorama/{{ page.panogroup }}/{{ pano.id }}/thumb.jpg" />
+            </p>
+            {% endfor %}
+
+        {% endcapture %}
+
+        {% include blog_section_wrapper.html content=article_body %}
+    </body>
+</html>

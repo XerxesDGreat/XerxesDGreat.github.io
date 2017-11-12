@@ -1,1 +1,27 @@
-<span>&copy; {{ site.time | date: '%Y' }} {{ site.owner.name }}. Powered by <a href="http://jekyllrb.com" rel="nofollow">Jekyll</a> using the <a href="http://github.com/aron-bordin/neo-hpstr-jekyll-theme" rel="nofollow">Neo-HPSTR Theme</a>.</span>
+<!-- src: _includes/footer.html -->
+<!-- FOOTER -->
+<footer>
+
+  <!-- SCROLL TO TOP -->
+  <a href="#toTop" class="fa fa-arrow-up toTop"></a>
+
+  <div class="container">
+
+    <div class="row">
+
+        <div class="col-md-6 copyright">
+            {{ site.name }}
+            <br />2014 &copy; All Rights Reserved.
+        </div>
+
+        <div class="col-md-6 text-right">
+            {% for social_link in site.data.social_links %}
+              <a href="{{ social_link.url }}" class="social fa fa-{{ social_link.network|lower }}"></a>
+            {% endfor %}
+        </div>
+
+    </div>
+
+  </div>
+</footer>
+<!-- end src: _includes/footer.html -->

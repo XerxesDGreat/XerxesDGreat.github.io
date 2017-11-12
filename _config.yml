@@ -1,7 +1,7 @@
 name:             XerxesDGreat
 markdown:         kramdown
-title:            Blog Title
-description:      Describe your website here.
+title:            i-josh.com
+description:      My name is Josh and I support this message
 # put your disqus here
 disqus_shortname: 
 reading_time:     true # if true, shows the estimated reading time for a post
@@ -10,7 +10,7 @@ logo:             images/logo.png # logo visible in the topbar
 # Your site's domain goes here (eg: //mmistakes.github.io, http://mademistakes.com, etc)
 # When testing locally leave blank or use http://localhost:4000
 
-url: http://aronbordin.com/neo-hpstr-jekyll-theme
+url: http://localhost:4000
 
 # draw your top menu here
 # each item must have a title and a url.
@@ -37,17 +37,29 @@ menu:
       - title: 'Sample Post'
         url: '/intro/sample-post/'
 
+banner:
+  images:
+  - 'banner/20150709_131530.jpg'
+  - 'banner/2015-08-20-11-08-54.jpg'
+  - 'banner/20150927_185648.jpg'
+  - 'banner/20151017_121848.jpg'
+  - 'banner/2014_09_20_04_11_27.jpg'
+  - 'banner/2014_09_23_04_16_36.jpg'
+  - 'banner/2014_09_27_09_02_02.jpg'
+  - 'banner/2014_09_23_04_17_37.jpg'
+  - 'banner/2014_09_24_09_07_24.jpg'
+
 # Owner/author information
 owner:
-  name:           Your name
-  site:           http://aronbordin.com
-  avatar:         images/avatar.jpg
-  bio:            "Your bio goes here. It shouldn't be super long but a good two sentences or two should suffice."
-  email:          you@email.com
+  name:           Josh Wickham
+  site:           http://i-josh.com
+  avatar:         images/home_profile_img_1.jpg
+  bio:            "I'm a software engineer who has several joys in life: a great wife, a wonderful daughter, a good job at an exciting startup in San Francisco, woodworking, cooking, and LEGO."
+  email:          josh@i-josh.com
   # Twitter nick for use in Twitter cards and follow button.
-  twitter: aron_bordin # if no twitter in this config, the twitter follow button will be removed
+  twitter: josh.wickham # if no twitter in this config, the twitter follow button will be removed
   # GitHub nick for use in follow button in author block.
-  github: aron-bordin
+  github: XerxesDGreat
 
 # Twitter account associated with the site if different from owner/author twitter account.
 # Used in Twitter cards.
@@ -56,7 +68,7 @@ twitter:
 # Social networking links used in author block underneath posts. Update and remove as you like.
 social:
   - title: "github"
-    url: "https://github.com/aron-bordin"
+    url: "https://github.com/XerxesDGreat"
   - title: "linkedin"
     url: "https://br.linkedin.com/in/aronbordin"
   - title: "youtube"
@@ -75,14 +87,12 @@ timezone:    America/New_York
 locale:      en_US
 future:      true
 highlighter: rouge
-gems:
-  - jekyll-sitemap
 sass:
   sass_dir: _sass
   style: compressed
 
 # https://github.com/mojombo/jekyll/wiki/Permalinks
-permalink:   /:categories/:title/
+#permalink:   date
 
 # Amount of post to show on home page
 paginate: 5
@@ -97,12 +107,19 @@ kramdown:
   toc_levels: 1..6
   enable_coderay: true
 
-  coderay:
-    coderay_line_numbers: nil
-    coderay_line_numbers_start: 1
-    coderay_tab_width: 4
-    coderay_bold_every: 10
-    coderay_css: class
+  syntax_highlighter_opts:
+    line_numbers: nil
+    line_numbers_start: 1
+    tab_width: 4
+    bold_every: 10
+    css: class
+
+defaults:
+  -
+    scope:
+      path: "" # an empty string means the values below apply to all files
+    values:
+      layout: "blog_post"
 
 # Octopress
 # Default extensions
@@ -113,8 +130,8 @@ post_layout: post
 page_layout: page
 # Format titles with titlecase?
 titlecase: true
+excerpt_separator: <!-- more -->
 
 include: [".htaccess"]
 exclude: ["lib", "config.rb", "Capfile", "config", "Gemfile", "Gemfile.lock", "README.md", "LICENSE", "log", "Rakefile", "Rakefile.rb", "tmp", "less", "*.sublime-project", "*.sublime-workspace", "test", "spec", "Gruntfile.js", "package.json", "node_modules"]
-gems: [jekyll-paginate]
-
+plugins: [jekyll-paginate, jekyll-sitemap]

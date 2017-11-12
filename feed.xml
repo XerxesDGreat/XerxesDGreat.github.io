@@ -31,7 +31,6 @@ layout: null
   </author>
   <content type="html">
     {{ post.content | xml_escape }}
-    {% include feed-footer.html %}
   </content>
 </entry>
 {% endfor %}

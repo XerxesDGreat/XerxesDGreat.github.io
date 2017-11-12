@@ -1,0 +1,36 @@
+<!-- sblog_post.htmlhtml -->
+<!doctype html>
+<html lang="en-US">
+    <head prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# article: http://ogp.me/ns/article#">
+        {% include meta.html %}
+        {% include stylesheets.html %}
+        {% include javascripts.html %}
+    </head>
+
+    <body>
+        {% include nav.html %}
+
+        {% capture article_body %}
+            <!-- ARTICLE TITLE -->
+            {% include article_header.html title=page.title date=page.date %}
+
+            {% include article_content.html %}
+
+            {% include pagination.html previous=page.previous next=page.next %}
+
+            {% include share_post.html %}
+
+            {% include category_snippet.html %}
+
+            {% include tags.html %}
+
+            {% include comments.html %}
+
+        {% endcapture %}
+        <!-- BLOG -->
+        {% include blog_section_wrapper.html content=article_body %}
+
+        hi
+        {% include footer.html %}
+    </body>
+</html>
