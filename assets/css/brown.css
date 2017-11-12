@@ -1,0 +1,161 @@
+
+
+.styleColor,
+ul.bstrap-tabs li.active a,
+ul.bstrap-tabs li.active a i,
+#portfolio div.item a:hover i.fa,
+section.util-row h1,
+.pagination>li>a, .pagination>li>span, .pagination>li>a:hover,
+a {
+	color:#4d8d99;
+}
+a:hover {
+	color:#4d8d99;
+}
+
+a {
+    color: #4d8d99;
+    text-decoration: underline;
+}
+
+#header a.navbar-brand, #header a.btn-fullscreen {
+    background: none;
+}
+
+.navbar-nav>li>a {
+   /*line-height: 60px;*/
+}
+
+#header .navbar-inverse {
+    /*background: #123456;*/
+    background-color: rgba(50, 37, 27, .5);
+    position: relative;
+}
+
+#header nav.navbar-inverse:after {
+    content="";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-image: url('images/woodgrain.jpg');
+    width: 100%;
+    height: 100%;
+    opacity: 1;
+    z-index: -1;
+}
+
+#header .navbar-inverse ul.nav li.active a,
+    #header .navbar-inverse ul.nav li a:hover,
+    .navbar-inverse .navbar-nav>.open>a,
+    .navbar-inverse ul.nav li.dropdown ul.dropdown-menu,
+    .navbar-inverse ul.nav li.dropdown ul.dropdown-menu li,
+    #header a.btn-fullscreen:hover,
+    .navbar-nav>.open>a:hover, .navbar-nav>.open>a:focus,
+    .navbar-inverse .navbar-nav>.open>a,
+    .navbar-inverse .navbar-nav>.open>a:hover,
+    .navbar-inverse .navbar-nav>.open>a:focus {
+    background: #32251b;
+}
+
+section#blog {
+    /*padding: 0px 0px 110px;*/
+}
+
+#header a {
+    text-decoration: none;
+}
+
+#header {
+    /*height: 100px;*/
+}
+
+article.container {
+    padding: 30px;
+    background-color: #fff;
+    border-top: #32251b solid 20px
+}
+
+body {
+    background: #b99575 url('images/woodgrain.jpg') repeat left top;
+    color: #3e3b36;
+}
+
+section {
+    background: none;
+    background-color: none;
+}
+
+ul.pagination li.active a,
+ul.pagination li.active a:hover,
+.styleBackground {
+	background-color:#4d8d99;
+}
+
+.btn.btn-primary {
+	background:#4d8d99;
+	border:rgba(255,255,255,0.5) 2px solid;
+}
+
+.plusNav {
+	background:#4d8d99;
+}
+
+.plusNav:hover {
+	color:#fff;
+	box-shadow: 0 0 0 2px rgba(255,255,255,0.1), 0 0 10px 10px #7E8344, 0 0 0 10px rgba(255,255,255,0.5);
+}
+
+ul.bstrap-tabs>li.active>a:hover, 
+ul.bstrap-tabs>li.active>a:focus,
+ul.bstrap-tabs li.active a {
+	color:#4d8d99;
+	border:#4d8d99 1px solid;
+}
+
+section.alternate, section.alternate.arrow-down {
+    background: none;
+}
+
+section header h1, section header h2, section header h3 {
+    color: #3e3b36;
+}
+
+div.divider {
+    border-color: #3e3b36;
+}
+
+section>div.container>.home-display {
+    border-bottom: 7px solid #32251b;
+    padding: 20px 30px;
+}
+
+section>div.container>.home-display, div#portfolio {
+    background: #fff;
+}
+
+.navbar-brand>img {
+    display: inline;
+}
+
+#about .me-picture .item {
+    border: none;
+}
+
+section.home-page div.container>header {
+    background-color: rgba(50, 37, 27, .5);
+    margin-bottom: 0px;
+    padding: 20px;
+}
+
+section.home-page div.container>header>h1, section.home-page div.container>header>p {
+    color: #fff;
+}
+section.blog-page {
+    padding-top: 100px;
+}
+
+.caption {
+    font-size: 10px;
+    text-align: center;
+}

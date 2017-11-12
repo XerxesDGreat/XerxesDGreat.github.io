@@ -1,0 +1,53 @@
+<!-- src: _includes/nav.html -->
+<!-- Main Nav -->
+<header id="header" class="fixed">
+
+    <nav class="navbar navbar-inverse" role="navigation">
+        <div class="container">
+
+            <!-- Mobile Menu Button -->
+            <button id="mobileMenu" class="fa fa-bars" type="button" data-toggle="collapse" data-target=".navbar-collapse"></button>
+
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <a class="navbar-brand" href="{{ site.baseurl }}/index.html#home">
+                    <img src="{{ site.baseurl }}/images/home_profile_img_1.png" alt="" width="50" height="50" />
+                    <span class="hidden-xs">{{ site.title|e }}</span>
+                </a>
+            </div><!-- end div.navbar-header -->
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+
+                <!-- Fullscreen Button - Unavailable for IE -->
+                <a href="#" class="btn-fullscreen"><i class="fa fa-external-link"></i></a>
+
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="{{ site.baseurl }}/index.html#home">Home</a></li>
+                    <li><a href="{{ site.baseurl }}/index.html#about">About</a></li>
+                    <li><a href="{{ site.baseurl }}/index.html}#quick-blog">Blog</a></li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Categories <b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                            {% assign categories = site.categories %}
+                            {% if categories.first[0] == null %}
+                                {% for category in categories | sort %}
+                                    <li><a href="{{ site.baseurl }}/{{ category | downcase }}">{{ category | capitalize }} <span>({{ site.categories[category].size }} posts)</span></a></li>
+                                {% endfor %}
+                            {% else %}
+                                {% for category in categories | sort: 0 %}
+                                    <li><a href="{{ site.baseurl }}/{{ category[0] | downcase }}">{{ category[0] | capitalize }} <span class="text-small">({{ category[1].size }} posts)</span></a></li>
+                                {% endfor %}
+                            {% endif %}
+                        </ul>
+                    </li>
+                </ul>
+            </div><!-- end div#bs-example-navbar-collapse-1 -->
+            <!-- /.navbar-collapse -->
+
+
+        </div><!-- end div.container -->
+    </nav>
+</header>
+<!-- /Main Nav -->
+<!-- end src: _includes/nav.html -->

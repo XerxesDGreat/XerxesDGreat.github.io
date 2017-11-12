@@ -1,0 +1,59 @@
+<!-- src: panorama.html -->
+
+{% block stylesheets %}
+    {{ super() }}
+    <!-- panorama stylesheets -->
+    <link href="//code.jquery.com/ui/1.11.2/themes/smoothness/jquery-ui.css" />
+    <link rel="stylesheet" href="{{ SITEURL }}/theme/css/jquery-ui.min.css" />
+	<link rel="stylesheet" href="{{ SITEURL }}/theme/js/panojs3/styles/panojs.css?v={{ CACHEBUST }}" />
+{% endblock stylesheets %}
+
+{% block javascripts %}
+	{{ super() }}
+    <!-- panorama javascripts -->
+	<!-- jQuery, jQuery UI, jQuery fullscreen plugin -->
+	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script type="text/javascript" src="https://code.jquery.com/ui/1.11.2/jquery-ui.min.js"></script>
+	<script tyoe="text/javascript" src="{{ SITEURL }}/theme/js/jquery.fullscreen-min.js"></script>
+
+	<!-- PanoJS -->
+    <script type="text/javascript" src="{{ SITEURL }}/theme/js/panojs3/extjs/ext-core.js"></script>    
+    <script type="text/javascript" src="{{ SITEURL }}/theme/js/panojs3/panojs/utils.js"></script>    
+    <script type="text/javascript" src="{{ SITEURL }}/theme/js/panojs3/panojs/PanoJS.js"></script>
+    <script type="text/javascript" src="{{ SITEURL }}/theme/js/panojs3/panojs/controls.js"></script>
+    <script type="text/javascript" src="{{ SITEURL }}/theme/js/panojs3/panojs/pyramid_Zoomify.js"></script>
+    <script type="text/javascript" src="{{ SITEURL }}/theme/js/panojs3/panojs/control_thumbnail.js"></script>
+    <script type="text/javascript" src="{{ SITEURL }}/theme/js/panojs3/panojs/control_info.js"></script>
+    <script type="text/javascript" src="{{ SITEURL }}/theme/js/panojs3/panojs/control_svg.js"></script>
+    
+    <!-- This-site-specific scripts -->
+    <script type="text/javascript" src="{{ SITEURL }}/theme/js/pano.js?v={{ CACHEBUST }}"></script>
+   	<script type="text/javascript">
+		Ext.onReady(function() {
+			$('.pano_thumb').on('click', showOverlay);
+		});
+    </script>
+{% endblock javascripts %}
+
+{% block article_content %}
+    <!-- PANNNNOOOOOOOO! -->
+    <div id="panoOverlay">
+    	<div id="panoWrapper" style="width: 100%; padding: 20px; opacity: 1;">
+     	<div id="panoContainer" style="width: 100%; position: absolute; top: 0; left: 0;"></div>
+     	<div id="panoHeader"></div>
+     </div>
+    </div>
+	{{ super() }}
+	{% for pano in article.pano_details %}
+	<p>
+		<img class="pano_thumb"
+            {% if pano.initialZoom %}
+			data-pano-info='{"title":"{{ pano.title }}","id":"{{ pano.id }}","width":{{ pano.width }},"height":{{ pano.height }},"panoGroup":"{{ article.pano_group }}","initialZoom":{{ pano.initialZoom }}}'
+            {% else %}
+            data-pano-info='{"title":"{{ pano.title }}","id":"{{ pano.id }}","width":{{ pano.width }},"height":{{ pano.height }},"panoGroup":"{{ article.pano_group }}"}'
+            {% endif %}
+			alt="Ahwahnee Lodge" src="/panorama/{{ article.pano_group }}/{{ pano.id }}/thumb.jpg" />
+	</p>
+	{% endfor %}
+{% endblock article_content %}
+<!-- end src: panorama.html -->

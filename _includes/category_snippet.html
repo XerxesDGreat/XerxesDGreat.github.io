@@ -1,0 +1,6 @@
+<!-- CATEGORY -->
+<p class="fsize16"> Category:
+    {% if page.category %}
+    <a href="{{ page.category | absolute_url }}">{{ page.category }}</a>
+    {% endif %}
+</p>

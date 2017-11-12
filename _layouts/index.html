@@ -1,0 +1,184 @@
+<!-- src: index.html -->
+<!doctype html>
+<html lang="en-US">
+    <head>
+        {% include meta.html %}
+        {% include stylesheets.html %}
+    </head>
+
+    <body>
+
+        <!-- HOME -->
+        <section id="home" class="full-screen"><!-- full-screen or half-screen (550px height) -->
+
+            <div id="slider">
+
+                <ul class="slides-container">
+
+                    {% for image in MAIN_IMAGES %}
+                    <!-- Item {{ loop.index }} -->
+                    <li>
+                        <div class="image-caption">
+                            <hr /><hr />
+                            <div class="inner">
+                                <h2 class="bigtext strtoupper nomargin">{{ SITENAME|e }}</h2>
+                            </div>
+                            <hr /><hr />
+                        </div>
+                        <span class="overlay"></span>
+                        <div style="background-image: url('{{ SITEURL }}/images/{{ image }}');" class="fullscreen-img"></div>
+                    </li>
+                    {% endfor %}
+                </ul>
+
+            </div>
+
+        </section>
+        <!-- /HOME -->
+
+        <!-- Main Nav -->
+        {% set is_index=True %}
+        {% include "_includes/nav.html" %}
+
+        <!-- ABOUT -->
+        {% if ABOUT_PERSONAL_INFO %}
+        <section id="about" class="home-page">
+            <div class="container">
+                <header class="text-center">
+                    <h1>ABOUT ME</h1>
+                </header>
+
+                <article class="big-paragraph home-display">
+                    <p>{{ ABOUT_PERSONAL_INFO }}</p>
+
+                    {% if ABOUT_PERSONAL_PHOTO %}
+                        <div class="me-picture text-center">
+                            <div class="item">
+                                <img class="img-responsive" src="{{ SITEURL }}/images/{{ ABOUT_PERSONAL_PHOTO }}" width="200" height="200" alt="" />
+                            </div><!-- end div.item -->
+                            <hr />
+                        </div><!-- end div.me-picture -->
+                    {% endif %}
+                </article>
+
+                {% if ABOUT_SUBSECTIONS %}
+                    <article>
+                        <div class="row text-left">
+                            {% for sub_title, sub_body in ABOUT_SUBSECTIONS[:3] %}
+                                <div class="col-md-4">
+                                    <h3>{{ sub_title }}</h3>
+                                    <p>{{ sub_body }}</p>
+                                </div>
+                            {% endfor %}
+                        </div><!-- end row.text-left -->
+                    </article>
+                {% endif %}
+
+            </div><!-- end div.container -->
+        </section>
+        {% endif %}
+        <!-- /ABOUT -->
+
+        <!-- WORK -->
+        {% if WORK_DESCRIPTION or WORK_LIST %}
+        <section id="work" class="alternate arrow-down home-page">
+            <div class="container">
+                <header class="text-center">
+                    <h1>MY WORK</h1>
+                </header>
+                <article class="home-display">
+                    {% if WORK_DESCRIPTION %}
+                    <p>
+                        {{WORK_DESCRIPTION}}
+                    </p>
+                    {% endif %}
+
+
+                    {% if WORK_LIST %}
+                    <div id="portfolio" class="text-center animate_fade_in">
+                        <div class="row">
+                            <ul class="sort-destination isotope" data-sort-id="isotope-list">
+                                {% for work_type, work_preview_img_url, work_title, work_description, work_link in WORK_LIST %}
+                                    <li class="isotope-item col-sm-6 col-md-4 brand"><!-- item -->
+                                        {% if work_type == 'link' %}
+                                            {% set classes={'link': 'external ajax-project', 'icon': 'fa-link'} %}
+                                        {% elif work_type == 'image' %}
+                                            {% set classes={'link': 'popup-image', 'icon': 'fa-camera'} %}
+                                        {% elif work_type == 'video' %}
+                                            {% set classes={'link': 'popup-video', 'icon': 'fa-film'} %}
+                                        {% endif %}
+                                        <a class="{{ classes['link'] }}"
+                                           href="{{work_link}}" target="_blank">
+                                            <img src="{{work_preview_img_url}}" class="img-responsive" alt="img" />
+                                            <div class="caption">
+                                                <i class="rounded fa {{ classes['icon'] }}"></i>
+                                                <h3>{{work_title}}</h3>
+                                                <p>{{work_description}}</p>
+                                            </div>
+                                        </a>
+                                    </li>
+                                {% endfor %}
+                            </ul>
+                        </div><!-- end div.row -->
+                    </div><!-- end div#portfolio -->
+                    {% endif %}
+                </article>
+            </div><!-- end div.container -->
+        </section>
+        {% endif %}
+        <!-- /WORK -->
+
+        <!-- BLOG -->
+        <section id="quick-blog" class="alternate home-page">
+            <div class="container">
+
+                <header class="text-center">
+                    <h1>BLOG</h1>
+                    <p>RECENT ENTRIES</p>
+                </header>
+
+                <article class="home-display">
+                    <div class="row animate_fade_in">
+                        {% for article in articles_page.object_list[:3] %}
+                            <div class="col-md-4 quick-hover">
+                                <div class="quick-item">
+                                {% if article.featured %}
+                                    <figure class="media-preview">
+                                    {% if article.type|lower=='image' %}
+                                        <img src="{{article.featured}}" class="img-responsive" data-src="holder.js/360x200/#676767:#555555/auto/" alt="img" />
+                                    {%elif article.type|lower=='video'%}
+                                        <iframe class="fitvids" src="{{article.featured}}" width="800" height="450"></iframe>
+                                    {%elif article.type|lower=='audio'%}
+                                        <iframe class="fullwidth" height="166" src="{{article.featured}}"></iframe> 
+                                    {% endif %}
+                                    </figure>
+                                {% endif %}
+                                    {% if article.link %}
+                                        <h4><a href="{{ article.link }}">{{article.title}} <i class="fa fa-external-link" target="_blank"></i></a></h4>
+                                    {%else%}
+                                        <h4><a href="{{ SITEURL }}/{{ article.url }}">{{article.title}}</a></h4>
+                                    {%endif%}
+                                    <p>{{article.summary}}</p>
+                                    <a href="{{ SITEURL }}/{{ article.url }}" class="btn btn-xs"><i class="fa fa-sign-out"></i> READ MORE</a>
+                                </div><!-- end div.quick-item -->
+                            </div><!-- end div.col-md-4.quick-hover -->
+                        {% endfor %}
+                    </div><!-- end div.row -->
+                </article>
+
+                <article class="text-center" data-animation="bounceIn">
+                    <a href="blog.html" class="plusNav" title="more from blog">+</a> 
+                </article>
+
+            </div><!-- end div.container -->
+        </section>
+        <!-- /BLOG -->
+
+        {% include "_includes/footer.html" %}
+        {% block javascripts %}
+            {% include "_includes/javascripts.html" %}
+        {% endblock javascripts %}
+
+    </body>
+</html>
+<!-- end src: index.html -->
