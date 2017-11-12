@@ -2,544 +2,123 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e1605f02-491a-44d0-a816-3b78010fddfe" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/css/images/img01.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/css/images/img02.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/css/images/img02.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/css/images/img03.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/css/images/img04.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/css/images/img05.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/css/images/img06.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/css/images/ui-bg_dots-small_0_000000_2x2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/css/images/ui-bg_flat_0_aaaaaa_40x100.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/css/images/ui-bg_flat_75_ffffff_40x100.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/css/images/ui-bg_glass_55_fbf9ee_1x400.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/css/images/ui-bg_glass_65_ffffff_1x400.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/css/images/ui-bg_glass_75_dadada_1x400.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/css/images/ui-bg_glass_75_e6e6e6_1x400.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/css/images/ui-bg_glass_95_fef1ec_1x400.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/css/images/ui-bg_highlight-soft_75_cccccc_1x100.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/css/images/ui-icons_222222_256x240.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/css/images/ui-icons_2e83ff_256x240.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/css/images/ui-icons_454545_256x240.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/css/images/ui-icons_888888_256x240.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/css/images/ui-icons_cd0a0a_256x240.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/css/images/woodgrain.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/img/1x1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/img/down_alternate.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/img/loading.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/img/magnifier.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/img/stressed_linen/stressed_linen.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/img/stressed_linen/stressed_linen_@2X.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/js/panojs3/images/16px_minus.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/js/panojs3/images/16px_plus.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/js/panojs3/images/32px_11.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/js/panojs3/images/32px_minus.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/js/panojs3/images/32px_plus.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/js/panojs3/images/32px_show.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/js/panojs3/images/64px_11.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/js/panojs3/images/64px_minus.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/js/panojs3/images/64px_plus.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/js/panojs3/images/64px_show.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/js/panojs3/images/blank.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/js/panojs3/images/grab.cur" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/js/panojs3/images/grabbing.cur" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/js/panojs3/images/progress.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/js/panojs3/images/progress_128.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/js/panojs3/images/progress_256.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/js/panojs3/images/progress_512.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/10173696101524481808596707743689260795362678n-2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/10173696101524481808596707743689260795362678n.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/10336807101524288927696705237706410271543060n.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/10401427101524801328646707706148242398710502n.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/1047304910152661339724670197081795082719469o.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/10550119101526613397146704535535857442141000o.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/1551744102046603048085272333852915972956280n.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/2014_09_20_04_11_27.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/2014_09_20_10_42_34.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/2014_09_21_05_51_48.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/2014_09_23_04_16_36.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/2014_09_23_04_17_37.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/2014_09_24_09_07_24.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/2014_09_27_09_02_02.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/20150322_162918.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/20150322_163001.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/20150322_163458.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/20150322_163607.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/20150322_164256.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/20150322_171054.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/20150322_171103.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/DSC03155.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/DSC03156.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/DSC03157.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/DSC03158.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/DSC03159.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/DSC03160.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/DSC03161.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/IMG0032.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/IMG1201.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/IMG1223.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/IMG1765.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/IMG1770.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/IMG1774.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/IMG1791.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/IMG1894.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/IMG1901.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/IMG1906.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/IMG1910.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/IMG1911.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/IMG1915-2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/IMG1915.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/IMG1916.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/IMG1920.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/IMG1921.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/IMG1922.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/IMG1923.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/IMG1926.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/Selection001.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/Selection002.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/Selection004.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/autopano_browse.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/autopano_crop.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/autopano_levels.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/autopano_open.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/autopano_opened.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/autopano_project_window.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/autopano_projection_settings.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/autopano_render.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/autopano_renderer.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/autopano_source.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/banner/2014_09_20_04_11_27.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/banner/2014_09_20_10_42_34.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/banner/2014_09_21_05_51_48.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/banner/2014_09_23_04_16_36.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/banner/2014_09_23_04_17_37.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/banner/2014_09_24_09_07_24.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/banner/2014_09_27_09_02_02.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/banner/2015-08-20-11-08-54.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/banner/20150709_131530.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/banner/20150927_185648.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/banner/20151017_121848.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/banner/dsc_2287.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/baraka.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/baraka_screenshot_1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/baraka_screenshot_2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/baraka_screenshot_3.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/baraka_screenshot_4.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/baraka_screenshot_5.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/board_selection.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/both_batmobiles.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/breaking_bad_huell_money.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/breaking_bad_mike.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/breaking_bad_one_who_knocks.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/breaking_bad_ww.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/bubinga_pencil_holder.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/bugzilla.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/calendar_view.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/card_view.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/checklist.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/chefville.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/chefville_launch_day.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/chefville_more_shenanigans.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/chefville_screenshot.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/chefville_shenanigans.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/chefville_team.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/chefville_triple_fist.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/coruscant_police_gunship.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/crane_timelapse.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/darktable_screenshot.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/dead_space_2_necromorphs.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/dead_space_2_power_loader.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/dead_space_2_ripley.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/dead_space_2_wallpaper.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/dsc03175.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/dsc03178.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/dsc03179.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/dsc03180.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/dsc03182.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/dsc03183.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/dsc03184.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/dsc03185.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/dsc03186.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/dsc03188.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/dsc03189.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/dsc03190.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/dsc03193.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/dsc_1996.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/dsc_2287.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/dsc_2587.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/dsc_2601.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/dsc_2606.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/dsc_2607.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/dsc_2609.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/dsc_2614.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/dsc_2708.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/dsc_2710.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/fox_cutting_board_angles.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/fox_cutting_board_disaster.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/fox_cutting_board_early_gluing.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/fox_cutting_board_final.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/fox_cutting_board_gluing.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/fox_cutting_board_helper.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/fox_cutting_board_layout.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/fox_cutting_board_pattern.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/fox_cutting_board_pieces.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/fox_cutting_board_planks.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/fox_cutting_board_sanding.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/fox_cutting_board_shaped.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/fox_cutting_board_species.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/gerty21.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/hall_closet_door_adjustment.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/hall_closet_door_after.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/hall_closet_door_before.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/hall_closet_door_bottom_adjustment.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/hall_closet_door_bottom_brace.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/hall_closet_door_new.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/hall_closet_door_new_track.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/hall_closet_door_no_trim.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/hall_closet_door_shredded.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/home_profile_img_1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/home_profile_img_1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/house_of_cards_so_hot_right_now.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/image.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/img_0500.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/img_0504.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/img_0506.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/img_0509.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/img_0510.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/img_0512.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/img_0514.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/img_0516.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/img_0519.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/img_0522.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/img_0526.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/img_0528.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/img_0530.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/img_0535.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/intermission.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/lego-dimensions-cost-analysis-base.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/lego-dimensions-cost-analysis-logo.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/lego-dimensions-cost-analysis-portal.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/lego-dimensions-cost-analysis-scooby-doo.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/lego-dimensions-cost-analysis-wicked-witch.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/mailbox-overview.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/mailbox_actions.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/mailbox_add_to_list.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/mailbox_archive.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/mailbox_delete.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/mailbox_inbox_zero.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/mailbox_list_options.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/mailbox_new_mail.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/mailbox_overview.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/mailbox_snooze.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/mailbox_snooze_options.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/mantiss.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/moon_poster.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/mr_nobody_frozen.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/mr_nobody_jared_leto.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/mr_nobody_old_jared_leto.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/mr_nobody_poster.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/neuromancer.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/new_hat.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/photo1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/photo_nightmare_couch.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/photo_nightmare_hair.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/photo_nightmare_shut_up.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/playhouse_4_1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/playhouse_4_2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/playhouse_4_3.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/playhouse_4_4.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/playhouse_4_5.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/playhouse_4_6.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/playhouse_4_7.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/playhouse_4_8.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/playhouse_front_view.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/playhouse_full_view.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/playhouse_rain_1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/playhouse_rain_2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/raid_change_warehouse.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/reamde_cover.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/shanin_ebony_ring.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/smile_hat.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/soa_square_peg_round_hole.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/soa_webcam.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/soa_webcam1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/sons_of_anarchy.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/spice_rack_box_clamping.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/spice_rack_boxen.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/spice_rack_dadoes.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/spice_rack_final.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/spice_rack_final_assembly_clamping.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/spice_rack_frame_clamping.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/spice_rack_miter.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/spice_rack_miters.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/spice_rack_parts_for_one.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/spice_rack_strips.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/st_paddys_day_shirt.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/stephenson.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/synecdoche-ny.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/test.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/tim_burton_batmobile.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/trac.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/trello_planned_board.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/trip_of_the_tongue.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/tumbler.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/upgrade-raid-2-internal.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/why_not_both.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_data/panorama.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_data/social_links.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_includes/article_content.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_includes/article_header.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_includes/blog_section_wrapper.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_includes/category_snippet.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_includes/comments.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_includes/javascripts.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_includes/meta.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_includes/nav.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_includes/nav_index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_includes/pano_javascripts.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_includes/pano_stylesheets.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_includes/share_post.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_includes/stylesheets.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_includes/tags.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_layouts/author.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_layouts/blog.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_layouts/blog_base.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_layouts/blog_post.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_layouts/category.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_layouts/contact.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_layouts/disqus.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_layouts/ga.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_layouts/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_layouts/macros.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_layouts/pagination.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_layouts/panorama.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_layouts/tag.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_posts/2014-05-23-first.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_posts/2014-05-27-apricotpineapple-jam.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_posts/2014-05-30-table-saw-cabinet-is-nearing-completion.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_posts/2014-06-06-inlaid-fox-bookmark.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_posts/2014-06-09-cora-and-me-at-sesame-street-live.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_posts/2014-06-11-kiss-box.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_posts/2014-06-13-i-mustache-you-a-question.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_posts/2014-07-15-custom-purpose-robot.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_posts/2014-07-16-dvd-rip-automation-robot-episode-1.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_posts/2014-07-17-dvd-rip-automation-robot-episode-2.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_posts/2014-07-24-dvd-rip-automation-robot-episode-3.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_posts/2014-07-28-dvd-rip-automation-robot-episode-4.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_posts/2014-07-28-fox-bookmark-take-2.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_posts/2014-08-07-shoe-bench-part-1.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_posts/2014-08-11-playhouse-part-1.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_posts/2014-10-01-disney-cruise-panoramas.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_posts/2014-10-30-why-datebased-features-are-actually-good.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_posts/2015-02-07-yosemite-panoramas.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_posts/2015-02-10-daisy-stitch-knit-hat.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_posts/2015-02-12-childrens-discovery-museum.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_posts/2015-02-14-a-ring-for-cora.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_posts/2015-02-17-fun-with-trello.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_posts/2015-02-18-coras-new-scarf.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_posts/2015-02-21-monitor-stand.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_posts/2015-02-24-trip-of-the-tongue.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_posts/2015-02-26-neuromancer.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_posts/2015-02-28-field-encapsulation-pattern-in-python-part-1-getters-and-setters.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_posts/2015-03-03-field-encapsulation-pattern-in-python-part-2-setattr-and-getattr.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_posts/2015-03-03-ubuntu-setup-round-1.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_posts/2015-03-03-ubunut-setup-round-2.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_posts/2015-03-05-field-encapsulation-pattern-in-python-part-3-required-and-readonly.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_posts/2015-03-07-field-encapsulation-pattern-in-python-part-4-field-objects.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_posts/2015-03-10-new-site-layout.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_posts/2015-03-12-field-encapsulation-pattern-in-python-part-5-wrapping-it-up.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_posts/2015-03-13-slouchy-beanie.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_posts/2015-03-17-new-handle-for-my-plane.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_posts/2015-03-19-fencerator-9000.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_posts/2015-03-21-a-chair-for-andrew.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_posts/2015-03-24-coras-playhouse-part-2.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_posts/2015-03-24-creating-a-panorama-using-autopano-pro.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_posts/2015-03-26-time-lapse-lego-assembly-detectives-office.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_posts/2015-03-28-synecdoche-new-york.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_posts/2015-03-29-time-lapse-lego-assembly-the-tumbler.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_posts/2015-03-31-updated-meta-tags.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_posts/2015-04-02-coras-playhouse-part-3.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_posts/2015-04-04-reamde.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_posts/2015-04-07-coras-playhouse-part-4.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_posts/2015-04-07-how-i-make-panoramas.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_posts/2015-04-11-coras-playhouse-part-5--raise-the-roof.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_posts/2015-04-14-python-instance-method-references.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_posts/2015-04-16-ebony-ring-for-shanin.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_posts/2015-04-18-moon-review.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_posts/2015-04-21-san-francisco-panoramas.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_posts/2015-04-22-baraka-review.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_posts/2015-04-25-trying-out-mailbox.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_posts/2015-04-30-the-problem-with-serviceoriented-architecture.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_posts/2015-05-02-chefvila-memoir.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_posts/2015-05-05-using-static-members-as-instance-members-in-python.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_posts/2015-05-07-adding-some-disk-space.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_posts/2015-05-09-adding-some-disk-space-part-2.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_posts/2015-05-12-adding-some-disk-space-part-3.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_posts/2015-05-14-adding-some-disk-space-part-4.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_posts/2015-05-26-death-of-a-project.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_posts/2015-06-09-breaking-bad-goddammit.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_posts/2015-06-24-my-plea-for-adequate-photo-management.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_posts/2015-07-05-video-game-stress-and-dead-space-2.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_posts/2015-07-26-mr-nobody-review.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_posts/2015-08-04-the-worst-tragedy-in-history.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_posts/2015-08-11-spice-racks-for-mom.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_posts/2015-09-13-installing-a-bifold-closet-door.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_posts/2015-10-01-the-value-of-lego-dimensions-an-analysis.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_posts/2015-11-16-well-its-about-time.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_posts/2015-12-04-python-scoping.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_posts/2015-12-04-time-lapse-lego-assembly-coruscant-police-gunship.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_posts/2015-12-08-time-lapse-lego-assembly-crawler-crane.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_posts/2015-12-29-cutting-board-fit-for-a-fox.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_posts/2017-03-29-the-return-of-ijoshcom.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_posts/2017-04-29-setting-up-home-automation-with-zwave.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_sass/_vars.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_sass/blog.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_sass/landing.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_sass/main.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/css/brown.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/css/font-awesome.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/css/framework.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/css/github.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/css/green.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/css/jquery-ui.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/css/jquery.mglass.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/css/layout.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/css/linecons.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/css/magnific-popup.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/css/main.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/css/normalize.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/css/owl.carousel.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/css/pygment-solarized-dark.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/css/pygment-solarized-light.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/css/reset.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/css/superslides.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/css/typography.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/img/.gitignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/img/stressed_linen/readme.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/js/application.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/js/holder.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/js/jquery.appear.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/js/jquery.carouFredSel-6.2.1-packed.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/js/jquery.countTo.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/js/jquery.fitvids.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/js/jquery.fullscreen-min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/js/jquery.isotope.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/js/jquery.magnific-popup.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/js/jquery.mglass.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/js/jquery.superslides.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/js/main.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/js/masonry.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/js/modernizr.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/js/owl.carousel.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/js/pano.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/js/panojs3/Changelog" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/js/panojs3/README" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/js/panojs3/TODO" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/js/panojs3/demos/panojs.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/js/panojs3/docs/reference.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/js/panojs3/extjs/ext-core.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/js/panojs3/extjs/ext-core.jsb2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/js/panojs3/panojs/PanoJS.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/js/panojs3/panojs/control_info.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/js/panojs3/panojs/control_svg.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/js/panojs3/panojs/control_thumbnail.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/js/panojs3/panojs/controls.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/js/panojs3/panojs/pyramid_Bisque.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/js/panojs3/panojs/pyramid_Zoomify.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/js/panojs3/panojs/pyramid_imgcnv.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/js/panojs3/panojs/utils.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/js/panojs3/scripts/tilemaker.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/js/panojs3/styles/panojs.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/js/scripts.js" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_includes/author.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_includes/browser-upgrade.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_includes/disqus_comments.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_includes/feed-footer.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_includes/gallery" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_includes/head.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_includes/header.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_includes/icons.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_includes/read-more.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_includes/scripts.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_includes/social-share.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_layouts/dark-post.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_layouts/page.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_layouts/post-index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_layouts/post.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_posts/2011-03-10-sample-post.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_posts/2012-05-22-readability-post.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_posts/2013-05-22-sample-post-images.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_posts/2013-05-23-readability-feature-post.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_posts/2013-06-25-video-post.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_posts/2013-08-12-sample-link-post.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_posts/2013-08-16-code-highlighting-post.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_posts/2013-10-26-background-image.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_posts/2013-10-28-dark-post.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_posts/2013-10-28-feature-image.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_sass/_animations.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_sass/_coderay.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_sass/_dl-menu.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_sass/_elements.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_sass/_grid.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_sass/_mixins.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_sass/_page.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_sass/_reset.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_sass/_rouge.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_sass/_site.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_sass/_typography.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_sass/_variables.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_sass/vendor/font-awesome/_animated.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_sass/vendor/font-awesome/_bordered-pulled.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_sass/vendor/font-awesome/_core.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_sass/vendor/font-awesome/_fixed-width.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_sass/vendor/font-awesome/_icons.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_sass/vendor/font-awesome/_larger.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_sass/vendor/font-awesome/_list.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_sass/vendor/font-awesome/_mixins.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_sass/vendor/font-awesome/_path.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_sass/vendor/font-awesome/_rotated-flipped.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_sass/vendor/font-awesome/_stacked.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_sass/vendor/font-awesome/_variables.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_sass/vendor/font-awesome/font-awesome.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_sass/vendor/magnific-popup/_settings.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_sass/vendor/magnific-popup/magnific-popup.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/css/jquery.floating-social-share.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/css/jquery.mmenu.all.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/css/main.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/3953273590_704e3899d5_m.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/abstract-1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/abstract-10.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/abstract-11.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/abstract-12.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/abstract-2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/abstract-3.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/abstract-4.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/abstract-5.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/abstract-6.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/abstract-7.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/abstract-8.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/apple-touch-icon-114x114-precomposed.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/apple-touch-icon-144x144-precomposed.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/apple-touch-icon-72x72-precomposed.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/apple-touch-icon-precomposed.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/avatar.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/feature.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/logo.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/neo-hpstr-jekyll-theme-preview.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/ps_neutral.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/triangular.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/twitter-card-summary-large-image.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/witewall_3.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/theme-setup/index.md" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/404.md" afterPath="$PROJECT_DIR$/404.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile" afterPath="$PROJECT_DIR$/Gemfile" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_posts/2017-03-29-the-return.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_posts/2017-04-19-automation.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_posts/a-ring-for-cora.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_posts/apricot-pineapple-jam.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_posts/autopano-pro.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_posts/baraka-review.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_posts/breaking-bad.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_posts/chair-for-andrew.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_posts/chefville.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_posts/childrens-discovery-museum.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_posts/cora-and-me-at-sesame-street-live.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_posts/coras-new-scarf.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_posts/coruscant-police-gunship-timelapse.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_posts/crawler-crane-timelapse.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_posts/creating-a-panorama.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_posts/custom-purpose-robot.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_posts/daisy-stitch-hat.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_posts/dead-space-2.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_posts/death-of-a-project.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_posts/disney-cruise-panoramas.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_posts/dvd-rip-automation-robot-episode-1.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_posts/dvd-rip-automation-robot-episode-2.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_posts/dvd-rip-automation-robot-episode-3.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_posts/dvd-rip-automation-robot-episode-4.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_posts/fencerator-9000.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_posts/field-encapsulation-pattern-1.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_posts/field-encapsulation-pattern-2.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_posts/field-encapsulation-pattern-3.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_posts/field-encapsulation-pattern-4.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_posts/field-encapsulation-pattern-5.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_posts/first.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_posts/fox-bookmark-take-2.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_posts/fox-cutting-board.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_posts/hall-closet-door.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_posts/i-mustache-you-a-question.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_posts/inlaid-fox-bookmark.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_posts/kiss-box.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_posts/lego-dimensions-cost-analysis.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_posts/mailbox.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_posts/monitor-stand.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_posts/moon.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_posts/mr-nobody.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_posts/neuromancer.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_posts/new-layout.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_posts/photo-nightmare.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_posts/plane-handle.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_posts/playhouse-part-1.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_posts/playhouse-part-2.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_posts/playhouse-part-3.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_posts/playhouse-part-4.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_posts/playhouse-part-5.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_posts/python-instance-method-references.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_posts/python-scoping.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_posts/reamde.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_posts/san-francisco-panoramas.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_posts/shanin-ebony-ring.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_posts/shoe-bench-part-1.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_posts/slouchy-beanie.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_posts/spice-racks.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_posts/synechdoche-new-york.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_posts/table-saw-cabinet-is-nearing-completion.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_posts/the-problem-with-soa.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_posts/timelapse-detective-office.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_posts/timelapse-tumbler.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_posts/trello.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_posts/trip-of-the-tongue.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_posts/ubuntu-setup-1.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_posts/ubuntu-setup-2.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_posts/updated-meta-tags.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_posts/upgrading-raid-1.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_posts/upgrading-raid-2.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_posts/upgrading-raid-3.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_posts/upgrading-raid-4.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_posts/what-to-do.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_posts/why-date-based-features-are-actually-good.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_posts/worst-tragedy-in-history.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_posts/yosemite-panoramas.md" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/_posts/static-to-instance-mapping-python.md" afterPath="$PROJECT_DIR$/_posts/2015-05-05-using-static-members-as-instance-members-in-python.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile.lock" afterPath="$PROJECT_DIR$/Gemfile.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_config.yml" afterPath="$PROJECT_DIR$/_config.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_includes/footer.html" afterPath="$PROJECT_DIR$/_includes/footer.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_includes/pagination.html" afterPath="$PROJECT_DIR$/_includes/pagination.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/about/index.md" afterPath="$PROJECT_DIR$/about/index.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/feed.xml" afterPath="$PROJECT_DIR$/feed.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_data/panorama.json" afterPath="$PROJECT_DIR$/_data/panorama.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_data/social_links.json" afterPath="$PROJECT_DIR$/_data/social_links.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_includes/article_content.html" afterPath="$PROJECT_DIR$/_includes/article_content.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_includes/article_header.html" afterPath="$PROJECT_DIR$/_includes/article_header.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_includes/blog_section_wrapper.html" afterPath="$PROJECT_DIR$/_includes/blog_section_wrapper.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_includes/category_snippet.html" afterPath="$PROJECT_DIR$/_includes/category_snippet.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_includes/comments.html" afterPath="$PROJECT_DIR$/_includes/comments.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_includes/javascripts.html" afterPath="$PROJECT_DIR$/_includes/javascripts.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_includes/meta.html" afterPath="$PROJECT_DIR$/_includes/meta.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_includes/nav.html" afterPath="$PROJECT_DIR$/_includes/nav.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_includes/pano_javascripts.html" afterPath="$PROJECT_DIR$/_includes/pano_javascripts.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_includes/pano_stylesheets.html" afterPath="$PROJECT_DIR$/_includes/pano_stylesheets.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_includes/share_post.html" afterPath="$PROJECT_DIR$/_includes/share_post.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_includes/stylesheets.html" afterPath="$PROJECT_DIR$/_includes/stylesheets.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_includes/tags.html" afterPath="$PROJECT_DIR$/_includes/tags.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2014-08-07-shoe-bench-part-1.md" afterPath="$PROJECT_DIR$/_posts/2014-08-07-shoe-bench-part-1.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2014-10-01-disney-cruise-panoramas.md" afterPath="$PROJECT_DIR$/_posts/2014-10-01-disney-cruise-panoramas.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2015-02-14-a-ring-for-cora.md" afterPath="$PROJECT_DIR$/_posts/2015-02-14-a-ring-for-cora.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2015-02-28-field-encapsulation-pattern-in-python-part-1-getters-and-setters.md" afterPath="$PROJECT_DIR$/_posts/2015-02-28-field-encapsulation-pattern-in-python-part-1-getters-and-setters.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2015-03-03-field-encapsulation-pattern-in-python-part-2-setattr-and-getattr.md" afterPath="$PROJECT_DIR$/_posts/2015-03-03-field-encapsulation-pattern-in-python-part-2-setattr-and-getattr.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2015-03-05-field-encapsulation-pattern-in-python-part-3-required-and-readonly.md" afterPath="$PROJECT_DIR$/_posts/2015-03-05-field-encapsulation-pattern-in-python-part-3-required-and-readonly.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2015-03-07-field-encapsulation-pattern-in-python-part-4-field-objects.md" afterPath="$PROJECT_DIR$/_posts/2015-03-07-field-encapsulation-pattern-in-python-part-4-field-objects.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2015-03-12-field-encapsulation-pattern-in-python-part-5-wrapping-it-up.md" afterPath="$PROJECT_DIR$/_posts/2015-03-12-field-encapsulation-pattern-in-python-part-5-wrapping-it-up.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2015-03-29-time-lapse-lego-assembly-the-tumbler.md" afterPath="$PROJECT_DIR$/_posts/2015-03-29-time-lapse-lego-assembly-the-tumbler.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2015-04-07-how-i-make-panoramas.md" afterPath="$PROJECT_DIR$/_posts/2015-04-07-how-i-make-panoramas.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2015-04-11-coras-playhouse-part-5--raise-the-roof.md" afterPath="$PROJECT_DIR$/_posts/2015-04-11-coras-playhouse-part-5--raise-the-roof.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2015-04-21-san-francisco-panoramas.md" afterPath="$PROJECT_DIR$/_posts/2015-04-21-san-francisco-panoramas.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2015-05-12-adding-some-disk-space-part-3.md" afterPath="$PROJECT_DIR$/_posts/2015-05-12-adding-some-disk-space-part-3.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2015-08-04-the-worst-tragedy-in-history.md" afterPath="$PROJECT_DIR$/_posts/2015-08-04-the-worst-tragedy-in-history.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2015-08-11-spice-racks-for-mom.md" afterPath="$PROJECT_DIR$/_posts/2015-08-11-spice-racks-for-mom.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_sass/_vars.scss" afterPath="$PROJECT_DIR$/_sass/_vars.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_sass/blog.scss" afterPath="$PROJECT_DIR$/_sass/blog.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_sass/landing.scss" afterPath="$PROJECT_DIR$/_sass/landing.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_sass/main.scss" afterPath="$PROJECT_DIR$/_sass/main.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/css/brown.css" afterPath="$PROJECT_DIR$/assets/css/brown.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/css/layout.css" afterPath="$PROJECT_DIR$/assets/css/layout.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/js/pano.js" afterPath="$PROJECT_DIR$/assets/js/pano.js" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -555,7 +134,7 @@
       <file leaf-file-name="_config.yml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/_config.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1147">
+            <state relative-caret-position="2541">
               <caret line="121" column="24" lean-forward="false" selection-start-line="121" selection-start-column="24" selection-end-line="121" selection-end-column="24" />
               <folding>
                 <marker date="1510383524000" expanded="true" signature="3096:3100" ph="date" />
@@ -577,8 +156,8 @@
       <file leaf-file-name="article_header.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/_includes/article_header.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="63">
-              <caret line="3" column="27" lean-forward="true" selection-start-line="3" selection-start-column="27" selection-end-line="3" selection-end-column="27" />
+            <state relative-caret-position="42">
+              <caret line="2" column="32" lean-forward="true" selection-start-line="2" selection-start-column="32" selection-end-line="2" selection-end-column="32" />
               <folding />
             </state>
           </provider>
@@ -617,7 +196,7 @@
       <file leaf-file-name="blog_base.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/_layouts/blog_base.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1068">
+            <state relative-caret-position="0">
               <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
@@ -770,9 +349,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-6" />
-    <option name="y" value="24" />
-    <option name="width" value="3204" />
+    <option name="y" value="23" />
+    <option name="width" value="3200" />
     <option name="height" value="1726" />
   </component>
   <component name="ProjectView">
@@ -790,7 +368,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
@@ -862,6 +439,7 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -1467,8 +1045,7 @@
     <option name="remove_strategy" value="false" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-6" y="24" width="3204" height="1726" extended-state="6" />
-    <editor active="true" />
+    <frame x="0" y="23" width="3200" height="1726" extended-state="6" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -1478,26 +1055,26 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24067046" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24224192" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Grunt " active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32925338" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32925338" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -1621,7 +1198,6 @@
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="483">
             <caret line="23" column="91" lean-forward="false" selection-start-line="23" selection-start-column="91" selection-end-line="23" selection-end-column="91" />
-            <folding />
           </first_editor>
           <second_editor />
         </state>
@@ -1652,7 +1228,6 @@
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="735">
             <caret line="35" column="59" lean-forward="false" selection-start-line="35" selection-start-column="59" selection-end-line="35" selection-end-column="59" />
-            <folding />
           </first_editor>
           <second_editor />
         </state>
@@ -1709,20 +1284,12 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/_plugins/InlineHighlightBlock.java" />
-    <entry file="file://$PROJECT_DIR$/_plugins/jekyll_inline_highlight.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="546">
-          <caret line="26" column="33" lean-forward="false" selection-start-line="26" selection-start-column="33" selection-end-line="26" selection-end-column="33" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/_plugins/jekyll_inline_highlight.rb" />
     <entry file="file://$PROJECT_DIR$/_posts/2015-02-28-field-encapsulation-pattern-in-python-part-1-getters-and-setters.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="3103">
             <caret line="201" column="117" lean-forward="false" selection-start-line="201" selection-start-column="117" selection-end-line="201" selection-end-column="117" />
-            <folding />
           </first_editor>
           <second_editor />
         </state>
@@ -1733,7 +1300,6 @@
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="38">
             <caret line="73" column="28" lean-forward="false" selection-start-line="73" selection-start-column="28" selection-end-line="73" selection-end-column="28" />
-            <folding />
           </first_editor>
           <second_editor />
         </state>
@@ -1744,7 +1310,6 @@
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="1415">
             <caret line="71" column="95" lean-forward="false" selection-start-line="71" selection-start-column="95" selection-end-line="71" selection-end-column="95" />
-            <folding />
           </first_editor>
           <second_editor />
         </state>
@@ -1754,7 +1319,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="756">
           <caret line="36" column="0" lean-forward="false" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1762,7 +1326,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1432">
           <caret line="148" column="5" lean-forward="false" selection-start-line="148" selection-start-column="5" selection-end-line="148" selection-end-column="5" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1770,7 +1333,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1269">
           <caret line="73" column="14" lean-forward="false" selection-start-line="73" selection-start-column="2" selection-end-line="73" selection-end-column="14" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1778,7 +1340,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="420">
           <caret line="20" column="50" lean-forward="false" selection-start-line="20" selection-start-column="50" selection-end-line="20" selection-end-column="50" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1786,7 +1347,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="33" lean-forward="false" selection-start-line="0" selection-start-column="33" selection-end-line="0" selection-end-column="33" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1795,7 +1355,6 @@
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="273">
             <caret line="13" column="82" lean-forward="false" selection-start-line="13" selection-start-column="82" selection-end-line="13" selection-end-column="82" />
-            <folding />
           </first_editor>
           <second_editor />
         </state>
@@ -1805,10 +1364,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="273">
           <caret line="13" column="4" lean-forward="false" selection-start-line="13" selection-start-column="4" selection-end-line="13" selection-end-column="4" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1816,7 +1371,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="991">
           <caret line="79" column="29" lean-forward="false" selection-start-line="79" selection-start-column="29" selection-end-line="79" selection-end-column="29" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1825,7 +1379,6 @@
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="483">
             <caret line="23" column="0" lean-forward="false" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
-            <folding />
           </first_editor>
           <second_editor />
         </state>
@@ -1835,23 +1388,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="21">
           <caret line="1" column="30" lean-forward="false" selection-start-line="1" selection-start-column="30" selection-end-line="1" selection-end-column="30" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_includes/social_links.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="42">
-          <caret line="2" column="4" lean-forward="false" selection-start-line="2" selection-start-column="4" selection-end-line="2" selection-end-column="4" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/_includes/social_links.html" />
     <entry file="file://$PROJECT_DIR$/_includes/share_post.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="168">
           <caret line="8" column="114" lean-forward="false" selection-start-line="8" selection-start-column="114" selection-end-line="8" selection-end-column="114" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1867,7 +1411,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="63">
           <caret line="3" column="26" lean-forward="false" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="26" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1875,7 +1418,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="672">
           <caret line="32" column="58" lean-forward="false" selection-start-line="32" selection-start-column="58" selection-end-line="32" selection-end-column="58" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1891,7 +1433,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="21">
           <caret line="1" column="13" lean-forward="false" selection-start-line="1" selection-start-column="13" selection-end-line="1" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1899,7 +1440,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1907,7 +1447,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1921,7 +1460,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/_layouts/blog_base.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1068">
+        <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
@@ -1945,7 +1484,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/_config.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1147">
+        <state relative-caret-position="2541">
           <caret line="121" column="24" lean-forward="false" selection-start-line="121" selection-start-column="24" selection-end-line="121" selection-end-column="24" />
           <folding>
             <marker date="1510383524000" expanded="true" signature="3096:3100" ph="date" />
@@ -1963,8 +1502,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/_includes/article_header.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="63">
-          <caret line="3" column="27" lean-forward="true" selection-start-line="3" selection-start-column="27" selection-end-line="3" selection-end-column="27" />
+        <state relative-caret-position="42">
+          <caret line="2" column="32" lean-forward="true" selection-start-line="2" selection-start-column="32" selection-end-line="2" selection-end-column="32" />
           <folding />
         </state>
       </provider>

@@ -4,7 +4,7 @@ date: 2015-04-21
 category: Photography
 tags: panorama, vacation, san francisco
 layout: panorama
-panogroup: sf
+panogroup: san_francisco
 ---
 
 Shanin and I went to San Francisco for a delayed anniversary and to get away for a while. We had a great time, though we

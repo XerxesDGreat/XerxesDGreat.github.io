@@ -102,7 +102,7 @@ gonna put 1/4" ply up on the inside walls for drawing surfaces and the like, so 
 All in all, I think it's looking great and I'm proud of it. Even if it is kicking my butt!
 
 [skeleton]: {{ "images/playhouse_4_2.jpg" | absolute_url }}
-[4_link]: {{ site.baseurl }}{% link _posts/playhouse-part-4.md %}
+[4_link]: {{ site.baseurl }}{% link _posts/2015-04-07-coras-playhouse-part-4.md %}
 [plywood]: {{ "images/playhouse_4_1.jpg" | absolute_url }}
 [sheathed_1]: {{ "images/playhouse_4_3.jpg" | absolute_url }}
 [sheathed_2]: {{ "images/playhouse_4_5.jpg" | absolute_url }}

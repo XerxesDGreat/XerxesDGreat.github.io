@@ -38,9 +38,9 @@ function createViewer (panoInfo, baseUrl) {
         maxZoom         : myPyramid.getMaxLevel(),
         imageWidth      : myPyramid.width,
         imageHeight     : myPyramid.height,
-        staticBaseURL   : '/theme/js/panojs3/',
-        blankTile       : '/theme/js/panojs3/images/blank.gif',
-        loadingTile     : '/theme/js/panojs3/images/progress.gif'
+        staticBaseURL   : '/assets/js/panojs3/',
+        blankTile       : '/assets/js/panojs3/images/blank.gif',
+        loadingTile     : '/assets/js/panojs3/images/progress.gif'
     };
 
     if (typeof(panoInfo.initialZoom) != 'undefined') {
@@ -77,7 +77,7 @@ function initViewer(panoData) {
 	});
 	panoContainer.append(viewer);
 
-	createViewer(panoData, '/panorama/' + panoData.panoGroup);
+	createViewer(panoData, '/images/panorama/' + panoData.panoGroup);
 }
 
 function destroyViewer() {

@@ -69,5 +69,5 @@ in all, I hope my mom likes it; she says she does. I'm excited to see them insta
 [dadoes]: {{ "images/spice_rack_dadoes.jpg" | absolute_url }}
 [parts_for_one]: {{ "images/spice_rack_parts_for_one.jpg" | absolute_url }}
 [frame_clamping]: {{ "images/spice_rack_frame_clamping.jpg" | absolute_url }}
-[final_assembly_clamping]:images/spice_rack_final_assembly_clamping.jpg
+[final_assembly_clamping]: {{ "images/spice_rack_final_assembly_clamping.jpg" | absolute_url }}
 

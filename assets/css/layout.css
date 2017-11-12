@@ -295,6 +295,9 @@ section .btn {
 		color:#fff;
 		display:none;
 	}
+#header .text-small {
+    font-size: 10px;
+}
 
 /* white */
 #header .navbar-inverse.white {

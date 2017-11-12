@@ -33,6 +33,6 @@ The end result is that she likes it and has worn it to day care (not to preschoo
 never leaves!) This is encouraging to me, so I think I'll make some more!   
 
 [shanin_ring_album]: http://imgur.com/a/hVCu1#0
-[fox_bookmark]: {{ site.baseurl }}{% link _posts/inlaid-fox-bookmark.md %}
+[fox_bookmark]: {{ site.baseurl }}{% link _posts/2014-06-06-inlaid-fox-bookmark.md %}
 [ring_1]: {{ "images/dsc_2587.jpg" | absolute_url }}
 [ring_2_quarter]: {{ "images/dsc_2601.jpg" | absolute_url }}

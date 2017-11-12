@@ -1,6 +1,6 @@
 <!-- src: _includes/nav.html -->
 <!-- Main Nav -->
-<header id="header" {% if not is_index %} class="fixed"{% endif %}>
+<header id="header" class="fixed">
 
     <nav class="navbar navbar-inverse" role="navigation">
         <div class="container">
@@ -10,9 +10,9 @@
 
             <!-- Brand and toggle get grouped for better mobile display -->
             <div class="navbar-header">
-                <a class="navbar-brand{% if is_index %} class="scrollTo"{% endif %}" href="{% if not is_index %}{{ SITEURL }}/index.html#home{% endif %}">
-                    <img src="{{ HEADER_IMG_URL }}" alt="" width="50" height="50" />
-                    <span class="hidden-xs">{{ SITENAME|e }}</span>
+                <a class="navbar-brand" href="{{ site.baseurl }}/index.html#home">
+                    <img src="{{ site.baseurl }}/images/home_profile_img_1.png" alt="" width="50" height="50" />
+                    <span class="hidden-xs">{{ site.title|e }}</span>
                 </a>
             </div><!-- end div.navbar-header -->
 
@@ -23,35 +23,28 @@
                 <a href="#" class="btn-fullscreen"><i class="fa fa-external-link"></i></a>
 
                 <ul class="nav navbar-nav navbar-right">
-                    <li><a href="{% if not is_index %}{{ SITEURL }}/index.html{% endif %}#home"{% if is_index %} class="scrollTo"{% endif %}>Home</a></li>
-                    {% if ABOUT_PERSONAL_INFO %}
-                    <li><a href="{% if not is_index %}{{ SITEURL }}/index.html{% endif %}#about"{% if is_index %} class="scrollTo"{% endif %}>About</a></li>
-                    {% endif %}
-                    {% if WORK_DESCRIPTION or WORK_LIST %}
-                    <li><a href="{% if not is_index %}{{ SITEURL }}/index.html{% endif %}#work"{% if is_index %} class="scrollTo"{% endif %}>Work</a></li>
-                    {% endif %}
-                    <li><a href="{% if not is_index %}{{ SITEURL }}/index.html{% endif %}#quick-blog"{% if is_index %} class="scrollTo"{% endif %}>Blog</a></li>
+                    <li><a href="{{ site.baseurl }}/index.html#home">Home</a></li>
+                    <li><a href="{{ site.baseurl }}/index.html#about">About</a></li>
+                    <li><a href="{{ site.baseurl }}/index.html}#quick-blog">Blog</a></li>
                     <li class="dropdown">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown">Categories <b class="caret"></b></a>
                         <ul class="dropdown-menu">
-                            {% for category, articles in categories|sort %}
-                                <li><a href="{{ SITEURL }}/category/{{ category|lower }}.html">{{ category }}</a></li>
-                            {% endfor %}
+                            {% assign categories = site.categories %}
+                            {% if categories.first[0] == null %}
+                                {% for category in categories | sort %}
+                                    <li><a href="{{ site.baseurl }}/{{ category | downcase }}">{{ category | capitalize }} <span>({{ site.categories[category].size }} posts)</span></a></li>
+                                {% endfor %}
+                            {% else %}
+                                {% for category in categories | sort: 0 %}
+                                    <li><a href="{{ site.baseurl }}/{{ category[0] | downcase }}">{{ category[0] | capitalize }} <span class="text-small">({{ category[1].size }} posts)</span></a></li>
+                                {% endfor %}
+                            {% endif %}
                         </ul>
                     </li>
-                    {% if LINKS %}
-                        <li class="dropdown">
-                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Links <b class="caret"></b></a>
-                            <ul class="dropdown-menu">
-                            {% for site_title, site_link in LINKS %}
-                                <li><a href="{{ site_link }}" target="_blank">{{ site_title }}</a></li>
-                            {% endfor %}
-                            </ul>
-                        </li>
-                    {% endif %}
                 </ul>
             </div><!-- end div#bs-example-navbar-collapse-1 -->
             <!-- /.navbar-collapse -->
+
 
         </div><!-- end div.container -->
     </nav>

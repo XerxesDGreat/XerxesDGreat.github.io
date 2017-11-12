@@ -1,33 +1,35 @@
-<!-- src: _includes/header.html -->
+<!-- src: _includes/stylesheets.html -->
 <!-- GOOGLE FONTS -->
 <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700,800|Dosis:300,400" rel="stylesheet" type="text/css" />
 
 <!-- CORE CSS FRAMEWORK -->
 <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
 <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet">
-<link href="{{SITEURL}}/theme/css/linecons.css?v={{ CACHEBUST }}" rel="stylesheet" type="text/css" />
+<link href="{{ site.baseurl }}/assets/css/linecons.css" rel="stylesheet" type="text/css" />
 
 <!-- PLUGINS -->
-<link href="{{SITEURL}}/theme/css/superslides.css?v={{ CACHEBUST }}s" rel="stylesheet" type="text/css" />
-<link href="{{SITEURL}}/theme/css/owl.carousel.css?v={{ CACHEBUST }}" rel="stylesheet" type="text/css" />
-<link href="{{SITEURL}}/theme/css/magnific-popup.css" rel="stylesheet?v={{ CACHEBUST }}" type="text/css" />
+<link href="{{ site.baseurl }}/assets/css/superslides.css" rel="stylesheet" type="text/css" />
+<link href="{{ site.baseurl }}/assets/css/owl.carousel.css" rel="stylesheet" type="text/css" />
+<link href="{{ site.baseurl }}/assets/css/magnific-popup.css" rel="stylesheet" type="text/css" />
 
 <!-- CSS TEMPLATE -->
-<link href="{{SITEURL}}/theme/css/reset.css?v={{ CACHEBUST }}" rel="stylesheet" type="text/css" />
-<link href="{{SITEURL}}/theme/css/framework.css?v={{ CACHEBUST }}" rel="stylesheet" type="text/css" />
-<link href="{{SITEURL}}/theme/css/typography.css?v={{ CACHEBUST }}" rel="stylesheet" type="text/css" />
-<link href="{{SITEURL}}/theme/css/layout.css?v={{ CACHEBUST }}" rel="stylesheet" type="text/css" />
+<link href="{{ site.baseurl }}/assets/css/reset.css" rel="stylesheet" type="text/css" />
+<link href="{{ site.baseurl }}/assets/css/framework.css" rel="stylesheet" type="text/css" />
+<link href="{{ site.baseurl }}/assets/css/typography.css" rel="stylesheet" type="text/css" />
+<link href="{{ site.baseurl }}/assets/css/layout.css" rel="stylesheet" type="text/css" />
 
-<link href="{{SITEURL}}/theme/css/brown.css?v={{ CACHEBUST }}" rel="stylesheet" type="text/css" />
+<link href="{{ site.baseurl }}/assets/css/brown.css" rel="stylesheet" type="text/css" />
 
 <!-- ICONS -->
-{% if FAVICON %}
-    <link rel="shortcut icon" href="{{FAVICON}}" type="image/x-icon" />
+{% if site.favicon %}
+    <link rel="shortcut icon" href="{{ site.favicon }}" type="image/x-icon" />
 {% endif %}
-{% if ICON %}
-    <link rel="icon" href="{{ICON}}" type="image/x-icon" />
+
+{% if site.icon %}
+    <link rel="icon" href="{{ site.icon }}" type="image/x-icon" />
 {% endif %}
-{% if SHORTCUT_ICON %}
-    <link rel="shortcut icon" href="{{SHORTCUT_ICON}}" type="image/x-icon" />
+
+{% if site.shortcut_icon %}
+    <link rel="shortcut icon" href="{{ site.shortcut_icon }}" type="image/x-icon" />
 {% endif %}
 <!-- end src: _includes/header.html -->

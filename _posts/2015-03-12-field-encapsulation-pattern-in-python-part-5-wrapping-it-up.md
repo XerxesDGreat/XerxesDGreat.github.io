@@ -346,8 +346,8 @@ to hear what you thought of this series... or anything in general. Please let me
 
     
 [tld]: http://en.wikipedia.org/wiki/List_of_Internet_top-level_domains
-[part1]: {{ site.baseurl }}{% link _posts/field-encapsulation-pattern-1.md %}
-[part2]: {{ site.baseurl }}{% link _posts/field-encapsulation-pattern-2.md %}
-[part3]: {{ site.baseurl }}{% link _posts/field-encapsulation-pattern-3.md %}
-[part4]: {{ site.baseurl }}{% link _posts/field-encapsulation-pattern-4.md %}
+[part1]: {{ site.baseurl }}{% link _posts/2015-02-28-field-encapsulation-pattern-in-python-part-1-getters-and-setters.md %}
+[part2]: {{ site.baseurl }}{% link _posts/2015-03-03-field-encapsulation-pattern-in-python-part-2-setattr-and-getattr.md %}
+[part3]: {{ site.baseurl }}{% link _posts/2015-03-05-field-encapsulation-pattern-in-python-part-3-required-and-readonly.md %}
+[part4]: {{ site.baseurl }}{% link _posts/2015-03-07-field-encapsulation-pattern-in-python-part-4-field-objects.md %}
 [json]: https://docs.python.org/2/library/json.html

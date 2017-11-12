@@ -199,4 +199,4 @@ have different types. Until then, have fun!
 [pickle]: https://docs.python.org/2.7/library/pickle.html
 [python_uuid]: https://docs.python.org/2.7/library/uuid.html
 [wiki_uuid]: http://en.wikipedia.org/wiki/Universally_unique_identifier
-[part2]: {{ site.baseurl }}{% link _posts/field-encapsulation-pattern-2.md %}
+[part2]: {{ site.baseurl }}{% link _posts/2015-03-03-field-encapsulation-pattern-in-python-part-2-setattr-and-getattr.md %}

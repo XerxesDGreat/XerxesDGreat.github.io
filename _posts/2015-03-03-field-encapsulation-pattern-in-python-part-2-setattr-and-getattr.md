@@ -340,6 +340,6 @@ a very predictable value. Sheesh, not bad for a dynamic language and only about 
 with the type safety aspect of this class. [With the next installment][part3], we'll start looking at what happens if we start
 making some fields required and some fields not.
 
-[part1]: {{ site.baseurl }}{% link _posts/field-encapsulation-pattern-1.md %}
+[part1]: {{ site.baseurl }}{% link _posts/2015-02-28-field-encapsulation-pattern-in-python-part-1-getters-and-setters.md %}
 [rafek]: http://www.rafekettler.com/magicmethods.html
-[part3]: {{ site.baseurl }}{% link _posts/field-encapsulation-pattern-3.md %}
+[part3]: {{ site.baseurl }}{% link _posts/2015-03-05-field-encapsulation-pattern-in-python-part-3-required-and-readonly.md %}

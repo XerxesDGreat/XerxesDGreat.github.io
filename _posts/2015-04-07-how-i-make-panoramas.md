@@ -21,6 +21,6 @@ not a really long one like the sunset photos on the cruise page.
 
 ![Source][source]
 
-[cruise]: {{ site.baseurl }}{% link _posts/disney-cruise-panoramas.md %}
+[cruise]: {{ site.baseurl }}{% link _posts/2014-10-01-disney-cruise-panoramas.md %}
 [autopano]: http://www.kolor.com/store/panorama/autopano-pro-4-x.html
 [source]: {{ "images/autopano_source.jpg" | absolute_url }}

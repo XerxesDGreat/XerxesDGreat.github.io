@@ -21,7 +21,7 @@ annoying. There are a couple other places I'm going to check out also, but I fee
 
 Life is so hard for me :-(
 
-[photos]: {{ site.baseurl }}{% link _posts/photo-nightmare.md %}
+[photos]: {{ site.baseurl }}{% link _posts/2015-06-24-my-plea-for-adequate-photo-management.md %}
 [aura]: http://www.aurahardwoods.com/san-jose-google-street-view
 
 

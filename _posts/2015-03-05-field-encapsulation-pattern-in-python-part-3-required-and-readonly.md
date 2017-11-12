@@ -243,5 +243,5 @@ However, in the next episode, we're going to add a few lines, but that will pave
 So, see you then!
 
 
-[part1]: {{ site.baseurl }}{% link _posts/field-encapsulation-pattern-1.md %}
-[part2]: {{ site.baseurl }}{% link _posts/field-encapsulation-pattern-2.md %}
+[part1]: {{ site.baseurl }}{% link _posts/2015-02-28-field-encapsulation-pattern-in-python-part-1-getters-and-setters.md %}
+[part2]: {{ site.baseurl }}{% link _posts/2015-03-03-field-encapsulation-pattern-in-python-part-2-setattr-and-getattr.md %}

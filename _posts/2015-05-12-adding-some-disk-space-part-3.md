@@ -179,4 +179,4 @@ And thus, the next episode is going to be all about how I spent potentially way 
 doing this.
 
 
-[ep2]: {{ site.baseurl }}{% link _posts/upgrading-raid-2.md %}
+[ep2]: {{ site.baseurl }}{% link _posts/2015-05-09-adding-some-disk-space-part-2.md %}

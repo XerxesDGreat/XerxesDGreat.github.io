@@ -301,7 +301,7 @@ For now, however, I bid you adieu!
 
     
 [tld]: http://en.wikipedia.org/wiki/List_of_Internet_top-level_domains
-[part1]: {{ site.baseurl }}{% link _posts/field-encapsulation-pattern-1.md %}
-[part2]: {{ site.baseurl }}{% link _posts/field-encapsulation-pattern-2.md %}
-[part3]: {{ site.baseurl }}{% link _posts/field-encapsulation-pattern-3.md %}
+[part1]: {{ site.baseurl }}{% link _posts/2015-02-28-field-encapsulation-pattern-in-python-part-1-getters-and-setters.md %}
+[part2]: {{ site.baseurl }}{% link _posts/2015-03-03-field-encapsulation-pattern-in-python-part-2-setattr-and-getattr.md %}
+[part3]: {{ site.baseurl }}{% link _posts/2015-03-05-field-encapsulation-pattern-in-python-part-3-required-and-readonly.md %}
 [ducktyping]: http://en.wikipedia.org/wiki/Duck_typing

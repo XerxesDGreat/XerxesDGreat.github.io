@@ -32,6 +32,6 @@ First butterfly, clamping up the second one. There are five in total.
 I ended up using part of the top meant for this for my [monitor stand][monitor_stand] and another part for 
 [the Fencerator-9000][fencerator]
 
-[monitor_stand]: {{ site.baseurl }}{% link _posts/monitor-stand.md %}
-[fencerator]: {{ site.baseurl }}{% link _posts/fencerator-9000.md %}
+[monitor_stand]: {{ site.baseurl }}{% link _posts/2015-02-21-monitor-stand.md %}
+[fencerator]: {{ site.baseurl }}{% link _posts/2015-03-19-fencerator-9000.md %}
 

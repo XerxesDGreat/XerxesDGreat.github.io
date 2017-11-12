@@ -77,6 +77,6 @@ And, for those interested, the script I used to resize. It obviously has referen
 [batmobile_img]: {{ "images/tim_burton_batmobile.jpg" | absolute_url }}
 [batmobile_link]: http://brickset.com/sets/7784-1/The-Batmobile-Ultimate-Collectors-Edition
 [both_batmobiles]: {{ "images/both_batmobiles.jpg" | absolute_url }}
-[detective]: {{ site.baseurl }}{% link _posts/timelapse-detective-office.md %}
+[detective]: {{ site.baseurl }}{% link _posts/2015-03-26-time-lapse-lego-assembly-detectives-office.md %}
 [pillow]: http://pillow.readthedocs.org/
 [openshot]: http://www.openshot.org/
