@@ -1398,5 +1398,10 @@ a.service:hover i {
 	.newsletter-subscribe {
 		padding-right:15px !important;
 	}
+}
 
+/** 15. Post Listings
+ **************************************************************** **/
+h3.listing_section_head {
+    margin-top: 30px;
 }
