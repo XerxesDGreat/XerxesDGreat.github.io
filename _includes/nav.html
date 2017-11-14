@@ -1,6 +1,7 @@
 <!-- src: _includes/nav.html -->
 <!-- Main Nav -->
-<header id="header" class="fixed">
+{% capture index_url %}{% unless include.is_index %}{{ "index.html" | absolute_url }}{% endunless %}{% endcapture %}
+<header id="header" {% unless include.is_index %} class="fixed"{% endunless %}>
 
     <nav class="navbar navbar-inverse" role="navigation">
         <div class="container">
@@ -10,7 +11,7 @@
 
             <!-- Brand and toggle get grouped for better mobile display -->
             <div class="navbar-header">
-                <a class="navbar-brand" href="{{ site.baseurl }}/index.html#home">
+                <a class="navbar-brand{% if include.is_index %} scrollTo{% endif %}" href="{{ index_url }}#home">
                     <img src="{{ site.baseurl }}/images/home_profile_img_1.png" alt="" width="50" height="50" />
                     <span class="hidden-xs">{{ site.title|e }}</span>
                 </a>
@@ -23,20 +24,42 @@
                 <a href="#" class="btn-fullscreen"><i class="fa fa-external-link"></i></a>
 
                 <ul class="nav navbar-nav navbar-right">
-                    <li><a href="{{ site.baseurl }}/index.html#home">Home</a></li>
-                    <li><a href="{{ site.baseurl }}/index.html#about">About</a></li>
-                    <li><a href="{{ site.baseurl }}/index.html}#quick-blog">Blog</a></li>
+                    {% capture link_class %}{% if include.is_index %} class="scrollTo"{% endif %}{% endcapture %}
+                    <li>
+                        <a href="{{ index_url }}#home" {{ link_class }}>Home</a>
+                    </li>
+                    {% if site.about %}
+                        <li>
+                            <a href="{{ index_url }}#about" {{ link_class }}>About</a>
+                        </li>
+                    {% endif %}
+                    {% if site.work %}
+                        <li>
+                            <a href="{{ index_url }}#work" {{ link_class }}>Work</a>
+                        </li>
+                    {% endif %}
+                    <li>
+                        <a href="{% if include.is_index %}{{ index_url }}#quick-blog{% else %}{{ 'blog' | absolute_url }}{% endif %}" {{ link_class }}>Blog</a>
+                    </li>
                     <li class="dropdown">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown">Categories <b class="caret"></b></a>
                         <ul class="dropdown-menu">
                             {% assign categories = site.categories %}
                             {% if categories.first[0] == null %}
                                 {% for category in categories | sort %}
-                                    <li><a href="{{ site.baseurl }}/{{ category | downcase }}">{{ category | capitalize }} <span>({{ site.categories[category].size }} posts)</span></a></li>
+                                    <li>
+                                        <a href="{% include category_link.html category=category %}">{{ category | capitalize }}
+                                            <span>({{ site.categories[category].size }} posts)</span>
+                                        </a>
+                                    </li>
                                 {% endfor %}
                             {% else %}
                                 {% for category in categories | sort: 0 %}
-                                    <li><a href="{{ site.baseurl }}/{{ category[0] | downcase }}">{{ category[0] | capitalize }} <span class="text-small">({{ category[1].size }} posts)</span></a></li>
+                                    <li>
+                                        <a href="{% include category_link.html category=category.first %}">{{ category[0] | capitalize }}
+                                            <span class="text-small">({{ category[1].size }} posts)</span>
+                                        </a>
+                                    </li>
                                 {% endfor %}
                             {% endif %}
                         </ul>
@@ -44,7 +67,6 @@
                 </ul>
             </div><!-- end div#bs-example-navbar-collapse-1 -->
             <!-- /.navbar-collapse -->
-
 
         </div><!-- end div.container -->
     </nav>

@@ -1,0 +1,45 @@
+<!-- post_list.html -->
+<!doctype html>
+<html lang="en-US">
+    <head prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# article: http://ogp.me/ns/article#">
+        {% include meta.html %}
+        {% include stylesheets.html %}
+        {% include javascripts.html %}
+    </head>
+
+    <body>
+        {% include nav.html %}
+
+        {% capture list_content %}
+        <div class="item">
+            <div class="item-title">
+                <h2>{{ include.listing_title }}</h2>
+            </div>
+            <p>
+                {{ include.listing_description }}
+            </p>
+            {% if include.category %}
+                {% assign posts=site.categories[include.category] %}
+            {% elsif include.tag %}
+                {% assign posts=site.tags[include.tag] %}
+            {% else %}
+                {% assign posts=site.posts %}
+            {% endif %}
+            {% assign grouped_posts=posts | group_by_exp:"post", "post.date | date:'%Y'" %}
+            {% for posts_for_year in grouped_posts %}
+                <h3 class="listing_section_head">{{ posts_for_year.name }}</h3>
+                {% for post in posts_for_year.items %}
+                    <p>
+                        <span class="label label-default light">{{ post.date | date: "%Y-%m-%d" }}</span>
+                        <a href="{{ post.url | absolute_url }}">{{ post.title }}</a>
+                    </p>
+                {% endfor %}
+            {% endfor %}
+        </div>
+        {% endcapture %}
+
+        {% include blog_section_wrapper.html content=list_content %}
+
+        {% include footer.html %}
+    </body>
+</html>

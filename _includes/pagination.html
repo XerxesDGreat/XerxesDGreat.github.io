@@ -1,9 +1,9 @@
 <!-- src: _includes/pagination.html -->
 <!-- PAGINATION -->
 {% if include.previous %}
-    <p class="fsize16"><a href="{{ include.previous.url | absolute_url }}">Previous<br />({{ include.previous.title }})</a></p>
+    <p class="fsize16">Older<br/><a href="{{ include.previous.url | absolute_url }}">({{ include.previous.title }})</a></p>
 {% endif %}
 
 {% if include.next %}
-    <p class="fsize16"><a href="{{ include.next.url | absolute_url }}">Next<br />({{ include.next.title }})</a></p>
+    <p class="fsize16">Newer<br /><a href="{{ include.next.url | absolute_url }}">({{ include.next.title }})</a></p>
 {% endif %}

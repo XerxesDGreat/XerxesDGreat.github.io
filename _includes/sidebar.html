@@ -1,0 +1,89 @@
+<!-- src: _includes/sidebar.html -->
+<!-- SIDEBAR -->
+<div class="right col-md-3">
+    {% if site.use_search %}
+        <!-- blog search -->
+        <div class="widget">
+            <h3>Blog Search</h3>
+            <form action="#" method="get" class="blog-search col-lg-12 nomargin nopadding">
+                <div class="input-group input-group-lg">
+                    <input type="text" class="form-control" name="s" id="st-search-input" placeholder="..." />
+                    <script type="text/javascript">
+                        var Swiftype = window.Swiftype || {};
+                        (function() {
+                            Swiftype.key = '{{SWIFTYPE}}';
+
+                            /** DO NOT EDIT BELOW THIS LINE **/
+                            var script = document.createElement('script'); script.type = 'text/javascript'; script.async = true;
+                            script.src = "//s.swiftypecdn.com/embed.js";
+                            var entry = document.getElementsByTagName('script')[0];
+                            entry.parentNode.insertBefore(script, entry);
+                        }());
+                    </script>
+                </div>
+            </form>
+        </div>
+    {% endif %}
+
+    <!-- categories -->
+    <div class="widget">
+        <h3>Category</h3>
+        {% if page.category %}
+        <ul>
+            <li><a href="{% include category_link.html category=page.category %}"><i class="fa fa-dot-circle-o"></i> {{ page.category | strip | capitalize }}</a></li>
+        </ul>
+        {% else %}
+            no category
+        {% endif %}
+    </div>
+
+    <!-- tags -->
+    <div class="widget">
+        <h3>Tags</h3>
+        {% if page.tags %}
+        <ul>
+            {% for tag in page.tags | sort_natural %}
+                <li><a href="{% include tag_link.html tag=tag %}"><i class="fa fa-dot-circle-o"></i> {{ tag | capitalize }}</a></li>
+            {% endfor %}
+        </ul>
+        {% else %}
+            no tags
+        {% endif %}
+    </div>
+
+    <!-- navigation -->
+    <div class="widget">
+        <h3>Navigation</h3>
+        {% include pagination.html next=page.next previous=page.previous %}
+    </div>
+
+    <!-- Archives -->
+    {% comment %}
+    <div class="widget">
+
+        <h3>Archives</h3>
+
+        <ul class="tree">
+            <li>
+                {% for group in templist|groupby('year')|sort(reverse=True) %}
+                <span><i class="fa fa-minus-square-o"></i>{{group.grouper}}</span>
+                <ul>
+                    <li>
+                        {% for month in group.list|groupby('month')|sort(reverse=True) %}
+                        <span><i class="fa fa-minus-square-o"></i>{{month.grouper}}</span>
+                        <ul>
+                            {% for article in month.list %}
+                            <!-- {{ article }} -->
+                            <li><a href="{{article.link}}"><small>{{article.date[4:2]}}</small>{{article.title}}</a></li>
+                            {% endfor %}
+                        </ul>
+                        {% endfor %}
+                    </li>
+                </ul>
+                {% endfor %}
+            </li>
+        </ul>
+    </div>
+    {% endcomment %}
+</div>
+<!-- /SIDEBAR -->

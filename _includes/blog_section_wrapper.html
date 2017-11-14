@@ -6,6 +6,9 @@
             <div class="left col-md-9">
                 {{ include.content }}
             </div>
+            {% if include.show_sidebar %}
+                {% include sidebar.html %}
+            {% endif %}
         </div>
     </article>
 </section>

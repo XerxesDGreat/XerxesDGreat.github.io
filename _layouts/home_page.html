@@ -1,0 +1,159 @@
+<!-- src: _layohome_page.htmlhtml -->
+<!doctype html>
+<html lang="en-US">
+<head>
+    {% include meta.html %}
+    {% include stylesheets.html %}
+</head>
+
+<body>
+
+<!-- HOME -->
+<section id="home" class="full-screen"><!-- full-screen or half-screen (550px height) -->
+
+    <div id="slider">
+
+        <ul class="slides-container">
+
+            {% for image in site.banner.images %}
+            <!-- Item {{ loop.index }} -->
+            <li>
+                <div class="image-caption">
+                    <hr /><hr />
+                    <div class="inner">
+                        <h2 class="bigtext strtoupper nomargin">{{ site.title |e }}</h2>
+                    </div>
+                    <hr /><hr />
+                </div>
+                <span class="overlay"></span>
+                <div style="background-image: url('{{ site.baseurl }}/images/{{ image }}');" class="fullscreen-img"></div>
+            </li>
+            {% endfor %}
+        </ul>
+
+    </div>
+
+</section>
+<!-- /HOME -->
+
+<!-- Main Nav -->
+{% include nav.html is_index=true %}
+
+<!-- ABOUT -->
+{% if site.owner %}
+<section id="about" class="home-page">
+    <div class="container">
+        <header class="text-center">
+            <h1>ABOUT ME</h1>
+        </header>
+
+        <article class="big-paragraph home-display">
+            <p>{{ site.owner.bio }}</p>
+
+            <div class="me-picture text-center">
+                <div class="item">
+                    <img class="img-responsive" src="{{ site.owner.avatar | absolute_url }}" width="200" height="200" alt="" />
+                </div><!-- end div.item -->
+                <hr />
+            </div><!-- end div.me-picture -->
+        </article>
+
+    </div><!-- end div.container -->
+</section>
+{% endif %}
+<!-- /ABOUT -->
+
+<!-- WORK -->
+{% if site.data.work %}
+<section id="work" class="alternate arrow-down home-page">
+    <div class="container">
+        <header class="text-center">
+            <h1>MY WORK</h1>
+        </header>
+        <article class="home-display">
+            {% if site.data.work.description %}
+            <p>
+                {{ site.data.work.description }}
+            </p>
+            {% endif %}
+
+
+            {% if site.data.work.item_list %}
+            <div id="portfolio" class="text-center animate_fade_in">
+                <div class="row">
+                    <ul class="sort-destination isotope" data-sort-id="isotope-list">
+                        {% for work_item in site.data.work.item_list %}work_type, work_preview_img_url, work_title, work_description, work_link in WORK_LIST %}
+                        <li class="isotope-item col-sm-6 col-md-4 brand"><!-- item -->
+                            {% case work_item.type %}
+                            {% when 'link' %}
+                            {% assign class_link="external ajax-project" %}
+                            {% assign class_icon="fa-link" %}
+                            {% when 'image' %}
+                            {% assign class_link="popup-image" %}
+                            {% assign class_icon="fa-camera" %}
+                            {% when 'video' %}
+                            {% assign class_link="popup-video" %}
+                            {% assign class_icon="fa-film" %}
+                            {% endcase %}
+                            <a class="{{ class_link }}"
+                               href="{{ work_item.link }}" target="_blank">
+                                <img src="{{ work_item.preview_img_url }}" class="img-responsive" alt="img" />
+                                <div class="caption">
+                                    <i class="rounded fa {{ class_icon }}"></i>
+                                    <h3>{{ work_item.title }}</h3>
+                                    <p>{{ work_item.description }}</p>
+                                </div>
+                            </a>
+                        </li>
+                        {% endfor %}
+                    </ul>
+                </div><!-- end div.row -->
+            </div><!-- end div#portfolio -->
+            {% endif %}
+        </article>
+    </div><!-- end div.container -->
+</section>
+{% endif %}
+<!-- /WORK -->
+
+<!-- BLOG -->
+<section id="quick-blog" class="alternate home-page">
+    <div class="container">
+
+        <header class="text-center">
+            <h1>BLOG</h1>
+            <p>RECENT ENTRIES</p>
+        </header>
+
+        <article class="home-display">
+            <div class="row animate_fade_in">
+                {% assign posts = site.posts | slice: 0, 3 %}
+                {% for post in posts %}
+                <div class="col-md-4 quick-hover">
+                    <div class="quick-item">
+                        {% if post.featured %}
+                        <figure class="media-preview">
+                        </figure>
+                        {% endif %}
+                        <h4><a href="{{ post.url | absolute_url }}">{{ post.title }}</a></h4>
+                        <p>{{ post.content | truncatewords: 100 }}</p>
+                        <a href="{{ post.url | absolute_url }}" class="btn btn-xs"><i class="fa fa-sign-out"></i> READ MORE</a>
+                    </div><!-- end div.quick-item -->
+                </div><!-- end div.col-md-4.quick-hover -->
+                {% endfor %}
+            </div><!-- end div.row -->
+        </article>
+
+        <article class="text-center" data-animation="bounceIn">
+            <a href="{{ "blog/" | absolute_url }}" class="plusNav" title="more from blog">+</a>
+        </article>
+
+    </div><!-- end div.container -->
+</section>
+<!-- /BLOG -->
+
+{% include javascripts.html %}
+
+</body>
+</html>
+<!-- end shome_page.htmlhtml -->
