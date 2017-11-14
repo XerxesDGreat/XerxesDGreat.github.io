@@ -241,6 +241,7 @@ pre {
 
 div.widget {
     font-size: 14px;
+    margin-bottom: 30px;
 }
     div.widget > h3 {
         font-size: 18px;
@@ -256,7 +257,8 @@ div.widget {
         text-decoration: underline;
     }
     div.widget li {
-        padding-bottom: 7px;
+        padding-bottom: 0px;
+        line-height:40px ;
         border-bottom: 1px solid #cdcdcd;
     }
     div.widget li.parent_li {
