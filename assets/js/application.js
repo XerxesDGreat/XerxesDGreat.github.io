@@ -20,20 +20,6 @@
         }
         e.stopPropagation();
     });
-  //   // Allow videos to take the full width of a page
-  //   $(".container").fitVids();
-
-  //   // Apply masonry smart layout, only when all images are loaded
-  //   // Source: http://stackoverflow.com/a/7257177
-  //   // TODO: try to hide re-pagination animation
-  //   var $container = $('.masonry');
-  //   if ($container.length) {
-  //     $container.imagesLoaded(function(){
-  //       $container.masonry({
-  //         itemSelector: '.thumbnail',
-  //       });
-  //     });
-  //   };
 
     // Activate zoom on content images in the main column and add an icon overlay (but ignore icons)
     $("article.content img").each(function(){

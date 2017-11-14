@@ -1,5 +1,5 @@
 <!-- COMMENTS -->
-{% if page.facebook_enable_comments %}
+{% if site.enable_facebook_comments and page.comments %}
 <div class="fb-comments"
      data-href="{{ page.url | absolute_url }}"
      data-width="705" data-numposts="5" data-colorscheme="light">

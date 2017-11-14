@@ -1,6 +1,6 @@
 <!-- src: _includes/share_post.html -->
 <!-- SOCIAL -->
-{% if site.show_social_sharing %}
+{% if site.show_social_sharing and page.share %}
 <p class="socials">
     <a href="http://www.facebook.com/sharer/sharer.php?u={{ page.url | absolute_url }}" class="rounded-icon social fa fa-facebook" target="_blank" title="Share on Facebook"><!-- facebook --></a>
     <a href="http://twitter.com/home?status={{ page.url | absolute_url }}" class="rounded-icon social fa fa-twitter" target="_blank" title="Share on Twitter"><!-- twitter --></a>

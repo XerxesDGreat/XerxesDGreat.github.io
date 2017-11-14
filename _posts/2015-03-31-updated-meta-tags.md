@@ -1,8 +1,8 @@
 ---
 title: Updated Meta tags
 date: 2015-03-31
-category: 
-tags: meta, i-josh
+category: misc
+tags: meta i-josh
 ---
 
 Hey all, since I gave you [the Tumbler timelapse][tumbler] two days early, I'm taking this opportunity to do a little
@@ -14,3 +14,5 @@ That's it.
 Nothing else.
  
 No, seriously.
+
+[tumbler]: {{ site.baseurl }}{% link _posts/2015-03-29-time-lapse-lego-assembly-the-tumbler.md %}

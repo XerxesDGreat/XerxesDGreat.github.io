@@ -12,31 +12,6 @@ logo:             images/logo.png # logo visible in the topbar
 
 url: https://beacoding.pro
 
-# draw your top menu here
-# each item must have a title and a url.
-#   To list post categories. use type: 'categories'
-#   To create sub categories. add a submenu item
-# See the example
-menu:
-  - title: 'Home'
-    url: '/'
-  - title: 'Fork'
-    url: 'http://github.com/aron-bordin/neo-hpstr-jekyll-theme'
-  - title: 'Install'
-    url: '/theme-setup/'
-  - title: 'Tags'
-    url: '/tags'
-  - title: 'Categories'
-    url: '/categories'
-    type: 'categories'
-  - title: 'Favorites'
-    url: '#'
-    submenu:
-      - title: 'Code Highlighter'
-        url: '/intro/code-highlighting-post/'
-      - title: 'Sample Post'
-        url: '/intro/sample-post/'
-
 banner:
   images:
   - 'banner/20150709_131530.jpg'
@@ -83,7 +58,7 @@ google_verify:
 bing_verify:
 
 # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
-timezone:    America/New_York
+timezone:    America/Los_Angeles
 locale:      en_US
 future:      true
 highlighter: rouge
@@ -91,14 +66,11 @@ sass:
   sass_dir: _sass
   style: compressed
 
-# https://github.com/mojombo/jekyll/wiki/Permalinks
-#permalink:   date
-
 # Amount of post to show on home page
-paginate: 5
+# paginate: 5
 
-# if true, shows the floatting share buttons
-float_share: true
+show_social_sharing: true
+enable_facebook_comments: true
 
 kramdown:
   auto_ids: true
@@ -113,6 +85,16 @@ defaults:
       path: "" # an empty string means the values below apply to all files
     values:
       layout: "blog_post"
+  -
+    scope:
+      path: ""
+    values:
+      comments: true
+  -
+    scope:
+      path: ""
+    values:
+      share: true
 
 # Octopress
 # Default extensions
