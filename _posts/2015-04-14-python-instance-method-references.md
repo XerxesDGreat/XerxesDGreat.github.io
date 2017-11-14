@@ -13,17 +13,18 @@ experience today.
 I have one class which takes a function or a list of functions for calling later; the signature of the function will
 look like this:
 
-    :::python
-    # defining the callback
-    def my_callback(value):
-        # do something
-        
-    # adding it
-    self.callbacks = [my_callback]
+```python
+# defining the callback
+def my_callback(value):
+    # do something
     
-    # executing the callbacks
-    for c in self.callbacks:
-        c(some_value)
+# adding it
+self.callbacks = [my_callback]
+
+# executing the callbacks
+for c in self.callbacks:
+    c(some_value)
+```
 
 Originally, I was just defining a bunch of these functions in a separate module; they're all generic functions, not in
 classes, or anything. Everything worked great.
@@ -31,17 +32,18 @@ classes, or anything. Everything worked great.
 But then I decided to start passing in a method on an instance for the callback. Since I needed some of the state of the
 instance during the callback, I decided to modify the signature to add that context.
 
-    :::python
-    # defining the callback
-    def my_callback(self, value):
-        # do something
-    
-    # adding it
-    self.callbacks = [self.my_callback]
-    
-    # executing the callbacks
-    for c in self.callbacks:
-        c(self, some_value)
+```python
+# defining the callback
+def my_callback(self, value):
+    # do something
+
+# adding it
+self.callbacks = [self.my_callback]
+
+# executing the callbacks
+for c in self.callbacks:
+    c(self, some_value)
+```
         
 So now, even though I don't need the context in the module functions, I'll get it in the instance functions.
 
@@ -76,48 +78,49 @@ their execution. Very cool!
 
 Therefore, using the above knowledge, I can have something like this:
 
-    :::python
-    callbacks = []
-    def add_callback(callback):
-        callbacks.append(callback)
-    
-    def do_thing_function(*args):
+```python
+callbacks = []
+def add_callback(callback):
+    callbacks.append(callback)
+
+def do_thing_function(*args):
+    print args
+
+class MyObject(object):
+    def do_thing_instance(*args):
         print args
     
-    class MyObject(object):
-        def do_thing_instance(*args):
-            print args
-        
-        @classmethod
-        def do_thing_class(*args):
-            print args
-        
-        @staticmethod
-        def do_thing_static(*args):
-            print args
+    @classmethod
+    def do_thing_class(*args):
+        print args
     
-    add_callback(do_thing_function)
-    
-    o = MyObject()
-    add_callback(o.do_thing_instance)
-    add_callback(MyObject.do_thing_instance)
-    add_callback(MyObject.do_thing_class)
-    add_callback(MyObject.do_thing_static)
-    
-    value = "stringy value"
-    for c in callbacks:
-        print "calling function %s" % c.__name__
-        c(value)
-    
-    # output
-    calling function do_thing_function
-    ('stringy value',)
-    calling function do_thing_instance
-    (<__main__.MyObject object at 0x10cc6e350>, 'stringy value')
-    calling function do_thing_class
-    (<class '__main__.MyObject'>, 'stringy value')
-    calling function do_thing_static
-    ('stringy value',)
+    @staticmethod
+    def do_thing_static(*args):
+        print args
+
+add_callback(do_thing_function)
+
+o = MyObject()
+add_callback(o.do_thing_instance)
+add_callback(MyObject.do_thing_instance)
+add_callback(MyObject.do_thing_class)
+add_callback(MyObject.do_thing_static)
+
+value = "stringy value"
+for c in callbacks:
+    print "calling function %s" % c.__name__
+    c(value)
+
+# output
+calling function do_thing_function
+('stringy value',)
+calling function do_thing_instance
+(<__main__.MyObject object at 0x10cc6e350>, 'stringy value')
+calling function do_thing_class
+(<class '__main__.MyObject'>, 'stringy value')
+calling function do_thing_static
+('stringy value',)
+```
     
 As you can see, we get different things in the function body, even though we're only explicitly passing in one value at
 time of execution. Yay contextual function execution!

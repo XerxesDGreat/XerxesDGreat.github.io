@@ -14,7 +14,7 @@ how to store, represent, and validate, say, a date, a url, etc. Each of these fi
 rules that it has to meet. An example of this is an <code>IntegerField</code> class which has a rule stating that the value must be
 an integer.
 
-{% highlight python %}
+```python
 # field definition
 class IntegerField(Field):
     default_clean_funcs = [validators.is_integer]
@@ -24,7 +24,7 @@ class MyModel(Model):
     fields: {
         'my_integer_field': IntegerField('my_integer_field')
     }
-{% endhighlight %}
+```
 
 The classes also have the added flexibility to accept additional validation rules from the user. This allows the user to
 pass in rules saying "this integer must be greater than zero" or "this integer must be odd" rather than defining
@@ -34,7 +34,7 @@ a <code>PositiveIntegerField</code>, and an <code>OddIntegerField</code>. What i
 to be limited to numbers less than 100; now I have 3 more classes, and naming becomes a huge problem. Instead of this
 mess, I just pass the validation functions into the <code>IntegerField</code> constructor.
 
-{% highlight python %}
+```python
 class MyModel(Model):
     fields: {
         'pos_int': IntegerField('pos_int', clean_funcs=[validators.is_positive]),
@@ -42,7 +42,7 @@ class MyModel(Model):
         'pos_odd_int': IntegerField('pos_odd_int', clean_funcs=[validators.is_odd, validators.is_positive]),
         ...
     }
-{% endhighlight %}
+```
  
 Great. Now, the problem I came across is in the constructor of the field object. See, in the <code>IntegerField</code> definition
 above, <code>default_clean_funcs</code> is a class or static variable, not an instance variable. This means that it's shared
@@ -53,13 +53,13 @@ So, Python uses the keyword <code>self</code> to differentiate variables on the 
 problem?... well, issue I had was that <code>self.my_var</code> will resolve to either an instance or a static variable, not
 just to an instance. Therefore, when I originally wrote the Fields, I did this:
 
-{% highlight python %}
+```python
 class Field(object):
     clean_funcs = []
     
     def __init__(self, addl_clean_funcs=[])
         self.clean_funcs += addl_clean_funcs
-{% endhighlight %}
+```
             
 I was assuming that <code>self</code> would only resolve to an instance member, creating it if it doesn't
 yet exist (after all, this is how you define instance members, by using the <code>self</code> keyword in the <code>__init__</code>
@@ -69,13 +69,13 @@ function. After experiencing bugs where a UUID wasn't being validated as an Inte
 ## Solution 1
 For the posts which I wrote, and originally, I resolved it using the following method:
 
-{% highlight python %}
+```python
 class Field(object):
     default_clean_funcs = []
     
     def __init__(self, addl_clean_funcs=[]):
         self.clean_funcs = default_clean_funcs + addl_clean_funcs
-{% endhighlight %}
+```
             
 This is perfectly functional, but I don't like it. You see, I end up making needless copies of the objects defined in
 <code>default_clean_funcs</code>. Okay, technically they're pointers, so it's really not all that horrible; it still feels like
@@ -88,7 +88,7 @@ child of that field which can break all the things. A simple way to get around t
 don't like this approach. Not horrible, but there's risk.
 
 ## Solution 2
-{% highlight python %}
+```python
 class Field(object):
     def __init__(self):
         self.clean_funcs = []
@@ -97,21 +97,21 @@ class IntegerField(object):
     def __init__(self, addl_clean_funcs=[]):
         super(IntegerField, self).__init__(self)
         self.clean_funcs += addl_clean_funcs
-{% endhighlight %}
+```
 
 This one has two fatal flaws for my design. First, we come back to the bajillions of copies of validation functions that
 exists in Solution 1. The second major issue is that I have to do a lot of overloading <code>__init__</code>. If you'll recall
 my original design, I basically want to just have a two-line class definition if possible:
 
-{% highlight python %}
+```python
 class IntegerField(Field):
     clean_funcs=[validators.is_int]
-{% endhighlight %}
+```
         
 and offload all the common crap onto the parent. So this solution just won't work.
 
 ## Solution 3
-{% highlight python %}
+```python
 class Field(object):
     default_clean_funcs = []
     
@@ -120,7 +120,7 @@ class Field(object):
     
     def get_clean_funcs():
         return self.default_clean_funcs + self.addl_clean_funcs
-{% endhighlight %}
+```
             
 One benefit of this is that I only ever have the initial definition of <code>default_clean_funcs</code>; there's no wasted
 space there. Another huge (to me, at any rate) benefit is that there's a clear separation of intention here.
