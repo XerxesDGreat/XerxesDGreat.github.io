@@ -2,7 +2,7 @@
 title: Field encapsulation pattern in Python, part 4 - Field objects
 date: 2015-03-07
 category: Software
-tags: python, getter/setter, pattern, encapsulation, __setattr__, __getattr__
+tags: python getter/setter pattern encapsulation __setattr__ __getattr__
 ---
 
 Here we are in the fourth portion of our trek to create a field encapsulation pattern in Python! For previous legs of our
@@ -45,15 +45,16 @@ lot of code which is going to be repeated, often unnecessarily.
 
 Now, I WILL admit that we can just have a default value in places where we use those dictionary attributes:
 
-    :::python
-    >>> # instead of this
-    >>> if attribute_details[field_name]['required']:
-    ...     # do something
-    ...
-    >>> # we can do this
-    >>> if attribute_details[field_name].get('required', False):
-    ...     # if the required attribute isn't set for this field,
-    ...     # assume it's not required; same as having 'required': False
+```python
+>>> # instead of this
+>>> if attribute_details[field_name]['required']:
+...     # do something
+...
+>>> # we can do this
+>>> if attribute_details[field_name].get('required', False):
+...     # if the required attribute isn't set for this field,
+...     # assume it's not required; same as having 'required': False
+```
     
 The main issue I have with this is it's more clunky; I'd rather be sure the value is there than have to go and check
 for its existence every time I want to access it.
@@ -63,13 +64,14 @@ Well, it feels that there are enough issues to warrant a refactor. To me, the mo
 going to be making a `Field` object. In this way, we can immediately address the code repetition concern I had, and we 
 will eventually address the typing concern. So, what is the field object going to look like?
 
-    :::python
-    >>> class Field(object):
-    ...     def __init__(self, name, type, required=False, read_only=False):
-    ...         self.name = name
-    ...         self.type = type
-    ...         self.required = required
-    ...         self.read_only = read_only
+```python
+>>> class Field(object):
+...     def __init__(self, name, type, required=False, read_only=False):
+...         self.name = name
+...         self.type = type
+...         self.required = required
+...         self.read_only = read_only
+```
 
 Nothing fancy, just a collection of the same attributes in the dictionary. I went ahead and added the `name` of the field
 so it can know what it's a representation of.
@@ -84,55 +86,56 @@ list as one which can be modified externally!
 Yes, we're getting tricky, so let me show you what goes on here; we'll take `MyClass` from the end of last time and
 update it to use the `Field` object.
    
-    :::python
-    from types import *
-    import uuid
-    import datetime
-    
-    class Field(object):
-        def __init__(self, name, type, required=False, read_only=False):
-            self.name = name
-            self.type = type
-            self.required = required
-            self.read_only = read_only
-    
-    class MyClass:
-        attribute_details = {
-            'my_uuid': Field('my_uuid', uuid.UUID, required=True),
-            'your_uuid': Field('your_uuid', uuid.UUID, required=True),
-            'uuid_a': Field('uuid_a', uuid.UUID, read_only=True),
-            'uuid_b': Field('uuid_b', uuid.UUID, read_only=True),
-            'created_datetime': Field('created_datetime', datetime.datetime, required=True, read_only=True),
-            'updated_datetime': Field('updated_datetime', datetime.datetime),
-            'target_datetime': Field('target_datetime', datetime.datetime),
-            'name': Field('name', StringType, read_only=True),
-            'location': Field('location', StringType),
-            'num_actions_taken': Field('num_actions_taken', IntType)
-        }
-    
-        def __init__(self, **kwargs):
-            self.__dict__['_in_init'] = True
-            for field_name, details in self.attribute_details.iteritems():
-                if details.required and field_name not in kwargs:
-                    raise KeyError('%s is required' % field_name)
-                elif field_name in kwargs:
-                    self.__setattr__(field_name, kwargs[field_name])
-            self.__dict__['_in_init'] = False
-    
-        def __setattr__(self, attr_name, value):
-            attr_detail = self.attribute_details.get(attr_name, None)
-            if not attr_detail:
-                raise AttributeError('no attribute %s in object of type %s' % (attr_name, self.__class__.__name__))
-            if attr_detail.read_only and not self.__dict__['_in_init']:
-                raise AttributeError('%s is read-only' % attr_name)
-            if type(value) is not attr_detail.type:
-                raise ValueError('%s expected to be a %s' % (attr_name, attr_detail.type.__name__))
-            self.__dict__['_%s' % attr_name] = value
-    
-        def __getattr__(self, attr_name):
-            if attr_name not in self.attribute_details:
-                raise AttributeError('no attribute "%s" in object of type %s' % (attr_name, self.__class__.__name__))
-            return self.__dict__['_%s' % attr_name]
+```python
+from types import *
+import uuid
+import datetime
+
+class Field(object):
+    def __init__(self, name, type, required=False, read_only=False):
+        self.name = name
+        self.type = type
+        self.required = required
+        self.read_only = read_only
+
+class MyClass:
+    attribute_details = {
+        'my_uuid': Field('my_uuid', uuid.UUID, required=True),
+        'your_uuid': Field('your_uuid', uuid.UUID, required=True),
+        'uuid_a': Field('uuid_a', uuid.UUID, read_only=True),
+        'uuid_b': Field('uuid_b', uuid.UUID, read_only=True),
+        'created_datetime': Field('created_datetime', datetime.datetime, required=True, read_only=True),
+        'updated_datetime': Field('updated_datetime', datetime.datetime),
+        'target_datetime': Field('target_datetime', datetime.datetime),
+        'name': Field('name', StringType, read_only=True),
+        'location': Field('location', StringType),
+        'num_actions_taken': Field('num_actions_taken', IntType)
+    }
+
+    def __init__(self, **kwargs):
+        self.__dict__['_in_init'] = True
+        for field_name, details in self.attribute_details.iteritems():
+            if details.required and field_name not in kwargs:
+                raise KeyError('%s is required' % field_name)
+            elif field_name in kwargs:
+                self.__setattr__(field_name, kwargs[field_name])
+        self.__dict__['_in_init'] = False
+
+    def __setattr__(self, attr_name, value):
+        attr_detail = self.attribute_details.get(attr_name, None)
+        if not attr_detail:
+            raise AttributeError('no attribute %s in object of type %s' % (attr_name, self.__class__.__name__))
+        if attr_detail.read_only and not self.__dict__['_in_init']:
+            raise AttributeError('%s is read-only' % attr_name)
+        if type(value) is not attr_detail.type:
+            raise ValueError('%s expected to be a %s' % (attr_name, attr_detail.type.__name__))
+        self.__dict__['_%s' % attr_name] = value
+
+    def __getattr__(self, attr_name):
+        if attr_name not in self.attribute_details:
+            raise AttributeError('no attribute "%s" in object of type %s' % (attr_name, self.__class__.__name__))
+        return self.__dict__['_%s' % attr_name]
+```
 
 Not a large change so far, not scary, taking it easy... cool. Now, this frees us up to get a *leeeeetle* more creative.
 
@@ -147,18 +150,19 @@ I digress. The point I was trying to make is that we shouldn't make `MyClass` re
 acceptable to the `Field`. Remember, `MyClass` told the `Field` object what type it should look for; we may as well make
 the `Field` do something with it.
 
-    :::python
-    class Field(object):
-        def clean(self, value):
-            if type(value) is not self.type:
-                raise ValueError('%s expected to be a %s' % (self.name, self.type.__name__)
-            return value
-    
-    class MyClass(object):
-        def __setattr__(self, attr_name, value):
-            # check that attr_name exists
-            # check if read-only
-            self.__dict__['_s' % attr_name] = attr_detail.clean(value)
+```python
+class Field(object):
+    def clean(self, value):
+        if type(value) is not self.type:
+            raise ValueError('%s expected to be a %s' % (self.name, self.type.__name__)
+        return value
+
+class MyClass(object):
+    def __setattr__(self, attr_name, value):
+        # check that attr_name exists
+        # check if read-only
+        self.__dict__['_s' % attr_name] = attr_detail.clean(value)
+```
     
     
 In the example, we've added a function called `clean`. Its main responsibility is to take a value, make sure that it
@@ -199,97 +203,98 @@ validators. Next, we'll write validators for all our fields (we'll add a little 
 declaration of the dictionary with all the `Field` objects. Oh, one last thing: we'll pull the `required` check into
 the `Field` also; I mean, it has all the information it needs, right?
 
-    :::python
-    # validators.py
-    # A collection of functions we'll use to ensure values meet certain requirements. Some notes:
-    # - we should make a reasonable effort to convert a bad value to a good one if 
-    #       a: it makes sense to do so (i.e. a uuid string -> a UUID object)
-    #       b: we don't lose the meaning of the object
-    #       c: we do so in a predictable fashion (i.e. if a value to check is None, we shouldn't create a new arbitrary value)
-    # - if validation is not successful, raise a ValueError
-    # - the function should only return the cleaned value. Returning the same value as passed in is acceptable, if it makes sense
-    # - functions should start with 'ensure', because we are ensuring that, given a value, we'll give back an acceptable
-    #   value, raising an error if it doesn't.
-    import datetime
-    import time
-    import uuid
-    from types import Type
-    
-    def ensure_value_is_uuid(value):
-        if type(value) is StringType:
-            value = uuid.UUID(value) # this will raise ValueError if it doesn't translate to a UUID
-        if type(value) is not uuid.UUID:
-            raise ValueError('expected type uuid.UUID, received %s (%s)' % (value, type(value)))
+```python
+# validators.py
+# A collection of functions we'll use to ensure values meet certain requirements. Some notes:
+# - we should make a reasonable effort to convert a bad value to a good one if 
+#       a: it makes sense to do so (i.e. a uuid string -> a UUID object)
+#       b: we don't lose the meaning of the object
+#       c: we do so in a predictable fashion (i.e. if a value to check is None, we shouldn't create a new arbitrary value)
+# - if validation is not successful, raise a ValueError
+# - the function should only return the cleaned value. Returning the same value as passed in is acceptable, if it makes sense
+# - functions should start with 'ensure', because we are ensuring that, given a value, we'll give back an acceptable
+#   value, raising an error if it doesn't.
+import datetime
+import time
+import uuid
+from types import Type
+
+def ensure_value_is_uuid(value):
+    if type(value) is StringType:
+        value = uuid.UUID(value) # this will raise ValueError if it doesn't translate to a UUID
+    if type(value) is not uuid.UUID:
+        raise ValueError('expected type uuid.UUID, received %s (%s)' % (value, type(value)))
+    return value
+
+def ensure_value_is_datetime(value):
+    if type(value) is IntType:
+        value = datetime.datetime.fromtimestamp(value) # this will raise ValueError if invalid
+    elif type(value) is TimeType:
+        value = datetime.datetime.fromtimestamp(value.time())
+    if type(value) is not datetime.datetime:
+        # I could try string types here, but it's just ridiculous to do so
+        raise ValueError('expected type datetime.datetime, received %s (%s)' % (value, type(value)))
+
+def ensure_value_is_string(value):
+    return value if type(value) is StringType else str(value)
+
+def ensure_value_is_int(value):
+    return value if type(value) is IntType else int(value)
+
+main.py
+import validators as val
+
+class Field(object):
+    def __init__(self, name, clean_funcs=[], required=False, read_only=False):
+        self.name = name
+        self.clean_funcs = clean_funcs
+        self.required = required
+        self.read_only = read_only
+        
+    def clean(self, value):
+        # reducing the array is also feasible, though less readable
+        if value is None and self.required:
+            raise ValueError('%s is a required field' % (self.name))
+        for f in self.clean_funcs:
+            value = f(value)
         return value
-    
-    def ensure_value_is_datetime(value):
-        if type(value) is IntType:
-            value = datetime.datetime.fromtimestamp(value) # this will raise ValueError if invalid
-        elif type(value) is TimeType:
-            value = datetime.datetime.fromtimestamp(value.time())
-        if type(value) is not datetime.datetime:
-            # I could try string types here, but it's just ridiculous to do so
-            raise ValueError('expected type datetime.datetime, received %s (%s)' % (value, type(value)))
-    
-    def ensure_value_is_string(value):
-        return value if type(value) is StringType else str(value)
-    
-    def ensure_value_is_int(value):
-        return value if type(value) is IntType else int(value)
-    
-    main.py
-    import validators as val
-    
-    class Field(object):
-        def __init__(self, name, clean_funcs=[], required=False, read_only=False):
-            self.name = name
-            self.clean_funcs = clean_funcs
-            self.required = required
-            self.read_only = read_only
-            
-        def clean(self, value):
-            # reducing the array is also feasible, though less readable
-            if value is None and self.required:
-                raise ValueError('%s is a required field' % (self.name))
-            for f in self.clean_funcs:
-                value = f(value)
-            return value
-    
-    class MyClass:
-        fields = {
-            'my_uuid': Field('my_uuid', [val.ensure_value_is_uuid], required=True),
-            'your_uuid': Field('your_uuid', [val.ensure_value_is_uuid], required=True),
-            'uuid_a': Field('uuid_a', [val.ensure_value_is_uuid], read_only=True),
-            'uuid_b': Field('uuid_b', [val.ensure_value_is_uuid], read_only=True),
-            'created_datetime': Field('created_datetime', [val.ensure_value_is_datetime], required=True, read_only=True),
-            'updated_datetime': Field('updated_datetime', [val.ensure_value_is_datetime]),
-            'target_datetime': Field('target_datetime', [val.ensure_value_is_datetime]),
-            'name': Field('name', [val.ensure_value_is_string], read_only=True),
-            'location': Field('location', [val.ensure_value_is_string]),
-            'num_actions_taken': Field('num_actions_taken', [val.ensure_value_is_int])
-        }
-    
-        def __init__(self, **kwargs):
-            self.__dict__['_in_init'] = True
-            for fields in self.fields.items():
-                if field.required and field.name not in kwargs:
-                    raise KeyError('%s is required' % field.name)
-                elif field.name in kwargs:
-                    self.__setattr__(field.name, kwargs[field.name])
-            self.__dict__['_in_init'] = False
-    
-        def __setattr__(self, attr_name, value):
-            field = self.fields.get(attr_name, None)
-            if not field:
-                raise AttributeError('no attribute %s in object of type %s' % (attr_name, self.__class__.__name__))
-            if field.read_only and not self.__dict__['_in_init']:
-                raise AttributeError('%s is read-only' % attr_name)
-            self.__dict__['_%s' % attr_name] = field.clean(value)
-    
-        def __getattr__(self, attr_name):
-            if attr_name not in self.fields:
-                raise AttributeError('no attribute "%s" in object of type %s' % (attr_name, self.__class__.__name__))
-            return self.__dict__['_%s' % attr_name]
+
+class MyClass:
+    fields = {
+        'my_uuid': Field('my_uuid', [val.ensure_value_is_uuid], required=True),
+        'your_uuid': Field('your_uuid', [val.ensure_value_is_uuid], required=True),
+        'uuid_a': Field('uuid_a', [val.ensure_value_is_uuid], read_only=True),
+        'uuid_b': Field('uuid_b', [val.ensure_value_is_uuid], read_only=True),
+        'created_datetime': Field('created_datetime', [val.ensure_value_is_datetime], required=True, read_only=True),
+        'updated_datetime': Field('updated_datetime', [val.ensure_value_is_datetime]),
+        'target_datetime': Field('target_datetime', [val.ensure_value_is_datetime]),
+        'name': Field('name', [val.ensure_value_is_string], read_only=True),
+        'location': Field('location', [val.ensure_value_is_string]),
+        'num_actions_taken': Field('num_actions_taken', [val.ensure_value_is_int])
+    }
+
+    def __init__(self, **kwargs):
+        self.__dict__['_in_init'] = True
+        for fields in self.fields.items():
+            if field.required and field.name not in kwargs:
+                raise KeyError('%s is required' % field.name)
+            elif field.name in kwargs:
+                self.__setattr__(field.name, kwargs[field.name])
+        self.__dict__['_in_init'] = False
+
+    def __setattr__(self, attr_name, value):
+        field = self.fields.get(attr_name, None)
+        if not field:
+            raise AttributeError('no attribute %s in object of type %s' % (attr_name, self.__class__.__name__))
+        if field.read_only and not self.__dict__['_in_init']:
+            raise AttributeError('%s is read-only' % attr_name)
+        self.__dict__['_%s' % attr_name] = field.clean(value)
+
+    def __getattr__(self, attr_name):
+        if attr_name not in self.fields:
+            raise AttributeError('no attribute "%s" in object of type %s' % (attr_name, self.__class__.__name__))
+        return self.__dict__['_%s' % attr_name]
+```
 
 Man, made a few changes, added a couple abstractions, but doesn't it feel good? You may say that it's more complex than
 it needs to be. It's my duty to prove to you that this is not the case. In the next installment, I'll hammer through

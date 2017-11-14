@@ -2,7 +2,7 @@
 title: Python Scoping
 date: 2015-12-04
 category: Software 
-tags: python, scope
+tags: python scope
 ---
 
 See, Python has a fun interpretation of scoping. Let's say I define a variable and a function at the same level, then

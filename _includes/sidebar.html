@@ -43,7 +43,7 @@
         {% if page.tags %}
         <ul>
             {% for tag in page.tags | sort_natural %}
-                <li><a href="{% include tag_link.html tag=tag %}"><i class="fa fa-dot-circle-o"></i> {{ tag | capitalize }}</a></li>
+                <li><a href="{% include tag_link.html tag=tag %}"><i class="fa fa-dot-circle-o"></i> {{ tag }}</a></li>
             {% endfor %}
         </ul>
         {% else %}
