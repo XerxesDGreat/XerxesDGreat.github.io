@@ -1,1 +1,1 @@
-{% capture target %}categories/{{ include.category | downcase }}{% endcapture %}{{ target | absolute_url }}
+{% capture target %}categories/{{ include.category | slugify }}{% endcapture %}{{ target | absolute_url }}

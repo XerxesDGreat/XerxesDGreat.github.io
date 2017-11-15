@@ -44,24 +44,17 @@
                     <li class="dropdown">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown">Categories <b class="caret"></b></a>
                         <ul class="dropdown-menu">
-                            {% assign categories = site.categories %}
-                            {% if categories.first[0] == null %}
-                                {% for category in categories | sort %}
-                                    <li>
-                                        <a href="{% include category_link.html category=category %}">{{ category | capitalize }}
-                                            <span>({{ site.categories[category].size }} posts)</span>
-                                        </a>
-                                    </li>
-                                {% endfor %}
-                            {% else %}
-                                {% for category in categories | sort: 0 %}
-                                    <li>
-                                        <a href="{% include category_link.html category=category.first %}">{{ category[0] | capitalize }}
-                                            <span class="text-small">({{ category[1].size }} posts)</span>
-                                        </a>
-                                    </li>
-                                {% endfor %}
-                            {% endif %}
+                            {% capture category_string %}{% include category_string.html categories=site.categories %}{% endcapture %}
+                            {% assign categories=category_string | split: "," | sort_natural %}
+                            {% for category in categories %}
+                                {% if category %}
+                                <li>
+                                    <a href="{% include category_link.html category=category %}">{{ category | capitalize }}
+                                        <span>({{ site.categories[category].size }} posts)</span>
+                                    </a>
+                                </li>
+                                {% endif %}
+                            {% endfor %}
                         </ul>
                     </li>
                 </ul>

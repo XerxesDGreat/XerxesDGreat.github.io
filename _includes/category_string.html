@@ -1,0 +1,1 @@
+{% for category in include.categories %}{{ category.first | strip }}{% unless category == include.categories.last %},{% endunless %}{% endfor %}
