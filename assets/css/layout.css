@@ -961,10 +961,14 @@ footer {
 	padding:10px 0;
 	font-size:13px;
 	background:#0F1113;
-	position:relative;
+	position:absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
 }
 	footer .copyright {
 		padding-top:10px;
+        color: #fdfdfd;
 	}
 	footer .copyright i.fa-heart {
 		color:#D05B51;

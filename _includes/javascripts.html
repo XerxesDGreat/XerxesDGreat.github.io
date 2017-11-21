@@ -24,12 +24,12 @@
 
 <script type="text/javascript" src="{{ site.baseurl }}/assets/js/application.js"></script>
 
-{% if GOOGLE_ANALYTICS %}
+{% if site.google_analytics.enable %}
   <script type="text/javascript">
     var _gaq = _gaq || [];
-    _gaq.push(['_setAccount', '{{ GOOGLE_ANALYTICS }}']);
-    {% if GOOGLE_ANALYTICS_DOMAIN %}
-      _gaq.push(['_setDomainName', '{{ GOOGLE_ANALYTICS_DOMAIN }}']);
+    _gaq.push(['_setAccount', '{{ site.google_analytics.id }}']);
+    {% if site.google_analytics.domain_name %}
+      _gaq.push(['_setDomainName', '{{ site.google_analytics.domain_name }}']);
     {% endif %}
     _gaq.push(['_setAllowLinker', true]);
     _gaq.push(['_trackPageview']);

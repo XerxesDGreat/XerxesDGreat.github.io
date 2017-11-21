@@ -10,7 +10,7 @@ logo:             images/logo.png # logo visible in the topbar
 # Your site's domain goes here (eg: //mmistakes.github.io, http://mademistakes.com, etc)
 # When testing locally leave blank or use http://localhost:4000
 
-url: https://beacoding.pro
+url: https://i-josh.com
 
 banner:
   images:
@@ -53,6 +53,9 @@ background:
 
 # Analytics and webmaster tools stuff goes here
 google_analytics:
+  enable: true
+  id: "UA-59670577-1"
+
 google_verify:
 # https://ssl.bing.com/webmaster/configure/verify/ownership Option 2 content= goes here
 bing_verify:
