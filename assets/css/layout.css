@@ -1410,3 +1410,32 @@ a.service:hover i {
 h3.listing_section_head {
     margin-top: 30px;
 }
+
+/** 16. Masonry
+ **************************************************************** **/
+div.masonry {
+    column-width: 360px;
+    column-count: 3;
+    column-gap: 15px;
+}
+
+div.masonry-brick {
+    background-color: #ccc;
+    display: inline-block;
+    margin: 0 0 10px;
+    width: 100%;
+    padding: 10px;
+    break-inside: avoid;
+    -webkit-column-break-inside: avoid;
+    transition: opacity .4s ease-in-out;
+    box-shadow: 0 1px 2px rgba(34, 25, 25, 0.4);
+    border: 2px solid #fcfcfc;
+}
+
+div.masonry:hover figure:not(:hover) {
+    opacity: 0.4;
+}
+
+div.masonry-brick img {
+    width: 100%
+}

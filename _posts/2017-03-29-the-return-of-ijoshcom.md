@@ -1,8 +1,9 @@
 ---
 title: The Return of i-josh.com
 date: 2017-03-29
-category: misc
+category: Thoughts
 tags: 
+- meta
 ---
 
 I haven't posted an update since December 2015 and that's a long time. It is time to remedy that! Therefore I'm going

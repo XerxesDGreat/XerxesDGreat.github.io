@@ -25,16 +25,20 @@
             {% else %}
                 {% assign posts=site.posts %}
             {% endif %}
-            {% assign grouped_posts=posts | group_by_exp:"post", "post.date | date:'%Y'" %}
-            {% for posts_for_year in grouped_posts %}
-                <h3 class="listing_section_head">{{ posts_for_year.name }}</h3>
-                {% for post in posts_for_year.items %}
-                    <p>
+            <div class="masonry">
+            {% for post in posts %}
+                <div class="masonry-brick">
+                    <div class="header">
+                        <a href="{{ post.url | absolute_url }}">{{ post.title }}</a><br />
                         <span class="label label-default light">{{ post.date | date: "%Y-%m-%d" }}</span>
-                        <a href="{{ post.url | absolute_url }}">{{ post.title }}</a>
-                    </p>
-                {% endfor %}
+                    </div>
+                    <div class="content">
+                        {% if post.excerpt == post.content %}{{ post.content | truncatewords: 100 }}{% else %}{{ post.excerpt }}{% endif %}<br />
+                        <a href="{{ post.url | absolute_url }}" class="btn btn-xs"><i class="fa fa-sign-out"></i> READ MORE</a>
+                    </div>
+                </div>
             {% endfor %}
+            </div>
         </div>
         {% endcapture %}
 

@@ -2,7 +2,10 @@
 title: Time Lapse LEGO Assembly, Detective's Office
 date: 2015-03-26
 category: Projects
-tags: Lego, timelapse, video
+tags:
+- lego
+- timelapse
+- video
 ---
 
 In preparation for other ideas, I decided to try out a few things to make a timelapse of me building one of my recent

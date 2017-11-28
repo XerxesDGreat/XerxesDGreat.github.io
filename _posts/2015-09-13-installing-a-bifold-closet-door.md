@@ -2,7 +2,8 @@
 title: Installing a Bi-Fold Closet Door
 date: 2015-09-13
 category: Projects
-tags: home improvement
+tags:
+- home improvement
 ---
 
 We had some ugly sliding doors on the closet. I mean ugly. Nice and 70's brown. Top that off, the doors swung back and

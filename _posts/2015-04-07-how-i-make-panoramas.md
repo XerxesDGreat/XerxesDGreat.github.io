@@ -2,7 +2,10 @@
 title: How I Make Panoramas
 date: 2015-04-07
 category: Photography
-tags: panorama, instructional, Autopano
+tags: 
+- panorama
+- instructional
+- autopano
 ---
 
 A few people have asked me how I put together panoramic photos like [these][cruise], so I figured I'd write a post about

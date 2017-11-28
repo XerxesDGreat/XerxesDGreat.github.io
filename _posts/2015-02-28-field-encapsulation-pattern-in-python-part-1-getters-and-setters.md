@@ -2,7 +2,11 @@
 title: Field encapsulation pattern in Python, part 1 - Getters and Setters
 date: 2015-02-28
 category: Software
-tags: python getter/setter pattern encapsulation
+tags:
+- python
+- getter/setter
+- pattern
+- encapsulation
 ---
 
 ### Some background

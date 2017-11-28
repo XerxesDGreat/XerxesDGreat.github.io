@@ -2,7 +2,11 @@
 title: Python Instance Method References
 date: 2015-04-14
 category: Software
-tags: python, method references, callback, method binding
+tags: 
+- python
+- method references
+- callback
+- method binding
 ---
 
 So, I came across something pretty interesting while coding in Python today. I was writing a system in which I have to
@@ -12,6 +16,8 @@ experience today.
 
 I have one class which takes a function or a list of functions for calling later; the signature of the function will
 look like this:
+
+<!-- more -->
 
 ```python
 # defining the callback

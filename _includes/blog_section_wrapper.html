@@ -3,7 +3,7 @@
 <section id="blog" class="blog-page">
     <article class="container">
         <div class="row">
-            <div class="left col-md-9">
+            <div class="left {% if include.show_sidebar %}col-md-9{% else %}col-md-12{% endif %}">
                 {{ include.content }}
             </div>
             {% if include.show_sidebar %}

@@ -2,7 +2,9 @@
 title: Daisy Stitch Knit Hat
 date: 2015-02-10
 category: Projects
-tags: knitting, knitting on the train
+tags:
+- knitting
+- knitting on the train
 ---
 
 So, one of the hobbies or crafts or whatever I've gotten into from time to time is knitting. I made a pretty nice scarf

@@ -2,7 +2,8 @@
 title: New Site Layout!
 date: 2015-03-10
 category: Thoughts
-tags: 
+tags:
+- meta
 ---
 
 Hey all, in lieu of finishing the field encapsulation series, I thought I'd bring you

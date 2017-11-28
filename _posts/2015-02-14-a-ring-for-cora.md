@@ -2,7 +2,9 @@
 title: A Ring for Cora
 date: 2015-02-14
 category: Projects
-tags: Cora, woodworking
+tags:
+- Cora
+- woodworking
 ---
 
 HAPPY VALENTINE'S DAY!

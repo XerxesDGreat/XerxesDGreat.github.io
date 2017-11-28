@@ -2,7 +2,9 @@
 title: Playhouse, part 1
 date: 2014-08-11
 category: Projects
-tags: woodworking, playhouse
+tags: 
+- woodworking
+- playhouse
 ---
 
 After doing a lot of searching, I decided on a plan for the playhouse. It's basically [this idea](http://lumberjocks.com/projects/69275), with the potential of putting a swing set in front of the balcony at some point. I'm gonna be adding some climbing stuff as that's what Cora likes! I'm splitting it up into a couple stages, the first stage is building the elevated deck which will be the floor to the top story.

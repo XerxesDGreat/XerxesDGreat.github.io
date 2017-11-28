@@ -2,7 +2,10 @@
 title: Well, It's About Time!
 date: 2015-11-16
 category: Thoughts
-tags: reflection, introspection
+tags: 
+- reflection
+- introspection
+- time
 ---
 
 What to do, what to do? That's always the question, isn't it?

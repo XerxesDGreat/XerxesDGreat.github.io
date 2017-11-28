@@ -2,7 +2,9 @@
 title: Cora's Playhouse, part 3
 date: 2015-04-02
 category: Projects
-tags: woodworking, playhouse
+tags: 
+- woodworking
+- playhouse
 ---
 
 Quick update: I finished off the front wall and got it in place. Due to some bad calculations, it turns out I wasted

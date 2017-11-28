@@ -2,7 +2,10 @@
 title: Time Lapse LEGO Assembly, Crawler Crane
 date: 2015-12-08
 category: Projects
-tags: Lego, timelapse, video
+tags: 
+- lego
+- timelapse
+- video
 ---
 
 Timelapse time again! This time, it's the massive [Crawler Crane (#42042)][store_link], complete with various actions!

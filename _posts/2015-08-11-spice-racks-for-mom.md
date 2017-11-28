@@ -2,7 +2,12 @@
 title: Spice Racks for Mom
 date: 2015-08-11
 category: Projects
-tags: spice rack, Mother's Day, walnut, planing
+tags:
+- spice rack
+- mother's day
+- walnut
+- planing
+- woodworking
 ---
 
 So, for Mother's Day, Mom wanted some spice racks. Well, the plastic ones on Amazon weren't very good looking (in my

@@ -2,7 +2,10 @@
 title: Baraka Review
 date: 2015-04-22
 category: Reviews
-tags: documentary, Ron Fricke, cinematography
+tags: 
+- documentary
+- Ron Fricke
+- cinematography
 ---
 
 TL;DR: Riveting without a plot and stunningly beautiful

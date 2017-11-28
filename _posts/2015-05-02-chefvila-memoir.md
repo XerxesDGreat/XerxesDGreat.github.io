@@ -2,7 +2,9 @@
 title: ChefVille - A Memoir
 date: 2015-05-02
 category: Thoughts
-tags: ChefVille, Zynga
+tags: 
+- chefville
+- zynga
 ---
 
 ![ChefVille][chefville]

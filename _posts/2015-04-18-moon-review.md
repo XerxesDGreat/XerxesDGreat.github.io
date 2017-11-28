@@ -2,7 +2,12 @@
 title: Moon Review
 date: 2015-04-18
 category: Reviews
-tags: Kevin Spacey, Sam Rockwell, science fiction, film, Duncan Jones
+tags: 
+- Kevin Spacey
+- Sam Rockwell
+- science fiction
+- film
+- Duncan Jones
 ---
 
 TL;DR: Man, I really wish they made more movies like this. Amazing!

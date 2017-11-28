@@ -2,7 +2,10 @@
 title: Time Lapse LEGO Assembly, The Tumbler
 date: 2015-03-29
 category: Projects
-tags: Lego, timelapse, video
+tags: 
+- lego
+- timelapse
+- video
 ---
 
 Okay, so I'm supposed to wait till Tuesday to release this post... but I don't want to wait. I think this is damn cool,

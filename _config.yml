@@ -110,6 +110,6 @@ page_layout: page
 titlecase: true
 excerpt_separator: <!-- more -->
 
-include: [".htaccess"]
+include: [".htaccess", "_pages"]
 exclude: ["lib", "config.rb", "Capfile", "config", "Gemfile", "Gemfile.lock", "README.md", "LICENSE", "log", "Rakefile", "Rakefile.rb", "tmp", "less", "*.sublime-project", "*.sublime-workspace", "test", "spec", "Gruntfile.js", "package.json", "node_modules"]
 plugins: [jekyll-paginate, jekyll-sitemap]

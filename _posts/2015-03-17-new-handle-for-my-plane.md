@@ -2,7 +2,10 @@
 title: New Handle for my Plane
 date: 2015-03-17
 category: Projects
-tags: woodworking, tool-building
+tags:
+- woodworking
+- tool-building
+- photo
 ---
          
 

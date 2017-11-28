@@ -2,7 +2,11 @@
 title: Ebony Ring for Shanin
 date: 2015-04-16
 category: Projects
-tags: woodworking, ring, jewelry, bent wood
+tags: 
+- woodworking
+- ring
+- jewelry
+- bent wood
 ---
 
 So, I like making rings. I've been working at getting better at it, but I haven't done too many lately. The only problem

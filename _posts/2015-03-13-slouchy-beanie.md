@@ -2,7 +2,9 @@
 title: Slouchy Beanie
 date: 2015-03-13
 category: Projects
-tags: knitting, knitting on the train
+tags:
+- knitting
+- knitting on the train
 ---
 
 The latest in my "Knitting on the Train" series is a slouchy beanie!

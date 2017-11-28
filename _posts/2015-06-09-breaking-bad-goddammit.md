@@ -2,7 +2,8 @@
 title: Breaking Bad (Goddammit)
 date: 2015-06-09
 category: Reviews
-tags: Breaking Bad
+tags: 
+- Breaking Bad
 ---
 
 Man, this is the first sentence into this post, and I already hate myself. I don't wanna write a post on _Breaking Bad_;

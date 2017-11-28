@@ -2,7 +2,9 @@
 title: Why Date-based Features are actually good
 date: 2014-10-30
 category: Thoughts
-tags: software, product
+tags:
+- software
+- product
 ---
 
 I know I don't talk about work or work-related subjects very frequently, but considering how much of my time it takes up,

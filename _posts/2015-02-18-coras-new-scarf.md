@@ -2,7 +2,9 @@
 title: Cora's New Scarf
 date: 2015-02-18
 category: Projects
-tags: knitting, Cora
+tags:
+- knitting
+- Cora
 ---
 
 Because there's only so many things I can make for myself, and because I am enjoying knitting on the train (except for

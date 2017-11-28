@@ -2,7 +2,10 @@
 title: Mr. Nobody Review
 date: 2015-07-26
 category: Reviews
-tags: jared leto, mr. nobody, surreal
+tags:
+- Jared Leto
+- Mr. Nobody
+- surreal
 ---
 
 TL; DR: Interesting, thought-provoking, philosophically deep. Worth a watch

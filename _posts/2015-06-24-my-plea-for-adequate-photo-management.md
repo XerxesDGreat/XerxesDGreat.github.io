@@ -2,7 +2,13 @@
 title: My Plea for Adequate Photo Management
 date: 2015-06-24
 category: Projects
-tags: photos, Google Photos, Dropbox, CrashPlan, organization, IFTTT
+tags: 
+- photo
+- google photos
+- dropbox
+- crashplan
+- organization
+- ifttt
 ---
 
 If there's one thing which you'd think computers and software had solved by now, it's photos. There are so many

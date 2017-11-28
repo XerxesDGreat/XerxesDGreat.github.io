@@ -2,7 +2,11 @@
 title: Custom Purpose Robot
 date: 2014-07-15
 category: Projects
-tags: LEGO, software, programming, robot
+tags:
+- lego
+- software
+- programming
+- robot
 ---
 
 I got an idea for a custom-purpose robot. Basically, the idea is to make something which is able to take a DVD off a

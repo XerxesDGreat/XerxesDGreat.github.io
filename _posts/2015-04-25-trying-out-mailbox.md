@@ -2,7 +2,11 @@
 title: Trying out Mailbox
 date: 2015-04-25
 category: Thoughts
-tags: email, productivity, Android, iOS
+tags: 
+- email
+- productivity
+- android
+- ios
 ---
 
 Since I got a new phone (Samsung Galaxy S5) and since it's my first foray into full-time android use (I dumped my iPhone

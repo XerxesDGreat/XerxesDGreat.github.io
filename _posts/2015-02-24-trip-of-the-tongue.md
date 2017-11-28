@@ -2,7 +2,10 @@
 title: Trip of the Tongue
 date: 2015-02-24
 category: Reviews
-tags: Book, Non-fiction, Language
+tags: 
+- book
+- non-fiction
+- language
 ---
          
 TL;DR: Read it if you like Bill Bryson or history or languages.

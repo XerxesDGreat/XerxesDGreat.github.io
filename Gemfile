@@ -8,4 +8,5 @@ gem 'sequel'
 gem 'mysql2'
 gem 'htmlentities'
 gem 'jekyll-import'
+gem 'stringex'
 

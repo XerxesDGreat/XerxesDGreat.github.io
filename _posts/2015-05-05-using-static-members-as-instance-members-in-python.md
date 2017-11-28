@@ -2,7 +2,12 @@
 title: Using Static Members as Instance Members in Python
 date: 2015-05-05
 category: Software
-tags: Python, inheritance, object-oriented programming, static, instance
+tags:
+- python
+-  inheritance
+- object-oriented programming
+- static
+- instance
 ---
 
 In the Field system I built with Python (covered in the Field Encapsulation Pattern series of posts, found

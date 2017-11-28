@@ -2,7 +2,10 @@
 title: Time Lapse LEGO Assembly, Coruscant Police Gunship
 date: 2015-12-04
 category: Projects
-tags: Lego, timelapse, video
+tags: 
+- lego
+- timelapse
+- video
 ---
 
 Hey all, finally did another timelapse of LEGO assembly. Today's treat is the venerable Coruscant Police Gunship

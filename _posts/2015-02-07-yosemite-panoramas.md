@@ -2,7 +2,9 @@
 title: Yosemite Panoramas
 date: 2015-02-07
 category: Photography
-tags: panorama, vacation
+tags:
+- panorama
+- vacation
 layout: panorama
 panogroup: yosemite
 ---

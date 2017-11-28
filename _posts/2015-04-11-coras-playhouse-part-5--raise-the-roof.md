@@ -2,7 +2,9 @@
 title: Cora's Playhouse, part 5 - Raise the Roof!
 date: 2015-04-11
 category: Projects
-tags: woodworking, playhouse
+tags: 
+- woodworking
+- playhouse
 ---
 
 I missed the update last Thursday. Well, not so much "missed" as "decided not to do"; I was beat. I've had this week

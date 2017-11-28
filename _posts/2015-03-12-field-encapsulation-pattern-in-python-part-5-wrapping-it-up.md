@@ -2,7 +2,13 @@
 title: Field encapsulation pattern in Python, part 5 - Wrapping it up
 date: 2015-03-12
 category: Software
-tags: python getter/setter pattern encapsulation __setattr__ __getattr__
+tags:
+- python
+- getter/setter
+- pattern
+- encapsulation
+- __setattr__
+- __getattr__
 ---
 
 We're here! To now, we've come through [part 1][part1], [part 2][part2], [part 3][part3], and [part 4][part4], and now

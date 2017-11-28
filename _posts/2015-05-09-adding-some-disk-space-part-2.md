@@ -2,7 +2,11 @@
 title: Adding Some Disk Space, part 2
 date: 2015-05-09
 category: Thoughts
-tags: raid, backup, CrashPlan, external hard drive
+tags: 
+- raid
+- backup
+- crashplan
+- external hard drive
 ---
 
 So, I didn't get started with this on Thursday. In fact, it wasn't till Saturday that I decided to actually take the

@@ -2,7 +2,8 @@
 title: Monitor Stand
 date: 2015-02-21
 category: Projects
-tags: woodworking
+tags: 
+- woodworking
 ---
 
 This isn't news or anything, but apparently [sitting][1] in a [chair all day][2] is [pretty bad][3] for you,

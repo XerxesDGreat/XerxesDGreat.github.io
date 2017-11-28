@@ -2,7 +2,9 @@
 title: The Problem with Service-Oriented Architecture
 date: 2015-04-30
 category: Software
-tags: service-oriented architecture, soa
+tags: 
+- service-oriented architecture
+- soa
 ---
 
 If you've followed the tech world as it pertains to start-ups and code deployment strategies, one of the

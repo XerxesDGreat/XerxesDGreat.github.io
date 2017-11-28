@@ -2,7 +2,11 @@
 title: Adding Some Disk Space
 date: 2015-05-07
 category: Thoughts
-tags: raid, backup, CrashPlan, external hard drive
+tags: 
+- raid
+- backup
+- crashplan
+- external hard drive
 ---
 
 I'm sure we all have one of those "there is NO WAY I could possibly use that much hard disk space" moments, and I'm sure

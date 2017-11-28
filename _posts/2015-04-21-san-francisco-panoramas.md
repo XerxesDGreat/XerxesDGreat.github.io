@@ -2,7 +2,10 @@
 title: San Francisco Panoramas
 date: 2015-04-21
 category: Photography
-tags: panorama, vacation, san francisco
+tags: 
+- panorama
+- vacation
+- san francisco
 layout: panorama
 panogroup: san_francisco
 ---

@@ -3,6 +3,8 @@ title: Shoe Bench, part 1
 date: 2014-08-07
 category: Projects
 tags: 
+- woodworking
+- photo
 ---
 
 I'm making a bench for shoes, both to store them and for sitting on to put them on. I've decided to use stuff that I

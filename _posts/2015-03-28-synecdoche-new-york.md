@@ -2,7 +2,9 @@
 title: Synecdoche, New York
 date: 2015-03-28
 category: Reviews
-tags: philip seymour hoffman, movies
+tags: 
+- Philip Seymour Hoffman
+- movies
 ---
 
 So, I almost didn't get a post in today because I was trying to hurry a treat for y'all. However, I decided to not rush

@@ -2,7 +2,9 @@
 title: Fun With Trello
 date: 2015-02-17
 category: Thoughts
-tags: Productivity, Software
+tags:
+- productivity
+- software
 ---
 
 ### Get productive!

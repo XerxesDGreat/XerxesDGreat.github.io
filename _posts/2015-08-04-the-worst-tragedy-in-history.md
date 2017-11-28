@@ -2,7 +2,9 @@
 title: The Worst Tragedy in History
 date: 2015-08-04
 category: Thoughts
-tags: lumber, hard wood store
+tags:
+- lumber
+- hard wood store
 ---
 
 I have a tragedy to report. Last month, one of the bastions of history has melted away. Southern Lumber, the most

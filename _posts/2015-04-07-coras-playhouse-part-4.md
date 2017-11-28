@@ -2,7 +2,9 @@
 title: Cora's Playhouse, part 4
 date: 2015-04-07
 category: Projects
-tags: woodworking, playhouse
+tags: 
+- woodworking
+- playhouse
 ---
 
 Okay, so I'm not going to gripe too much about having a rainy day. I mean, we need the rain. We're in a drought. All the

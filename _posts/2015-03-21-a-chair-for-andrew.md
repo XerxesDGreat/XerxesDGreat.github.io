@@ -2,7 +2,9 @@
 title: A Chair for Andrew
 date: 2015-03-21
 category: Projects
-tags: woodworking, furniture
+tags:
+- woodworking
+- furniture
 ---
 
 Since I'm preparing a couple more in-depth posts and will be occupied with other things on Saturday, I'm gonna release

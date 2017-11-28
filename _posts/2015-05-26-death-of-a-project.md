@@ -2,7 +2,8 @@
 title: Death of a Project
 date: 2015-05-26
 category: Software
-tags: software management
+tags: 
+- software management
 ---
 
 It's never easy saying good bye. Sometimes you see it coming, sometimes you intuit that it's going to happen, and 

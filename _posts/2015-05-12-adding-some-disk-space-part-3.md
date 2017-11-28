@@ -2,7 +2,11 @@
 title: Adding Some Disk Space, part 3
 date: 2015-05-12
 category: Thoughts
-tags: raid, backup, CrashPlan, external hard drive
+tags: 
+- raid
+- backup
+- crashplan
+- external hard drive
 ---
 
 Let's see, where did I leave off in [the last installment][ep2]? Oh yeah, setting up the level 5 array with just the

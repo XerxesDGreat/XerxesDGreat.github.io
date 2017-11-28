@@ -2,7 +2,12 @@
 title: Neuromancer
 date: 2015-02-26
 category: Reviews
-tags: review, book, fiction, cyberpunk, sci-fi
+tags: 
+- review
+- book
+- fiction
+- cyberpunk
+- sci-fi
 ---
 
 TL;DR: Awesome. Read it.

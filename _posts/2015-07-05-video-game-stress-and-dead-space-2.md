@@ -2,7 +2,11 @@
 title: Video Game Stress and Dead Space 2
 date: 2015-07-05
 category: Reviews
-tags: dead space, dead space 2, horror, video game
+tags: 
+- dead space
+- dead space 2
+- horror
+- video game
 ---
 
 TL;DR: Absolutely amazing game (as is _Dead Space_)... but certainly not for everyone.
