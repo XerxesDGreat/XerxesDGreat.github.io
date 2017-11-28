@@ -45,5 +45,16 @@
         {% include blog_section_wrapper.html content=list_content %}
 
         {% include footer.html %}
+        <script type="text/javascript">
+            var $grid = $('.masonry').masonry({
+                itemSelector: '.masonry-brick',
+                columnWidth: 350,
+                gutter: 15,
+                horizontalOrder: true
+            });
+            $grid.imagesLoaded().progress(function() {
+                $grid.masonry('layout');
+            })
+        </script>
     </body>
 </html>
