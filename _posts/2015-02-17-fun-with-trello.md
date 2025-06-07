@@ -42,7 +42,7 @@ The defacto open-source bug tracking application. Chances are if you've worked w
 they do at least some of their bug tracking in Bugzilla. I'll be honest, I haven't had much luck with
 any of the Mozilla foundation's software; passing this up.
 
-#### [Trac](http://trac.edgewall.org/)
+#### [Trac](https://trac.edgewall.org/)
 ![trac screenshot](/assets/img/posts/fun-with-trello/trac.jpg)Man, I was hopeful about this one. It has a lot of what I was looking for when it comes to features. But,
 as you can guess, there were problems. Some of the functionality is added via plugins and they don't
 necessarily play well with each other, or indeed with the main framework. Also, doing just about everything
@@ -50,7 +50,7 @@ is CLUNKY. Stuff which, in my opinion, should take one step will end up taking t
 this one.
 
 ### Winner winner, chicken dinner!
-And now, to the point of this post. I ended up landing on [Trello](http://www.trello.com). This one is different from the apps listed
+And now, to the point of this post. I ended up landing on [Trello](https://www.trello.com). This one is different from the apps listed
 above: it doesn't purport to be bug-tracking software (and, admittedly, perhaps that was my problem from the get-go). It can be used as such, but it's mainly just a kind of to-do
 organizer. And, after reflection, that's kinda what I'm looking for: something to organize all the things I need/want to
 do. There's no set workflow, so you can create one if you like... or not. Tasks can be grouped by various different

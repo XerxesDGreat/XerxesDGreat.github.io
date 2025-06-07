@@ -29,7 +29,7 @@ divorced when he was 9 and he leaves with his mom. No, he stays with his dad. At
 father and falls for a girl named Elise. But, if he did that, how can he be living with his mother and in love with Anna?
 Now, he's 34 years old and married to Jean. Wait, who the hell is Jean?
 
-Without giving too much away (and, honestly, if you go to [the IMDb page for the movie](http://www.imdb.com/title/tt0485947/?ref_=nm_knf_i3), you'll get the same),
+Without giving too much away (and, honestly, if you go to [the IMDb page for the movie](https://www.imdb.com/title/tt0485947/?ref_=nm_knf_i3), you'll get the same),
 this movie is Shrödinger's Life: everything is a possibility. The movie stems from 9-year-old Nemo's inability to choose
 between staying with his father and going with his mother. All roads from that point up to Nemo in 2094 are possible
 because a choice has not been made.

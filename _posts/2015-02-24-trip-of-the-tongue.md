@@ -19,7 +19,7 @@ indicates a very brief, often one sentence, summary. Or, you know, you could go 
 
 ![Trip of the Tongue cover](/assets/img/posts/trip-of-the-tongue/trip_of_the_tongue.jpg)
 
-The first installment is about the book I recently read: [_Trip of the Tongue_ by Elizabeth Little](http://www.amazon.com/Trip-Tongue-Cross-Country-Americas-Languages/dp/1596916567). The story
+The first installment is about the book I recently read: [_Trip of the Tongue_ by Elizabeth Little](https://www.amazon.com/Trip-Tongue-Cross-Country-Americas-Languages/dp/1596916567). The story
 follows the author around the United States, getting a feel for the languages - other than English - spoken there. Some
 languages, such as Spanish in New Mexico or Hatian Creole in Miami, are fairly widely spoken and thriving; others, like
 Crow in Montana or Norwegian in North Dakota, are dying as their speakers convert to using English.

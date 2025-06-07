@@ -15,7 +15,7 @@ and I'm gonna share it with you NOW! I made a timelapse of assembling The Tumble
 
 As you may know, I really like Batman. I mean, I'm not a fanatic or anything, but I've seen all the recent live-action
 movies, played the recent video games, etc. I liked the first two iterations of the Tim Burton reboot of Batman, the ones
-with Michael Keaton, and bought the model of [The Batmobile](http://brickset.com/sets/7784-1/The-Batmobile-Ultimate-Collectors-Edition) when that came out. At the time, it was one of the bigger
+with Michael Keaton, and bought the model of [The Batmobile](https://brickset.com/sets/7784-1/The-Batmobile-Ultimate-Collectors-Edition) when that came out. At the time, it was one of the bigger
 sets that I'd put together. Come to think of it, it still is one of the larger sets I have!
 
 ![The Batmobile](/assets/img/posts/time-lapse-lego-assembly-the-tumbler/tim_burton_batmobile.jpg)
@@ -30,13 +30,13 @@ has one of every rare car out there!
 
 Any rate, I created a timelapse of putting together The Tumbler in much the same way I did [the Detective's Office]({{ site.baseurl }}{% link _posts/2015-03-26-time-lapse-lego-assembly-detectives-office.md %})
 with two major exceptions: instead of using the ```mogrify``` command, I decided to try and use Python's [Pillow (a
-fork of PIL)](http://pillow.readthedocs.org/) to resize images. Once I'd installed it, I ran a script (included toward the bottom, in case you're
+fork of PIL)](https://pillow.readthedocs.org/) to resize images. Once I'd installed it, I ran a script (included toward the bottom, in case you're
 interested) to resize into 720p and 1080p (for testing video sizes); resizing to BOTH image sizes was about 6x faster
 using python than when using ```mogrify```. Side note: after doing the size testing, I found that the 720p raw video
 was 151MB while the 1080p was 266MB; not quite as much savings as I calculated, but still much better for uploading to
 YouTube!
 
-The other major exception was that I used [OpenShot](http://www.openshot.org/), an open-source video editor to combine the stills, the
+The other major exception was that I used [OpenShot](https://www.openshot.org/), an open-source video editor to combine the stills, the
 video, the audio, and get it all lined up right. I'm not thrilled with the software, but it's free and open source, so
 if I have that much of a problem, I can go and modify it. Also it got the job done, so who am I to complain?
 

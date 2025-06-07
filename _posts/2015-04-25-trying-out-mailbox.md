@@ -17,7 +17,7 @@ I'd write about it.
 ![Mailbox overview](/assets/img/posts/trying-out-mailbox/mailbox_overview.jpg)
 
 The app is simply called
-"Mailbox" ([www.mailboxapp.com](http://www.mailboxapp.com)) and, just like its name suggests, it is an email client. However,
+"Mailbox" ([www.mailboxapp.com](https://www.mailboxapp.com)) and, just like its name suggests, it is an email client. However,
 there's some additional functionality which intrigued me. Caveat up front, though: they've only got iOS, Android and
 Mac OS clients; they don't even have a web client. Therefore, if you're constantly going between non-Mac computer and
 a device with your email, this may not be the best for you.

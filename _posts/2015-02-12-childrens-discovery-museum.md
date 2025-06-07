@@ -34,7 +34,7 @@ We also played with different types of building materials (no LEGO, sadly), and 
 said building materials.
 
 ![them things is big!](/assets/img/posts/childrens-discovery-museum/img_0504.jpg)
-![building a castle](images/.jpg)
+![building a castle](/assets/img/posts/childrens-discovery-museum/img_0512.jpg)
 ![cheezin it](/assets/img/posts/childrens-discovery-museum/img_0514.jpg)
 ![dancing in the castle we built](/assets/img/posts/childrens-discovery-museum/img_0516.jpg)
 
@@ -44,7 +44,7 @@ volunteers and chose a girl right next to her to come on stage, but that girl ha
 from elsewhere in the audience. Poor Cora misunderstood and went up there anyway. Then, before they did the bow, she
 wasn't listnening and jetted over to sit back down and did the bow elsewhere. I got a giggle out of it.
 
-![volunteering](images/img0522.jpg)
+![volunteering](/assets/img/posts/childrens-discovery-museum/img0522.jpg)
 ![taking a bow](/assets/img/posts/childrens-discovery-museum/img_0526.jpg)
 
 And we finally ended up... in the water zone, where she got more wet than while she was playing in the actual rain.

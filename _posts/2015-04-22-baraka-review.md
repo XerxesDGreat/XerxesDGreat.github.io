@@ -44,7 +44,7 @@ So, just to get a sense, have a look at a few of the screenshots. Copyright the 
 
 ![five](/assets/img/posts/baraka-review/baraka_screenshot_5.jpg)
 
-You can find many more screenshots, plus a much more... official review [here](http://www.highdefdiscnews.com/baraka-blu-ray-disc-review/). Or, you could, you know,
+You can find many more screenshots, plus a much more... official review [here](https://www.highdefdiscnews.com/baraka-blu-ray-disc-review/). Or, you could, you know,
 watch the movie...
 
 All in all, it's just an incredible piece of cinematography and is always, as I said before, stunningly beautiful!

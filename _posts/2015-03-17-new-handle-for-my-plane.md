@@ -40,7 +40,7 @@ hell out of the old handle. That stayed together for quite a while, several mont
 with a particularly difficult piece of wood and I slammed the plane down a couple times; that broke the handle again.
 
 Not long ago, I booked myself in an instructional workshop on how to use maintain your hand plane, and you can bring your
-own plane to get it tuned up. I'm pretty excited about the class; I found it at [The Sawdust Shop in Santa Clara](http://www.sawdustshop.com/classdetails.asp?id=37),
+own plane to get it tuned up. I'm pretty excited about the class; I found it at [The Sawdust Shop in Santa Clara](https://www.sawdustshop.com/classdetails.asp?id=37),
 and there seem to be a few interesting classes, not to mention available shop time for members. Maybe I'll get a membership
 and do my resawing and bigger operations there! Because of the class, I needed to get my plane in working condition and
 decided to bite the bullet and make the new one. There were some interesting things I had to do, including drilling a 

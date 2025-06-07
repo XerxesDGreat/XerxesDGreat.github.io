@@ -10,7 +10,7 @@ Hey all, in lieu of finishing the field encapsulation series, I thought I'd brin
 this announcement: I made my site prettier! Woo! Please take a look around and tell me what you think!
 
 I based this on a couple sources. The main structure and many of the accoutrements are based on [KenMercusLai's 
-theme BT3-Flat](https://github.com/KenMercusLai/BT3-Flat) and the color scheme came from [Templated.co's theme Mongoose](http://templated.co/mongoose). The pictures
+theme BT3-Flat](https://github.com/KenMercusLai/BT3-Flat) and the color scheme came from [Templated.co's theme Mongoose](https://templated.co/mongoose). The pictures
 on the main page are all ones I took; I'll be changing them up from time to time as I go through old
 images or take new ones I like.
 

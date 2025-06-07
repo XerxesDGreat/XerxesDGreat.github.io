@@ -13,15 +13,15 @@ of which were very good). Recently, I've gotten back into it a little. I made a 
 have other post(s) for those later) and was happy with the way Cora's turned out.
 
 Because I like hats, I decided to knit a hat for myself. I browsed through various (easy!) patterns and found one I
-liked [on this blog](http://knitbot.com/blog/2010/11/22/daisy-chain-hat-pattern). It had the right mix of not-completely-boring and easy-to-make, so I thought I'd give it
+liked [on this blog](https://knitbot.com/blog/2010/11/22/daisy-chain-hat-pattern). It had the right mix of not-completely-boring and easy-to-make, so I thought I'd give it
 a shot.
 
-![My hat selfie](images/dsc_2606.jpg)
+![My hat selfie](/assets/img/posts/daisy-stitch-knit-hat/dsc_2606.jpg)
 
 Turned out pretty good, I think. Of course, the first thing Shanin says to me is "it would look better on a girl". So
 now I'm basically too self-conscious to wear the damn thing. Boo!
 
-![hat flat](images/dsc_2607.jpg)
+![hat flat](/assets/img/posts/daisy-stitch-knit-hat/dsc_2607.jpg)
 
 Any rate, if there's anyone out there who wants a nice, hand-made, warm hat which looks pretty good FOR FREE, just lemme
 know. Since my site isn't fully operational, hit me up [on Facebook](https://www.facebook.com/josh.wickham) and lemme know. Seriously, it's free. I know

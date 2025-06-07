@@ -12,7 +12,7 @@ tags:
 
 TL;DR: Awesome. Read it.
 
-For my next installment in the reviews series, I listened to [William Gibson's debut novel _Neuromancer_](http://www.audible.com/pd/Sci-Fi-Fantasy/Neuromancer-Audiobook/B0057HR4E6/ref=a_search_c4_1_1_srImg?qid=1424983533&sr=1-1) from 1984,
+For my next installment in the reviews series, I listened to [William Gibson's debut novel _Neuromancer_](https://www.audible.com/pd/Sci-Fi-Fantasy/Neuromancer-Audiobook/B0057HR4E6/ref=a_search_c4_1_1_srImg?qid=1424983533&sr=1-1) from 1984,
 narrated by Robertson Dean. Now, I've been listening to audio books and podcasts for some time, trying to alleviate the
 boredom of commuting from San Jose to San Francisco (and, previously, from Fairfield to Sacramento) while making up for
 lost reading time, and it's not frequently that I come across a presentation as good as this one!
@@ -43,15 +43,15 @@ Of course, listening to the book was probably even more enjoyable, thanks to Rob
 voice which is VERY easy to listen to! He also does a very good job of changing his voice and inflection for the different
 characters, making tracking the conversations very simple. But man, that voice! I mean, I wasn't recommended this book,
 and there are two recordings of _Neuromancer_ on Audible (my choice for audio books I have to pay for), so I could have
-either gotten his or the other. By the way, "the other" was [narrated by Jeff Harding](http://www.audible.com/pd/Sci-Fi-Fantasy/Neuromancer-Audiobook/B008B705MC/ref=a_search_c4_1_2_srTtl?qid=1424990508&sr=1-2); go ahead and listen
-to the sample audio of his vs [the one I purchased](http://www.audible.com/pd/Sci-Fi-Fantasy/Neuromancer-Audiobook/B0057HR4E6/ref=a_search_c4_1_1_srImg?qid=1424983533&sr=1-1). Go ahead, I'll wait.
+either gotten his or the other. By the way, "the other" was [narrated by Jeff Harding](https://www.audible.com/pd/Sci-Fi-Fantasy/Neuromancer-Audiobook/B008B705MC/ref=a_search_c4_1_2_srTtl?qid=1424990508&sr=1-2); go ahead and listen
+to the sample audio of his vs [the one I purchased](https://www.audible.com/pd/Sci-Fi-Fantasy/Neuromancer-Audiobook/B0057HR4E6/ref=a_search_c4_1_1_srImg?qid=1424983533&sr=1-1). Go ahead, I'll wait.
 
 I KNOW, RIGHT??? There's just no contest! How could one want to listen to Harding's rendition for 9 hours? Both
 recordings are unabridged, both are the same price (if you do the monthly thing and use credits as I do)... just why
 would you subject yourself to Harding when you have Dean?
 
 Any rate, highly recommended. Great book, you can totally see how it influenced other later works like [Neal Stephenson's
-_Snow Crash_](http://www.audible.com/pd/Sci-Fi-Fantasy/Snow-Crash-Audiobook/B002UUKWCY/ref=a_search_c4_1_1_srTtl?qid=1424990653&sr=1-1) or, well, [The Matrix](http://www.amazon.com/Matrix-Keanu-Reeves/dp/B000HAB4KS/ref=sr_1_1?ie=UTF8&qid=1424990727&sr=8-1&keywords=the+matrix), and it also defined and really anchored the cyberpunk genre.
+_Snow Crash_](https://www.audible.com/pd/Sci-Fi-Fantasy/Snow-Crash-Audiobook/B002UUKWCY/ref=a_search_c4_1_1_srTtl?qid=1424990653&sr=1-1) or, well, [The Matrix](https://www.amazon.com/Matrix-Keanu-Reeves/dp/B000HAB4KS/ref=sr_1_1?ie=UTF8&qid=1424990727&sr=8-1&keywords=the+matrix), and it also defined and really anchored the cyberpunk genre.
 Oh, and I guess I should mention that it was the first book to win the science-fiction "triple crown": the Nebula Award,
 the Philip K. Dick Award, and the Hugo Award. You know, if you're into that sort of thing. 
 

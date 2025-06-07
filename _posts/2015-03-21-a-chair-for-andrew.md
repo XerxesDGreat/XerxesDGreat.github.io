@@ -19,7 +19,7 @@ a couple weeks before Christmas, so I was on a tight schedule, especially consid
 
 Building it was simple enough; I got some 2x6s and resawed them to 1x6 size, then cut out all the pieces, rounding over
 the sides which would be exposed. I followed plans I purchased from Matthias Wandel, a very interesting Canadian 
-woodworker and engineer. You should [check out his site](http://woodgears.ca); I got my plans [here](http://woodgears.ca/lawn_chairs/plans2/index.html). Putting it together
+woodworker and engineer. You should [check out his site](https://woodgears.ca); I got my plans [here](https://woodgears.ca/lawn_chairs/plans2/index.html). Putting it together
 was a little challenging when attaching the back; the rest of it went smoothly enough. However, painting it was...
 interesting.
 

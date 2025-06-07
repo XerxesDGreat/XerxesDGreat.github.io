@@ -49,7 +49,7 @@ Let's start with a basic class.
 ```
 
 Very simple. I have a class with a single attribute which is initialized to be a [`UUID`](https://docs.python.org/2.7/library/uuid.html), a Python object
-wrapping the concept of a [universally unique identifier](http://en.wikipedia.org/wiki/Universally_unique_identifier). So, I can do something like this:
+wrapping the concept of a [universally unique identifier](https://en.wikipedia.org/wiki/Universally_unique_identifier). So, I can do something like this:
 
 ```python
 >>> obj = MyClass()

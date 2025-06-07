@@ -13,7 +13,7 @@ how I do it. Frankly, there's not much to it; I'm using a few tools which make i
 Photoshop or the GIMP (an open-source program much like Photoshop) because of all the manipulations you have to do to
 the photos, rotation, skew, mutations, etc.
 
-The main tool I use to take a lot of the guesswork out of it is [Autopano Pro from Kolor](http://www.kolor.com/store/panorama/autopano-pro-4-x.html). It's super easy to
+The main tool I use to take a lot of the guesswork out of it is [Autopano Pro from Kolor](https://www.kolor.com/store/panorama/autopano-pro-4-x.html). It's super easy to
 use, and as long as your source images are decent, you won't have any trouble making a good looking pano. This program 
 goes through all the trouble of stitching, bending, reshaping, and positioning all the images. Sometimes, I've had to
 go in and tweak some of the control points (places where two images coincide), but that's infrequent.

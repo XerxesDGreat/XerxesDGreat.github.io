@@ -10,5 +10,5 @@ tags:
 ![Fox bookmark](/assets/img/posts/fox-bookmark-take-2/DSC03155.jpg)
 
 Second take of a fox bookmark, this time for Shanin. I think I really like this, though there are a few screwups. For
-more details about the build, [find them here!](http://imgur.com/a/pqCsn)
+more details about the build, [find them here!](https://imgur.com/a/pqCsn)
 

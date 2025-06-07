@@ -7,5 +7,5 @@ tags:
 - robot
 ---
 
-[![DVD Rip Automation Robot, episode 4](http://img.youtube.com/vi/Jsk6E8NTOr8/0.jpg)](http://www.youtube.com/watch?v=Jsk6E8NTOr8)
+[![DVD Rip Automation Robot, episode 4](https://img.youtube.com/vi/Jsk6E8NTOr8/0.jpg)](https://www.youtube.com/watch?v=Jsk6E8NTOr8)
 

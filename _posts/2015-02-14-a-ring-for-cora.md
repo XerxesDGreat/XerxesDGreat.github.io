@@ -20,7 +20,7 @@ my wedding ring has just flown off a couple times. I decided, in the interest of
 so it's always with me and so it won't just randomly fall off. It turned out; a little thin and with a couple
 imperfections, but not bad for my first go. It's walnut, so it has a nice look to it.
  
-Next, since I've [already made a ring for Shanin](http://imgur.com/a/hVCu1#0), I decided to make one for Cora. I tried to make a bent ring
+Next, since I've [already made a ring for Shanin](https://imgur.com/a/hVCu1#0), I decided to make one for Cora. I tried to make a bent ring
 using some Padauk veneer, but her teeny tiny fingers are just too small to bend wood around. She really actually wanted
 the wenge I had from [another project]({{ site.baseurl }}{% link _posts/2014-06-06-inlaid-fox-bookmark.md %}), so I decided
 to make it a solid ring by drilling a hole from a bigger disk and polishing it.

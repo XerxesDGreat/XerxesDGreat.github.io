@@ -6,9 +6,9 @@ tags:
 - woodworking
 ---
 
-This isn't news or anything, but apparently [sitting](http://www.cnn.com/2015/01/21/health/sitting-will-kill-you/) in a [chair all day](http://www.mindbodygreen.com/0-15004/sitting-all-day-is-really-really-bad-for-you-infographic.html) is [pretty bad](http://qz.com/223160/why-not-even-exercise-will-undo-the-harm-of-sitting-all-day-and-what-you-can-do-about-it/) for you,
-[even if you exercise](http://time.com/2977994/sitting-all-day-isnt-as-bad-if-you-do-this/). By contrast, using a desk which allows you to [alternate between standing and sitting](http://www.lifehacker.com.au/2014/08/the-health-benefits-of-standing-versus-sitting/)
-can alleviate [much of the the problem](http://www.baua.de/cae/servlet/contentblob/717578/publicationFile/48508/A65.pdf). So, when my work asked me if I wanted a standing desk, I said sure, but I
+This isn't news or anything, but apparently [sitting](https://www.cnn.com/2015/01/21/health/sitting-will-kill-you/) in a [chair all day](https://www.mindbodygreen.com/0-15004/sitting-all-day-is-really-really-bad-for-you-infographic.html) is [pretty bad](https://qz.com/223160/why-not-even-exercise-will-undo-the-harm-of-sitting-all-day-and-what-you-can-do-about-it/) for you,
+[even if you exercise](https://time.com/2977994/sitting-all-day-isnt-as-bad-if-you-do-this/). By contrast, using a desk which allows you to [alternate between standing and sitting](https://www.lifehacker.com.au/2014/08/the-health-benefits-of-standing-versus-sitting/)
+can alleviate [much of the the problem](https://www.baua.de/cae/servlet/contentblob/717578/publicationFile/48508/A65.pdf). So, when my work asked me if I wanted a standing desk, I said sure, but I
 told them I didn't have a doctor's note or anything; the official policy was that I'd need a doctor's note to get one.
 
 Flash forward a few weeks and I was asked if I still wanted one, and I responded in the same way. They said "well, we

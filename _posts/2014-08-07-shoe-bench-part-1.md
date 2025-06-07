@@ -16,19 +16,19 @@ painted white.
 
 Planing the top
 
-![Planing the top](images/IMG1915-2.jpg)
+![Planing the top](/assets/img/posts/shoe-bench-part-1/IMG1915-2.jpg)
 
 Glue up
 
-![Glue up](images/IMG1916.jpg)
+![Glue up](/assets/img/posts/shoe-bench-part-1/IMG1916.jpg)
 
 There are some cracks in the top, so I'm hand-cutting some butterflies
 
-![Hand cutting butterflies](images/DSC03157.jpg)
+![Hand cutting butterflies](/assets/img/posts/shoe-bench-part-1/DSC03157.jpg)
 
 First butterfly, clamping up the second one. There are five in total.
 
-![One in place](images/DSC03158.jpg)
+![One in place](/assets/img/posts/shoe-bench-part-1/DSC03158.jpg)
 
 ### Update
 I ended up using part of the top meant for this for my [monitor stand]({{ site.baseurl }}{% link _posts/2015-02-21-monitor-stand.md %}) and another part for 

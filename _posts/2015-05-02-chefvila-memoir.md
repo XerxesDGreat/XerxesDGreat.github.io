@@ -7,7 +7,7 @@ tags:
 - zynga
 ---
 
-![ChefVille](images/chefville.jpg )
+![ChefVille](/assets/img/posts/chefvila-memoir/chefville.jpg )
 
 On Monday, August 6th, 2012, we all stood with anticipation, talking, excited. Champagne is being prepared, and some is
 being drunk somewhere. Anxious glances at the countdown clock, at JK, at each other. We hear (faintly, because it's

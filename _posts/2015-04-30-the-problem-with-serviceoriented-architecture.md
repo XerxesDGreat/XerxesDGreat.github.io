@@ -31,7 +31,7 @@ your camera, etc. where an SOA system is like having a printer, a scanner, a fax
 card reader. With that analogy in your mind (probably all too vividly), let's look at the good and bad.
 
 ## The Good
-The main reason SOA gets a lot of traction is because it more or less embraces [the Unix philosophy](http://homepage.cs.uri.edu/~thenry/resources/unix_art/ch01s06.html),
+The main reason SOA gets a lot of traction is because it more or less embraces [the Unix philosophy](https://homepage.cs.uri.edu/~thenry/resources/unix_art/ch01s06.html),
 specifically "Do one thing and do it well". If you break an application into its components properly, you
 have the ability to optimize each portion of it individually, potentially making the entire system run better
 and faster than would be possible if everything was lumped together. For instance, you can get a really good

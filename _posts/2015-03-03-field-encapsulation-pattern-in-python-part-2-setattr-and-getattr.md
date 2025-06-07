@@ -106,7 +106,7 @@ checking for the `UUID` type in the setters, which could be generalized. Let's d
 Better... but we still have code duplication; the `@property` and `@*.setter` methods look practically identical.  This
 is where we can start using Python's magic methods! These methods are called upon various different parts of the typical
 object operations. For a (very) exhaustive list and demonstration of them all, you can check out Rafe Kettler's [Guide
-to Python's Magic Methods](http://www.rafekettler.com/magicmethods.html); the ones we'll be interested in are `__getattr__`, which gets called whenever we try
+to Python's Magic Methods](https://www.rafekettler.com/magicmethods.html); the ones we'll be interested in are `__getattr__`, which gets called whenever we try
 to access an attribute which doesn't exist on the object, and `__setattr__`, which gets called every time an
 attribute is written to. The former receives the attribute name which we're looking for as an argument, while the latter
 takes both the attribute's name and its potential value. Here they are in use:

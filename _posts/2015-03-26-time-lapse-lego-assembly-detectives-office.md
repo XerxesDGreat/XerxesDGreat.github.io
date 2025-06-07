@@ -9,13 +9,13 @@ tags:
 ---
 
 In preparation for other ideas, I decided to try out a few things to make a timelapse of me building one of my recent
-LEGO purchases, [set 10246, the Detective's Office](http://shop.lego.com/en-US/Detective-s-Office-10246). And here it is! Video first, details later, right?
+LEGO purchases, [set 10246, the Detective's Office](https://shop.lego.com/en-US/Detective-s-Office-10246). And here it is! Video first, details later, right?
 
 {% include embed/youtube.html id='qwgM54sMxM0' %}
 
-I've been wanting to get another modular building to go with my [Grand Emporium set](http://shop.lego.com/en-US/Grand-Emporium-10211), but just hadn't
+I've been wanting to get another modular building to go with my [Grand Emporium set](https://shop.lego.com/en-US/Grand-Emporium-10211), but just hadn't
 gotten together enough desire and money to get it. So, I saved up and got the Detective's Office. I really wanted to get
-the [Palace Theater](http://shop.lego.com/en-US/Palace-Cinema-10232), but they didn't have it in stock; I've only seen it online. Since I lucked out and made
+the [Palace Theater](https://shop.lego.com/en-US/Palace-Cinema-10232), but they didn't have it in stock; I've only seen it online. Since I lucked out and made
 a very large purchase on a day they had double VIP bonus points, I already have $55 for my next purchase, so it might
 come sooner than later.
 
@@ -24,8 +24,8 @@ Anyway, back to the Detective's Office. It has some fantastic attention to detai
 like doing; I have a few sets that I do each winter that are a blast too.
 
 So, in order to do the timelapse, I got a clamp for my camera to hold it in place. I'm using my Nikon D3100 for this as
-I can control it from a program and get the pictures sent to my computer. The program I'm using is [Darktable](http://www.darktable.org/)
-for Ubuntu, and the camera interfacing is powered by [gphoto2](http://gphoto.sourceforge.net/). So far, I've been very impressed with the 
+I can control it from a program and get the pictures sent to my computer. The program I'm using is [Darktable](https://www.darktable.org/)
+for Ubuntu, and the camera interfacing is powered by [gphoto2](https://gphoto.sourceforge.net/). So far, I've been very impressed with the 
 software, even if the UI is a little unclear at times.
 
 ![Darktable](/assets/img/posts/time-lapse-lego-assembly-detectives-office/darktable_screenshot.jpg)

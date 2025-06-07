@@ -28,7 +28,7 @@ because the same code will handle an `int`, a `str`, a `uuid.UUID`, etc. However
 specific than that? Let's say, instead of a `str` object, I want a URL? It'll still be represented as a string, but now
 it has to adhere to specific factors. It has to have http, or maybe ftp, but perhaps https. Then a "://", some other 
 combination of letters, numbers dashes, dots, etc. After that, it could be .com, .net, .info, .wed, or any of another
-several hundred ([810, to be exact](http://en.wikipedia.org/wiki/List_of_Internet_top-level_domains) endings. Then, it could be followed by a slash with MORE letters, numbers, characters,
+several hundred ([810, to be exact](https://en.wikipedia.org/wiki/List_of_Internet_top-level_domains) endings. Then, it could be followed by a slash with MORE letters, numbers, characters,
 etc. Or not.
 
 Now, how can we add a field which is is a URL and be sure that it's a URL? Maybe we can create a `URL` object which will
@@ -184,7 +184,7 @@ So, going back to the earlier issue I raised with typing. As mentioned, I could 
 but that gets pretty cumbersome pretty quickly. However, now that I have a different object for a field and a function
 which I call to clean up and validate the value of the field, I can shift gears. What if we give a function which knows
 how to clean and validate a field to the `Field` object and then call it in the `clean` function? By this count, we can
-get rid of limiting a `Field` object to a type and rely on what's called "[duck-typing](http://en.wikipedia.org/wiki/Duck_typing)".
+get rid of limiting a `Field` object to a type and rely on what's called "[duck-typing](https://en.wikipedia.org/wiki/Duck_typing)".
 
 Also, while we're at it, why not be allowed to pass a list of cleaning and/or validating functions? In our earlier
 example, where we needed to see that the URL is an FTP url in the top-level-domain .net, we could have three separate

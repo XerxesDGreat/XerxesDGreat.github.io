@@ -9,15 +9,15 @@ tags:
 
 So, I almost didn't get a post in today because I was trying to hurry a treat for y'all. However, I decided to not rush
 so much and to instead give you a review of one of the movies I watched while I was working on the treat: [Synecdoche,
-New York](http://www.imdb.com/title/tt0383028/).
+New York](https://www.imdb.com/title/tt0383028/).
 
 ![Synechdoche, New York](/assets/img/posts/synecdoche-new-york/synecdoche-ny.jpg)
 
 First off, the pronunciation of the city is kinda like a trick question: if you know, you know, else you're gonna have
 a bad time. Of course, a quick Google search will reveal that this is a part of the trick. See, you're thinking of
 Schenectady, (skeh-NECK-tuh-dee) New York, as I was. Synecdoche (seh-NECK-duh-kee) sounds very similar (which was
-intentional, according to the [wiki page](http://en.wikipedia.org/wiki/Synecdoche,_New_York), but it isn't a city at all. Instead, it's a _[figure of speech in
-which a term for a part of something refers to the wohle of something, or vice versa](http://en.wikipedia.org/wiki/Synecdoche)_. An example would be
+intentional, according to the [wiki page](https://en.wikipedia.org/wiki/Synecdoche,_New_York), but it isn't a city at all. Instead, it's a _[figure of speech in
+which a term for a part of something refers to the wohle of something, or vice versa](https://en.wikipedia.org/wiki/Synecdoche)_. An example would be
 "San Jose won the game", wherein San Jose refers to the Sharks, not the entire city (though, with the way they've been
  playing lately, it equally refers to a friggin' miracle!).
  
