@@ -1,0 +1,27 @@
+---
+layout: post
+---
+
+
+<!-- ARTICLE -->
+<article class="content">
+    {{ page.content }}
+</article>
+
+<div class="divider"><!-- lines divider --></div>
+
+{% assign pano_data = site.data.panorama[page.panogroup] %}
+<!-- 
+<p>
+{{ page.panogroup }}
+</p>
+-->
+{% for pano in pano_data %}
+<p>
+    <img class="pano_thumb"
+            alt="{{ pano.title }}" src="{{ site.baseurl }}/assets/img/panorama/{{ page.panogroup }}/{{ pano.id }}/thumb.jpg"
+    />
+</p>
+
+
+{% endfor %}

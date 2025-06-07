@@ -1,0 +1,38 @@
+[
+	{
+		"title": "City Hall",
+		"id": "city_hall",
+		"width": 9668,
+		"height": 6935
+	},
+	{
+		"title": "View of the City From Twin Peaks",
+		"id": "hike_3_twin_peaks",
+		"width": 27941,
+		"height": 6646
+	},
+	{
+		"title": "Alcatraz - Model Workshop",
+		"id": "alcatraz_2_model_workshop_from_new",
+		"width": 15827,
+		"height": 6726
+	},
+	{
+		"title": "Alcatraz - Ai Weiwei - Trace",
+		"id": "alcatraz_3_lego_room",
+		"width": 10502,
+		"height": 2665
+	},
+	{
+		"title": "Alcatraz - View of the City",
+		"id": "alcatraz_7_cityscape",
+		"width": 31493,
+		"height": 6067
+	},
+	{
+		"title": "ATT Park From McCovey Bay",
+		"id": "att_park",
+		"width": 15487,
+		"height": 4593
+	}
+]

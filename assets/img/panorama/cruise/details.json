@@ -1,0 +1,72 @@
+[
+    {
+        "description": "A gorgeous church where the body of Jesuit saint Peter Claver, Saint of the African Slaves, is kept in a casket.",
+        "height": 5849,
+        "id": "cruise_cartagena_church_1",
+        "title": "Iglesia de San Pedro Claver",
+        "width": 12538
+    },
+    {
+        "description": "This fortress, built in the 1500s and 1600s, is one of the most complex examples of Spanish military architecture. Its guns could reach the sea, protecting before invasion even occurs",
+        "height": 2452,
+        "id": "cruise_cartagena_fort_1",
+        "title": "Castillo San Felipe de Barajas",
+        "width": 12021
+    },
+    {
+        "height": 3877,
+        "id": "cruise_cartagena_skyline_3",
+        "title": "Cartagena Skyline",
+        "width": 21728
+    },
+    {
+        "description": "From our berth in port, we could see all of the picturesque views of Cartagena Bay, from the upscale Bocagrande neighborhood on the left to the Santa Cruz Monastary on the right.",
+        "height": 3060,
+        "id": "cruise_cartagena_sunset_2",
+        "title": "Cartagena Sunset",
+        "width": 24817
+    },
+    {
+        "description": "When we woke up in the morning for our passage through the Panama Canal, we found that we weren't alone",
+        "height": 2904,
+        "id": "cruise_panama_4",
+        "title": "Waiting in line for the Panama Canal",
+        "width": 16451
+    },
+    {
+        "description": "At each of the locks, they had a complex, most likely for maintenance and management, though one had tourist facilities and a museum",
+        "height": 2767,
+        "id": "cruise_panama_6",
+        "title": "Panama Canal Lock Complex",
+        "width": 8927
+    },
+    {
+        "description": "Going through the Panama Canal isn't just a bunch of locks; there's a lot of time when you're going through lakes, getting views of the lush rainforest, like this",
+        "height": 2997,
+        "id": "cruise_panama_8",
+        "title": "Island in the Canal",
+        "width": 17568
+    },
+    {
+        "description": "Probably the first real sunset we got on the cruise (THANKS Hurricane Odile), it didn't look real in person; it just looks like a matte painting!",
+        "height": 2895,
+        "id": "cruise_sunset_3",
+        "title": "Painted Sunset",
+        "width": 30599
+    },
+    {
+        "description": "Another example of a fine sunset over the Caribbean Sea",
+        "height": 2949,
+        "id": "cruise_sunset_5",
+        "title": "Calming Sunset",
+        "width": 16354
+    },
+    {
+        "description": "The Mayan city of Tulum has some astounding ruins. Built in the 13th century on the Mayan Riviera, this port city was one of the few Mayan cities protected by a wall. The ruins are remarkably well preserved for being over 700 years old!",
+        "height": 6275,
+        "id": "cruise_tulum_3",
+        "initialZoom": 4,
+        "title": "Mayan Ruins at Tulum",
+        "width": 10504
+    }
+]

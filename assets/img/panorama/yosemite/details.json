@@ -1,0 +1,38 @@
+[
+	{
+		"id": "ahwahnee_lodge",
+		"title": "Ahwahnee Lodge",
+		"width": 7947,
+		"height": 4017
+	},
+	{
+		"title": "Lower Yosemite Falls",
+		"id": "lower_yosemite_falls",
+		"width": 5635,
+		"height": 3330
+	},
+	{
+		"title": "North Dome and Half Dome",
+		"id": "north_dome_and_half_dome",
+		"width": 11705,
+		"height": 4079
+	},
+	{
+		"title": "On the Lower Yosemite Falls Trail, Looking West",
+		"id": "on_the_lower_yosemite_falls_trail_looking_west",
+		"width": 11289,
+		"height": 4384
+	},
+	{
+		"title": "West to East, Eagle Peak to Half Dome",
+		"id": "west_to_east_eagle_peak_to_half_dome",
+		"width": 18698,
+		"height": 4696
+	},
+	{
+		"title": "Yosemite Point and Eagle Peak",
+		"id": "yosemite_point_and_eagle_peak_2",
+		"width": 20772,
+		"height": 6325
+	}
+]
