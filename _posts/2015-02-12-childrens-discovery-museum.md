@@ -44,7 +44,6 @@ volunteers and chose a girl right next to her to come on stage, but that girl ha
 from elsewhere in the audience. Poor Cora misunderstood and went up there anyway. Then, before they did the bow, she
 wasn't listnening and jetted over to sit back down and did the bow elsewhere. I got a giggle out of it.
 
-![volunteering](/assets/img/posts/childrens-discovery-museum/img_0522.jpg)
 ![taking a bow](/assets/img/posts/childrens-discovery-museum/img_0526.jpg)
 
 And we finally ended up... in the water zone, where she got more wet than while she was playing in the actual rain.

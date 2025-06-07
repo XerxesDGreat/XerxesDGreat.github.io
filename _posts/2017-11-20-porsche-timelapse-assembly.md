@@ -13,10 +13,10 @@ Therefore, I fake it with gimmicks. You know, things like building a time lapse 
 large LEGO project; you've seen the evidence of this before, I'm sure!
 
 My most recent project was the massive Porsche 911 GT3 RS model that LEGO released in 2016,
-[set number 42056](lego-store-link). This thing is 1:8 scale which is just HUGE. Basically everything
- works more or less as it would in a production car, from easy things like suspension to more difficult
- things like transmission Drive and Reverse and the flappy paddle gear box which _actually changes gears_!
-This thing is truly incredible.
+[set number 42056](https://brickset.com/sets/42056-1/Porsche-911-GT3-RS). This thing is 1:8 scale which
+is just HUGE. Basically everything works more or less as it would in a production car, from easy things
+like suspension to more difficult things like transmission Drive and Reverse and the flappy paddle gear
+box which _actually changes gears_! This thing is truly incredible.
 
 ![LEGO Porsche 911 GT3 RS View 1](/assets/img/posts/porsche-timelapse-assembly/porsche_timelapse_1.jpg)
 
