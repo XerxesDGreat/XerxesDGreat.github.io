@@ -5,62 +5,71 @@
             "height": 5849,
             "id": "cruise_cartagena_church_1",
             "title": "Iglesia de San Pedro Claver",
-            "width": 12538
+            "width": 12538,
+            "maxZoomLevel": 6
         },
         {
             "description": "This fortress, built in the 1500s and 1600s, is one of the most complex examples of Spanish military architecture. Its guns could reach the sea, protecting before invasion even occurs",
             "height": 2452,
             "id": "cruise_cartagena_fort_1",
             "title": "Castillo San Felipe de Barajas",
-            "width": 12021
+            "width": 12021,
+            "maxZoomLevel": 6
         },
         {
             "height": 3877,
             "id": "cruise_cartagena_skyline_3",
             "title": "Cartagena Skyline",
-            "width": 21728
+            "width": 21728,
+            "maxZoomLevel": 7
         },
         {
             "description": "From our berth in port, we could see all of the picturesque views of Cartagena Bay, from the upscale Bocagrande neighborhood on the left to the Santa Cruz Monastary on the right.",
             "height": 3060,
             "id": "cruise_cartagena_sunset_2",
             "title": "Cartagena Sunset",
-            "width": 24817
+            "width": 24817,
+            "maxZoomLevel": 7
         },
         {
             "description": "When we woke up in the morning for our passage through the Panama Canal, we found that we weren't alone",
             "height": 2904,
             "id": "cruise_panama_4",
             "title": "Waiting in line for the Panama Canal",
-            "width": 16451
+            "width": 16451,
+            "maxZoomLevel": 7
         },
         {
             "description": "At each of the locks, they had a complex, most likely for maintenance and management, though one had tourist facilities and a museum",
             "height": 2767,
             "id": "cruise_panama_6",
             "title": "Panama Canal Lock Complex",
-            "width": 8927
+            "width": 8927,
+            "maxZoomLevel": 6
         },
         {
             "description": "Going through the Panama Canal isn't just a bunch of locks; there's a lot of time when you're going through lakes, getting views of the lush rainforest, like this",
             "height": 2997,
             "id": "cruise_panama_8",
             "title": "Island in the Canal",
-            "width": 17568
+            "width": 17568,
+            "maxZoomLevel": 7
         },
         {
             "description": "Probably the first real sunset we got on the cruise (THANKS Hurricane Odile), it didn't look real in person; it just looks like a matte painting!",
             "height": 2895,
             "id": "cruise_sunset_3",
             "title": "Painted Sunset",
-            "width": 30599
+            "width": 30599,
+            "maxZoomLevel": 7
         },
         {
             "description": "Another example of a fine sunset over the Caribbean Sea",
             "height": 2949,
             "id": "cruise_sunset_5",
             "title": "Calming Sunset",
-            "width": 16354
+            "width": 16354,
+            "maxZoomLevel": 6
         },
         {
             "description": "The Mayan city of Tulum has some astounding ruins. Built in the 13th century on the Mayan Riviera, this port city was one of the few Mayan cities protected by a wall. The ruins are remarkably well preserved for being over 700 years old!",
@@ -68,7 +77,8 @@
             "id": "cruise_tulum_3",
             "initialZoom": 4,
             "title": "Mayan Ruins at Tulum",
-            "width": 10504
+            "width": 10504,
+            "maxZoomLevel": 6
         }
     ],
     "san_francisco": [
@@ -76,37 +86,44 @@
             "title": "City Hall",
             "id": "city_hall",
             "width": 9668,
-            "height": 6935
+            "height": 6935,
+            "maxZoomLevel": 6
         },
         {
             "title": "View of the City From Twin Peaks",
             "id": "hike_3_twin_peaks",
             "width": 27941,
-            "height": 6646
+            "height": 6646,
+            "maxZoomLevel": 7
         },
         {
             "title": "Alcatraz - Model Workshop",
             "id": "alcatraz_2_model_workshop_from_new",
             "width": 15827,
-            "height": 6726
+            "height": 6726,
+            "maxZoomLevel": 6
         },
         {
             "title": "Alcatraz - Ai Weiwei - Trace",
             "id": "alcatraz_3_lego_room",
             "width": 10502,
-            "height": 2665
+            "height": 2665,
+            "maxZoomLevel": 6
         },
         {
             "title": "Alcatraz - View of the City",
             "id": "alcatraz_7_cityscape",
             "width": 31493,
-            "height": 6067
+            "height": 6067,
+            "maxZoomLevel": 7
         },
         {
             "title": "ATT Park From McCovey Bay",
             "id": "att_park",
             "width": 15487,
-            "height": 4593
+            "height": 4593,
+            "maxZoomLevel": 6
+
         }
     ],
     "yosemite": [
@@ -114,37 +131,43 @@
             "id": "ahwahnee_lodge",
             "title": "Ahwahnee Lodge",
             "width": 7947,
-            "height": 4017
+            "height": 4017,
+            "maxZoomLevel": 5
         },
         {
             "title": "Lower Yosemite Falls",
             "id": "lower_yosemite_falls",
             "width": 5635,
-            "height": 3330
+            "height": 3330,
+            "maxZoomLevel": 5
         },
         {
             "title": "North Dome and Half Dome",
             "id": "north_dome_and_half_dome",
             "width": 11705,
-            "height": 4079
+            "height": 4079,
+            "maxZoomLevel": 6
         },
         {
             "title": "On the Lower Yosemite Falls Trail, Looking West",
             "id": "on_the_lower_yosemite_falls_trail_looking_west",
             "width": 11289,
-            "height": 4384
+            "height": 4384,
+            "maxZoomLevel": 6
         },
         {
             "title": "West to East, Eagle Peak to Half Dome",
             "id": "west_to_east_eagle_peak_to_half_dome",
             "width": 18698,
-            "height": 4696
+            "height": 4696,
+            "maxZoomLevel": 7
         },
         {
             "title": "Yosemite Point and Eagle Peak",
             "id": "yosemite_point_and_eagle_peak_2",
             "width": 20772,
-            "height": 6325
+            "height": 6325,
+            "maxZoomLevel": 7
         }
     ]
 }

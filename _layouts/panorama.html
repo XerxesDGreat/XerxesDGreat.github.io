@@ -2,7 +2,6 @@
 layout: post
 ---
 
-
 <!-- ARTICLE -->
 <article class="content">
     {{ page.content }}
@@ -17,11 +16,31 @@ layout: post
 </p>
 -->
 {% for pano in pano_data %}
-<p>
-    <img class="pano_thumb"
-            alt="{{ pano.title }}" src="{{ site.baseurl }}/assets/img/panorama/{{ page.panogroup }}/{{ pano.id }}/thumb.jpg"
-    />
-</p>
-
-
+    <div id="pano-{{ pano.id }}" class="pano-viewer" style="width: 100%; height: 500px;"></div>
 {% endfor %}
+
+<script src="https://openseadragon.github.io/openseadragon/openseadragon.min.js"></script>
+<script>
+    const panoData = {{ pano_data | jsonify }};
+    const panoGroup = "{{ page.panogroup }}";
+
+    document.addEventListener("DOMContentLoaded", function() {
+        panoData.forEach(pano => {
+            OpenSeadragon({
+                id: `pano-${pano.id}`,
+                prefixUrl: "https://openseadragon.github.io/openseadragon/images/",
+                tileSources: {
+                    height: pano.height,
+                    width: pano.width,
+                    tileSize: 256,
+                    minZoomLevel: 0,
+                    maxZoomLevel: pano.maxZoomLevel,
+                    getTileUrl: function(level, x, y) {
+                        var realLevel = level - 8;
+                        return `/assets/img/panorama/${panoGroup}/${pano.id}/${realLevel}-${x}-${y}.jpg`;
+                    }
+                }
+            })
+        })
+    });
+</script>

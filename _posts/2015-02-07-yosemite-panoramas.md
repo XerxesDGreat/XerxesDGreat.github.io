@@ -16,6 +16,4 @@ Of course, with such picturesque scenery, I feel I would be remiss if I didn't t
 I paid for the software ([Kolor's AutoPano Pro](https://www.kolor.com/panorama-software-autopano-pro.html) which, incidentally, works perfectly on Ubuntu and is pretty freaking stellar
 and easy to use), so I might as well put it to use, yes?
 
-Below, you can find my favorite few. Click on the thumbnail to get a really cool viewer ([PanoJS](https://www.dimin.net/software/panojs/), about which I'll write 
-another post) which you can use to zoom in and pan around. Enjoy!
 
