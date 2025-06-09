@@ -1,43 +1,97 @@
-# Chirpy Starter
+# ~~XerxesDGreat.github.io~~ i-josh.com
 
-[![Gem Version](https://img.shields.io/gem/v/jekyll-theme-chirpy)][gem]&nbsp;
-[![GitHub license](https://img.shields.io/github/license/cotes2020/chirpy-starter.svg?color=blue)][mit]
+This repository contains the source files for the [i-josh.com][i-josh] website.
 
-When installing the [**Chirpy**][chirpy] theme through [RubyGems.org][gem], Jekyll can only read files in the folders
-`_data`, `_layouts`, `_includes`, `_sass` and `assets`, as well as a small part of options of the `_config.yml` file
-from the theme's gem. If you have ever installed this theme gem, you can use the command
-`bundle info --path jekyll-theme-chirpy` to locate these files.
+## Info
+The site uses the following little bits of technology
+- Github-provided Jekyll static site generator functionality
+- [Chirpy][chirpy] theme with some personal modifications
+- [OpenSeadragon][openseadragon] for large image viewing
 
-The Jekyll team claims that this is to leave the ball in the user’s court, but this also results in users not being
-able to enjoy the out-of-the-box experience when using feature-rich themes.
+## How to run
 
-To fully use all the features of **Chirpy**, you need to copy the other critical files from the theme's gem to your
-Jekyll site. The following is a list of targets:
+### Ruby environment
+> [!note]
+> I'm not a Ruby developer, so there's likely much better ways to do this; I'm just
+telling you what I did.
 
-```shell
-.
-├── _config.yml
-├── _plugins
-├── _tabs
-└── index.html
+```bash
+# chruby is a ruby environment manager; ruby-install makes it easy to install ruby (I guess?)
+$ brew install chruby ruby-install
+
+# actually install ruby; when I did this, it was v3.4.4
+$ ruby-install ruby
+
+# install some ruby gems we'll need to use
+$ gem install bundler jekyll
 ```
 
-To save you time, and also in case you lose some files while copying, we extract those files/configurations of the
-latest version of the **Chirpy** theme and the [CD][CD] workflow to here, so that you can start writing in minutes.
+### Website
 
-## Usage
+```bash
+# make the data available locally
+$ git clone git@github.com:XerxesDGreat/XerxesDGreat.github.io.git
+
+# run the application
+$ cd XerxesDGreat.github.io
+$ bundle install
+$ bundle exec jekyll serve
+
+# after a few moments (up to a minute, I've found), the site should be available
+# at http://localhost:4000
+```
+
+## Adding content
+
+### Posts
+
+#### Where they go
+All posts go into the `_posts` directory with the naming convention `YYYY-MM-DD-<postSlug>.md`. I don't know what happens if there are two posts with the same `postSlug`, but perhaps try to avoid it. I'm sure it wouldn't be a major issue; Jekyll will probably just do like Windows and add ` (1)` to the post name or something.
+
+#### Frontmatter
+Frontmatter should contain the following keys:
+
+```yaml
+---
+
+# these keys are required
+title: <Title which is displayed in the website>
+date: <Should match the date on the file>
+category: <Technically I think it supports multiple categories, but stick to one>
+tags: 
+- <a list>
+- <of case-sensitive tags>
+
+# optional
+layout: <for a different layout than post; accepts `panorama` for now>
+description: <uh... description>
+toc: false <if you don't want a table of contents on the right>
+slug: <if you want to override the default slugification>
+---
+```
+
+### Images
+
+Images go into a directory per post, based on the slug. For instance, if you have
+an image called `mycar.jpg` in the post `2025-06-09-i-got-a-new-car.md`, you'd put
+the image in the directory `assets/img/posts/i-got-a-new-car/mycar.jpg`. However,
+this is a convention and doesn't provide any additional functionality as you still
+have to use `![description](/assets/img/<slugName>/<imageFileName>)` to make the image appear.
+
+A preview image for the post can be added to the frontmatter:
+```yaml
+---
+image:
+  path: /path/to/image
+  alt: image alt text
+---
+```
+Note that the image is expected to be 1200 x 630; it will be scaled and cropped if it isn't
+
+## More Information
 
 Check out the [theme's docs](https://github.com/cotes2020/jekyll-theme-chirpy/wiki).
 
-## Contributing
-
-This repository is automatically updated with new releases from the theme repository. If you encounter any issues or want to contribute to its improvement, please visit the [theme repository][chirpy] to provide feedback.
-
-## License
-
-This work is published under [MIT][mit] License.
-
-[gem]: https://rubygems.org/gems/jekyll-theme-chirpy
+[i-josh]: https://www.i-josh.com
 [chirpy]: https://github.com/cotes2020/jekyll-theme-chirpy/
-[CD]: https://en.wikipedia.org/wiki/Continuous_deployment
-[mit]: https://github.com/cotes2020/chirpy-starter/blob/master/LICENSE
+[openseadragon]: https://openseadragon.github.io/
