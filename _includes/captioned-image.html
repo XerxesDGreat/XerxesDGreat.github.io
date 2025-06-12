@@ -1,0 +1,6 @@
+<img src="{{ include.path }}"
+    alt="{{ include.alt | default: '' }}"
+    {% if include.title %}data-title="{{ include.title }}"{% endif %}
+    {% if include.caption %}data-description="{{ include.caption }}"{% endif %}
+    {% if include.position %}data-desc-position="{{ include.position }}"{% endif %} />
+{% if include.caption %}_{{ include.caption }}_{% endif %}
