@@ -9,7 +9,7 @@ tags:
 media_subpath: /assets/img/posts/lego-timelapse-sled/
 ---
 
-In the post about my [Porsche Assembly Timelapse](% post_url 2017-11-20-porsche-timelapse-assembly.md %},
+In the post about my [Porsche Assembly Timelapse]((% post_url 2017-11-20-porsche-timelapse-assembly.md %}),
 I didn't mention one of my favorite parts of that shoot: building a sled which moved my camera very slowly,
 allowing the panning in the end video.
 
