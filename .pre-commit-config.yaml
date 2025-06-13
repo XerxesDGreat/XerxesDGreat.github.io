@@ -6,6 +6,6 @@ repos:
         entry: python3 tools/generate_lqip.py
         language: system
         files: ^assets/img/posts/
-        exclude: /lqip/
+        exclude: lqip.jpg
         types: [image]
         pass_filenames: true

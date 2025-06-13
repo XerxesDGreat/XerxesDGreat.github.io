@@ -14,7 +14,7 @@ def needs_update(source, lqip):
 
 def generate_lqip_for_image(src_path):
 
-    dest_path = os.path.join(os.path.dirname(src_path), "lqip", os.path.basename(src_path))
+    dest_path = os.path.splitext(src_path)[0] + ".lqip.jpg"
 
     if not needs_update(src_path, dest_path):
         return False
@@ -34,7 +34,7 @@ def generate_lqip_for_image(src_path):
     except Exception as e:
         print(f"Failed to process {src_path}: {e}")
         return False
-    return True
+    return dest_path
 
 def main():
     if len(sys.argv) < 2:
@@ -46,8 +46,9 @@ def main():
     for image_path in sys.argv[1:]:
         print(image_path)
         if os.path.isfile(image_path) and image_path.startswith(SRC_ROOT):
-            if generate_lqip_for_image(image_path):
-                images_generated.append(image_path)
+            dest_path = generate_lqip_for_image(image_path)
+            if dest_path:
+                images_generated.append(dest_path)
         else:
             print(f"Skipping non-matching or missing file: {image_path}")
 

@@ -9,7 +9,6 @@ tags:
 media_subpath: /assets/img/posts/millennium-falcon-timelapse/
 image:
     path: preview.jpg
-    lqip: lqip/preview.jpg
 ---
 
 As a team building (pun intended) event, the Infrastructure team at Life360 purchased the new [LEGO UCS Millennium Falcon](https://brickset.com/sets/75192-1/Millennium-Falcon) for the team to assemble over time. I figured "hey, I like doing LEGO timelapses; let's set up a camera and get a timelapse of the whole thing!".
