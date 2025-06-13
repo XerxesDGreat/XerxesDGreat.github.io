@@ -13,9 +13,8 @@ def needs_update(source, lqip):
     )
 
 def generate_lqip_for_image(src_path):
-    # Calculate relative path from SRC_ROOT
-    rel_path = os.path.relpath(src_path, SRC_ROOT)
-    dest_path = os.path.splitext(os.path.join(DEST_ROOT, rel_path))[0] + ".jpg"
+
+    dest_path = os.path.join(os.path.dirname(src_path), "lqip", os.path.basename(src_path))
 
     if not needs_update(src_path, dest_path):
         return False
