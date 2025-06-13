@@ -1,0 +1,10 @@
+repos:
+-   repo: local
+    hooks:
+    -   id: generate-lqip
+        name: Generate LQIP
+        entry: python3 tools/generate_lqip.py
+        language: system
+        files: ^assets/img/posts/
+        types: [image]
+        pass_filenames: true
