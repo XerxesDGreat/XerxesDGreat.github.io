@@ -28,7 +28,7 @@ So, when I found a nice, clean website that works extremely well with Github, I 
 
 Getting it installed was _super easy!_... as long as you're starting from scratch. It's not quite so easy if you already have a full site with bunches of content. I _probably_ could have found an easier way to do it, but I ended up building a new repo from the [Chirpy Starter Template](https://github.com/cotes2020/chirpy-starter) then force pushing it to the head of my repo being served by my domain.
 
-There were also some things I had to clear up; for instance, some of my pages weren't working any more because the layout didn't exist, so I had to build up those layouts. That mostly affected the layout serving panoramas (e.g. my [ Disney Cruise panoramas]((% post_url 2014-10-01-disney-cruise-panoramas.md %})). That also took a migration to a different panorama vendor which I may talk about later but at the end it worked out.
+There were also some things I had to clear up; for instance, some of my pages weren't working any more because the layout didn't exist, so I had to build up those layouts. That mostly affected the layout serving panoramas (e.g. my [ Disney Cruise panoramas]({% post_url 2014-10-01-disney-cruise-panoramas %})). That also took a migration to a different panorama vendor which I may talk about later but at the end it worked out.
 
 ![Search results](panorama.png){: lqip="panorama.lqip.jpg" }
 
