@@ -3,7 +3,6 @@ import os
 from PIL import Image, ImageFilter
 
 SRC_ROOT = "assets/img/posts"
-DEST_ROOT = "assets/img/lqip/posts"
 LQIP_SIZE = (40, 40)  # thumbnail size for LQIP (can tweak)
 LQIP_QUALITY = 20     # JPEG quality for compressed LQIP
 
@@ -44,7 +43,6 @@ def main():
     images_generated = []
 
     for image_path in sys.argv[1:]:
-        print(image_path)
         if os.path.isfile(image_path) and image_path.startswith(SRC_ROOT):
             dest_path = generate_lqip_for_image(image_path)
             if dest_path:
