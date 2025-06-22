@@ -7,4 +7,4 @@ tags:
 - robot
 ---
 
-[![DVD Rip Automation Robot, episode 1](https://img.youtube.com/vi/KK1wLs9KumQ/0.jpg)](https://www.youtube.com/watch?v=KK1wLs9KumQ)
+{% include embed/youtube.html id='KK1wLs9KumQ' %}
