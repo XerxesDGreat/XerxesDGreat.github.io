@@ -1,7 +1,7 @@
 ---
 title: San Francisco Panoramas
 date: 2015-04-21
-category: Photography
+category: Places
 tags: 
 - panorama
 - vacation

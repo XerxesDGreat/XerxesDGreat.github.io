@@ -1,10 +1,11 @@
 ---
 title: Disney Cruise Panoramas
 date: 2014-10-01
-category: Photography
+category: Places
 tags:
 - panorama
 - vacation
+- photography
 layout: panorama
 panogroup: cruise
 ---

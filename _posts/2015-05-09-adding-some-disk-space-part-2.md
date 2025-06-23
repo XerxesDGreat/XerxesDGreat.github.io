@@ -1,7 +1,7 @@
 ---
 title: Adding Some Disk Space, part 2
 date: 2015-05-09
-category: Thoughts
+category: Projects
 tags: 
 - raid
 - backup
