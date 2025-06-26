@@ -3,7 +3,7 @@ title: The Value of LEGO Dimensions - An Analysis
 date: 2015-10-01
 category: Reviews
 tags: 
-- lego
+- Lego
 - dimensions
 - did the math
 ---

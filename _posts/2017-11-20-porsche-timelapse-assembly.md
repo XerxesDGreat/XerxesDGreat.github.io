@@ -3,7 +3,7 @@ title: LEGO Porsche Assembly Timelapse
 date: 2017-11-20
 category: Projects
 tags:
-- lego
+- Lego
 - timelapse
 ---
 

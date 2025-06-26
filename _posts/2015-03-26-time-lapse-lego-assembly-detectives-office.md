@@ -3,7 +3,7 @@ title: Time Lapse LEGO Assembly, Detective's Office
 date: 2015-03-26
 category: Projects
 tags:
-- lego
+- Lego
 - timelapse
 - video
 ---

@@ -3,7 +3,7 @@ title: DVD Rip Automation Robot, episode 4
 date: 2014-07-28
 category: Projects
 tags: 
-- lego
+- Lego
 - robot
 ---
 

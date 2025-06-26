@@ -3,7 +3,7 @@ title: Custom Purpose Robot
 date: 2014-07-15
 category: Projects
 tags:
-- lego
+- Lego
 - software
 - programming
 - robot

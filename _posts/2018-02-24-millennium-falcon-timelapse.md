@@ -4,8 +4,10 @@ date: 2018-02-24
 category: Projects
 tags:
 - photography
-- lego
+- Lego
 - work
+- Star Wars
+- Life360
 media_subpath: /assets/img/posts/millennium-falcon-timelapse/
 image:
     path: preview.jpg

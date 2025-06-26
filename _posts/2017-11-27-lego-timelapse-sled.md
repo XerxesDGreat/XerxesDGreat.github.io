@@ -3,7 +3,7 @@ title: LEGO Timelapse sled
 date: 2017-11-27
 category: Projects
 tags:
-- lego
+- Lego
 - timelapse
 - photography
 media_subpath: /assets/img/posts/lego-timelapse-sled/

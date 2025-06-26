@@ -3,7 +3,7 @@ title: DVD Rip Automation Robot, episode 2
 date: 2014-07-17
 category: Projects
 tags:
-- lego
+- Lego
 - robot
 ---
 
