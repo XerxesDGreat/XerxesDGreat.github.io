@@ -1,0 +1,13 @@
+---
+title: POST-TITLE
+date: POST-DATE
+# categories are Family, Photography, Places, Projects, Reviews, Software, Thoughts
+category: Projects
+tags:
+- cooking
+- food
+media_subpath: /assets/img/posts/POST-SLUG/
+image:
+    path: preview.jpg
+    lqip: preview.lqip.jpg
+---
