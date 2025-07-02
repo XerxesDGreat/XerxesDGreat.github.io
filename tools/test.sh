@@ -75,10 +75,14 @@ while (($#)); do
     shift
     ;;
   -h | --help)
+    echo "hi"
     help
     exit 0
     ;;
   *)
+    echo "foo"
+    echo $@
+    echo "bar"
     # unknown option
     help
     exit 1

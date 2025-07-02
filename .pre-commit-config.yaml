@@ -9,3 +9,9 @@ repos:
         exclude: lqip.jpg
         types: [image]
         pass_filenames: true
+    -   id: test-posts
+        name: Test posts
+        entry: ./tools/test.sh
+        language: script
+        pass_filenames: false
+        always_run: true
