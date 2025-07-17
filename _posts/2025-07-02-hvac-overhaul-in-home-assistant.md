@@ -117,3 +117,13 @@ Thus, we'll piece all of this together, bit by bit. This post got away from me a
 plan to do these in later posts; setting up what sensors we need, what helpers, and how to link
 everything together to make a fully integrated climate system.... 85% of which we could probably
 do natively in Flair and Ecobee apps, but where's the fun in that?
+
+The way I see it, there's four major phases to
+this project, and I'll cover each in its own post:
+
+1. **[Helpers and automation prep]({% post_url 2025-07-16-hvac-helper-sensors %})** in which we prep all the sensors we'll need to do the subsequent steps
+2. **HVAC Automation** which takes the sensors and directly controls the thermostat temperature/mode
+3. **Flair Automation** which adds onto the HVAC automation by controlling where the air flows
+4. **Additional Stuff** such as guest mode, away mode, etc., things which I want but aren't needed for daily operation (meaning I will likely ignore them forever)
+
+So hang on and I'll publish posts as each step gets sorted!
