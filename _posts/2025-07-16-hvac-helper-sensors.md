@@ -38,6 +38,12 @@ as long as you structure the config properly, which is out of scope for this pos
 
 ## Per-room temperature settings
 
+> This only applies if you have a way to separately target each room, e.g. with a Flair smart
+> vent system. If you don't have something that enables this, then there's no need to have
+> separate room temperatures and you can just rely on a single temperature setting for the entire
+> zone.
+{: .prompt-info }
+
 This is as simple as creating an `input_number` for each room to track.
 
 ```yaml
