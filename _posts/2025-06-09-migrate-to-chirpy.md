@@ -6,7 +6,7 @@ tags:
 - website
 media_subpath: /assets/img/posts/migrate-to-chirpy/
 image:
-    path: preview.png
+    path: preview.jpg
     lqip: preview.lqip.jpg
 ---
 
@@ -30,11 +30,11 @@ Getting it installed was _super easy!_... as long as you're starting from scratc
 
 There were also some things I had to clear up; for instance, some of my pages weren't working any more because the layout didn't exist, so I had to build up those layouts. That mostly affected the layout serving panoramas (e.g. my [ Disney Cruise panoramas]({% post_url 2014-10-01-disney-cruise-panoramas %})). That also took a migration to a different panorama vendor which I may talk about later but at the end it worked out.
 
-![Search results](panorama.png){: lqip="panorama.lqip.jpg" }
+![Search results](panorama.jpg){: lqip="panorama.lqip.jpg" }
 
 Another bug I had to patch was the search functionality; it didn't do full-text searching out of the box, so I played with it until it was able to; I was really excited to get the search working properly as I haven't had that on my site before. I may add some detail as to how I got this to work in a future post
 
-![Search results](search.png){: lqip="search.lqip.jpg" }
+![Search results](search.jpg){: lqip="search.lqip.jpg" }
 
 Any rate, as you can see, the new look is up and IMO it looks great. Here's to the next ~8 years before a redesign!
 
