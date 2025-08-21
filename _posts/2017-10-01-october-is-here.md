@@ -1,7 +1,7 @@
 ---
 title: October is here!
 date: 2017-10-01
-category: 30-days
+category: Projects
 tags:
 - 30-days
 - meta

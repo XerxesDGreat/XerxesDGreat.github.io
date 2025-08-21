@@ -1,7 +1,7 @@
 ---
 title: Done With Baseball Cards
 date: 2017-08-20
-category: 30-days
+category: Projects
 tags:
 - 30-days
 ---

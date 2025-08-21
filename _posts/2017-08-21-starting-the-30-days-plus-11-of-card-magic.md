@@ -1,7 +1,7 @@
 ---
 title: Starting the 30 Days (plus 11) of Card Magic!
 date: 2017-08-21
-category: 30-days
+category: Projects
 tags:
 - 30-days
 - meta

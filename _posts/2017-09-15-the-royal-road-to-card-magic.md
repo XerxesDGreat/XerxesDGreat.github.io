@@ -1,7 +1,7 @@
 ---
 title: The Royal Road to Card Magic
 date: 2017-09-15
-category: 30-days
+category: Projects
 tags:
 - 30-days
 - card

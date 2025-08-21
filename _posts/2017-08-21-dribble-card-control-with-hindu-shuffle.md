@@ -1,7 +1,7 @@
 ---
 title: Magic, day 1
 date: 2017-08-21
-category: 30-days
+category: Projects
 tags:
 - 30-days
 - card

@@ -1,7 +1,7 @@
 ---
 title: Ramblings in Carmel
 date: 2017-08-05
-category: 30-days
+category: Projects
 tags:
 - 30-days
 - meta

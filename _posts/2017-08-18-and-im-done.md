@@ -1,7 +1,7 @@
 ---
 title: And I'm Done!
 date: 2017-08-18
-category: 30-days
+category: Projects
 tags:
 - 30-days
 ---

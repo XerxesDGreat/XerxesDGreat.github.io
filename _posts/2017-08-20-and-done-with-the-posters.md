@@ -1,7 +1,7 @@
 ---
 title: And, Done With the Posters!
 date: 2017-08-20
-category: 30-days
+category: Projects
 tags:
 - 30-days
 - posters
