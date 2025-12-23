@@ -109,7 +109,7 @@ Okay, so now we're spending money. What are we spending it on? Well, pixels and 
 what I have in my system, why I have it, and what I'd replace it with (if appropriate). There's two main places I have hardware,
 under my eaves and attached to the pole for my tree.
 
-![eaves boxes](IMG_3874.JPG){: lqip="img_3874.lqip.jpg" }
+![eaves boxes](IMG_3874.JPG){: lqip="IMG_3874.lqip.jpg" }
 
 ### Scheduler and Main Controller
 
@@ -130,7 +130,7 @@ them directly if I need to do some configuration changes.
 
 Also in the box are the network switch (bottom left) and FM Radio Transmitter (top right)
 
-![Main controller box](IMG_3878.JPG){: lqip="img_3878.jpg" }
+![Main controller box](IMG_3878.JPG){: lqip="IMG_3878.lqip.jpg" }
 
 Finally, I have a dual outdoor-rated smart switch for turning on the light show subcontrollers and the Falcon Player separately.
 I used to use Falcon Player exclusively to schedule and control the light show, but I've since ported everything into Home Assistant
@@ -148,7 +148,7 @@ with 16 ports; basically any 16 port controller will be overkill for this applic
 from the switch, attach to power provided by the smart switch (covered later), and it's running.
 
 ![tree kit](tree-kit.jpg){: lqip="tree-kit.lqip.jpg" }
-![Tree Controller Box](IMG_3881.JPG){: lqip="img_3881.lqip.jpg" }
+![Tree Controller Box](IMG_3881.JPG){: lqip="IMG_3881.lqip.jpg" }
 
 #### Everything Else controller
 
@@ -156,12 +156,12 @@ This was the first controller I got; a Falcon F4V2. It's... fine. Unlike other b
 added an expansion board which allows me to connect up to 2 remote boards using ethernet, each of which also provide 4 ports, for a total of
 12 ports; the white and black with a yellow zip tie are plugged in to the expansion board. 
 
-![main subcontroller](IMG_3877.JPG){: lqip="img_3877.lqip.jpg" }
+![main subcontroller](IMG_3877.JPG){: lqip="IMG_3877.lqip.jpg" }
 
 The children of this board are simple receiver boards - called Smart Receivers - in boxes with power supplies in them. They both look identical; one is in the eaves, and
 the other is on the mega tree pole; both are connected via ethernet.
 
-![child subcontroller](IMG_3876.JPG){: lqip="img_3876.lqip.jpg" }
+![child subcontroller](IMG_3876.JPG){: lqip="IMG_3876.lqip.jpg" }
 
 One thing to note in all of these "everything else" controller boxes is a power distribution board. As mentioned, each port can control ~600 pixels
 (simple math for now), but each port can only _power_ ~300 pixels, so we have to do some power injection towards the back half of the line
