@@ -88,6 +88,20 @@ image:
 ```
 Note that the image is expected to be 1200 x 630; it will be scaled and cropped if it isn't
 
+#### Preview images
+
+We're using lqip image replacements; add them as such:
+```
+![image alt](path-to-image.jpg){: lqip="path-to-image.lqip.jpg" }
+```
+
+This has only been tested with jpg.
+
+Preview image generation will happen automatically at commit time; make sure to
+source `.ve/bin/activate` before doing it, else you'll get errors about pulling in `PIL`.
+If any images were generated, your commit will fail and you will have to add them yourself;
+no biggie.
+
 ## More Information
 
 Check out the [theme's docs](https://github.com/cotes2020/jekyll-theme-chirpy/wiki).
