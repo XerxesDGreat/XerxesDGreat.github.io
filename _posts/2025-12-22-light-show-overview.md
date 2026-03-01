@@ -11,6 +11,10 @@ image:
     lqip: preview.lqip.jpg
 ---
 
+> This is cross-posted to my website which is all about my holiday light shows; if this is of interest, check out
+> [Wicked Fox Lights](https://wickedfoxlights.github.io)
+{: .prompt-info }
+
 Since I didn't update my light show this year and am just running exactly the same show, I figured I should do _something_ with it,
 and documentation counts! Besides, it doesn't hurt that I've been asked for an overview, so may as well take the opportunity! The
 main goal of this is not to be "how to make a light show", but more along the lines of "what goes into my light show". Of course,
