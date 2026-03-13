@@ -4,7 +4,7 @@
 
 prod=false
 draft=true
-command="bundle exec jekyll s -l"
+command="bundle exec jekyll s -l --incremental"
 host="127.0.0.1"
 
 help() {
@@ -57,6 +57,8 @@ fi
 
 if $prod; then
   command="JEKYLL_ENV=production $command"
+else
+  command="$command --config _config.yml,_config_dev.yml"
 fi
 
 if $draft; then

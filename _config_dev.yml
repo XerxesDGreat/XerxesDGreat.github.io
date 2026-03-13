@@ -1,0 +1,7 @@
+sass:
+  style: expanded
+
+pwa:
+  enabled: false
+  cache:
+    enabled: false
